@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import io.github.mindjet.oros.model.HeroBrief
 import io.github.mindjet.oros.recyclerview.CommonRecyclerViewAdapter
+import io.github.mindjet.oros.recyclerview.HeroBriefAdapter
 import io.github.mindjet.oros.recyclerview.ILayoutId
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -14,10 +15,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val adapter = CommonRecyclerViewAdapter<HeroBrief>()
+        val adapter = HeroBriefAdapter()
         recycler_view.adapter = adapter
         recycler_view.layoutManager = LinearLayoutManager(this)
 
+        adapter.data.add(HeroBrief())
+        adapter.data.add(HeroBrief())
+        adapter.data.add(HeroBrief())
+
+        recycler_view.adapter.notifyDataSetChanged()
     }
 
 }

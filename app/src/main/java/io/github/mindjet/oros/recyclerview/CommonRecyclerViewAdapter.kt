@@ -5,9 +5,9 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Toast
 
-class CommonRecyclerViewAdapter<T : ILayoutId> : RecyclerView.Adapter<CommonViewHolder>() {
+abstract class CommonRecyclerViewAdapter<T : ILayoutId> : RecyclerView.Adapter<CommonViewHolder>() {
 
-    lateinit var data: MutableList<T>
+    var data: MutableList<T> = mutableListOf()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CommonViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(viewType, parent, false)
@@ -21,12 +21,5 @@ class CommonRecyclerViewAdapter<T : ILayoutId> : RecyclerView.Adapter<CommonView
     override fun getItemViewType(position: Int): Int {
         return data[position].getLayoutId()
     }
-
-    override fun onBindViewHolder(holder: CommonViewHolder, position: Int) {
-        holder.itemView.apply {
-            setOnClickListener { Toast.makeText(context, "$position", Toast.LENGTH_SHORT).show() }
-        }
-    }
-
 
 }
