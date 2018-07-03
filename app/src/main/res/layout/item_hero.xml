@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
-    app:cardBackgroundColor="@color/colorPrimaryDarkCust"
+    app:cardBackgroundColor="@color/white"
     app:cardCornerRadius="3dp"
     app:cardElevation="3dp">
 
@@ -28,14 +28,18 @@
             android:id="@+id/text_view_hero_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="monospace"
             android:textColor="@color/highlightColor"
+            android:textSize="@dimen/hero_brief_name_text_size"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@id/iv_hero_avatar"
             app:layout_constraintHorizontal_bias="0.1"
             app:layout_constraintLeft_toRightOf="@id/iv_hero_avatar"
-            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/iv_hero_type"
             app:layout_constraintTop_toTopOf="@id/iv_hero_avatar" />
 
         <ImageView
+            android:id="@+id/iv_hero_type"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@mipmap/ic_launcher"

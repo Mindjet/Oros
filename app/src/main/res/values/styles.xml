@@ -11,13 +11,12 @@
     <style name="AppThemeCust" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/colorPrimaryCust</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDarkCust</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccentCust</item>
     </style>
 
     <style name="AppThemeCust.NoActionbar" parent="AppThemeCust">
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
-        <item name="actionModeBackground">@android:color/transparent</item>
     </style>
 
 </resources>

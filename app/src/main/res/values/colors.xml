@@ -5,11 +5,12 @@
     <color name="colorAccent">#FF4081</color>
 
 
-    <color name="colorPrimaryCust">#282828</color>
-    <color name="colorPrimaryDarkCust">#1b1b1b</color>
+    <color name="colorPrimaryCust">#FFF9BD32</color>
+    <color name="colorPrimaryDarkCust">#d7a020</color>
+    <color name="colorAccentCust">#101426</color>
 
-    <color name="generalBackground">#0a0a0a</color>
-    <color name="highlightColor">#f9cb32</color>
+    <color name="generalBackground">#ededed</color>
+    <color name="highlightColor">#FFF9BD32</color>
 
 
     <color name="white">#fff</color>

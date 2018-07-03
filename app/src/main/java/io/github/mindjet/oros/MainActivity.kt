@@ -19,9 +19,9 @@ class MainActivity : AppCompatActivity() {
         recycler_view.adapter = adapter
         recycler_view.layoutManager = LinearLayoutManager(this)
 
-        adapter.data.add(HeroBrief())
-        adapter.data.add(HeroBrief())
-        adapter.data.add(HeroBrief())
+        adapter.data.add(HeroBrief("Soldier76", "Offense"))
+        adapter.data.add(HeroBrief("Roadhog", "Tank"))
+        adapter.data.add(HeroBrief("Ana", "Support"))
 
         recycler_view.adapter.notifyDataSetChanged()
     }
