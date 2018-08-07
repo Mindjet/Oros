@@ -40,4 +40,8 @@ data class HeroBrief(
         return R.layout.item_hero
     }
 
+    override fun toString(): String {
+        return "HeroBrief[id:$id,name:$name,description:$description]"
+    }
+
 }
