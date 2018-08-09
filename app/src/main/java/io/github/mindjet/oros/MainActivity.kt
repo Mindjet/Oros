@@ -3,13 +3,14 @@ package io.github.mindjet.oros
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
-import io.github.mindjet.oros.ext.log
 import io.github.mindjet.oros.model.HeroBrief
 import io.github.mindjet.oros.network.ApiManager
+import io.github.mindjet.oros.network.NetworkHandler
 import io.github.mindjet.oros.network.OwService
 import io.github.mindjet.oros.recyclerview.HeroBriefAdapter
 import io.github.mindjet.oros.recyclerview.decoration.VerticalLinearDecoration
 import kotlinx.android.synthetic.main.activity_main.*
+import rx.Observable
 import rx.android.schedulers.AndroidSchedulers
 import rx.schedulers.Schedulers
 
@@ -30,19 +31,18 @@ class MainActivity : AppCompatActivity() {
                 .getHeroList()
                 .subscribeOn(Schedulers.io())
                 .map { it.data }
+                .flatMap { Observable.from(it) }
                 .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(this::handleHeroList, this::handleError)
+                .subscribe(this::handleHeroList, NetworkHandler::onError)
     }
 
-    private fun handleHeroList(list: List<HeroBrief>) {
-        list.forEachIndexed { index, it ->
-            adapter.data.add(it)
-            adapter.notifyItemInserted(index)
-        }
-    }
-
-    private fun handleError(throwable: Throwable) {
-        log(throwable.message)
+    private fun handleHeroList(heroBrief: HeroBrief) {
+//        list.forEachIndexed { index, it ->
+//            adapter.data.add(it)
+//            adapter.notifyItemInserted(index)
+//        }
+        adapter.data.add(heroBrief)
+        adapter.notifyItemInserted(adapter.data.size - 1)
     }
 
 }

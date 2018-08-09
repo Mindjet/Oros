@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">欧罗斯</string>
+    <string name="unknown_hostname">无法连接至服务器，请检查您的网络连接或者稍后再试</string>
+    <string name="socket_timeout">连接超时</string>
+</resources>
