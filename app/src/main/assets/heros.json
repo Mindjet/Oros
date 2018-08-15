@@ -1,0 +1,79 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": [
+        "Ana",
+        "安娜"
+      ],
+      "avatar": "",
+      "description": [
+        "Ana’s versatile arsenal allows her to affect heroes all over the battlefield. Her Biotic Rifle rounds and Biotic Grenades heal allies and damage or impair enemies; her sidearm tranquilizes key targets, and Nano Boost gives one of her comrades a considerable increase in power.",
+        ""
+      ],
+      "health": 200,
+      "armour": 0,
+      "shield": 0,
+      "real_name": [
+        "Ana Amari",
+        "安娜 阿玛丽"
+      ],
+      "age": 60,
+      "affliation": [
+        "Overwatch",
+        "守望先锋"
+      ],
+      "difficulty": 3,
+      "role": [
+        "support",
+        "辅助"
+      ],
+      "abilities": [
+        {
+          "name": [
+            "Biotic Rifle",
+            "生物步枪"
+          ],
+          "description": [
+            "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots.",
+            ""
+          ],
+          "is_ultimate": false
+        },
+        {
+          "name": [
+            "Sleep Dart",
+            "睡眠针"
+          ],
+          "description": [
+            "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them).",
+            ""
+          ],
+          "is_ultimate": false
+        },
+        {
+          "name": [
+            "Biotic Grenade",
+            "生物手雷"
+          ],
+          "description": [
+            "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments.",
+            ""
+          ],
+          "is_ultimate": false
+        },
+        {
+          "name": [
+            "Nano Boost",
+            "纳米激素"
+          ],
+          "description": [
+            "After Ana hits one of her allies with a combat boost, they temporarily move faster, deal more damage, and take less damage from enemies’ attacks.",
+            ""
+          ],
+          "is_ultimate": true
+        }
+      ]
+    }
+  ]
+}
