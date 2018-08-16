@@ -9,7 +9,6 @@ import io.github.mindjet.oros.network.NetworkHandler
 import io.github.mindjet.oros.network.OwService
 import io.github.mindjet.oros.recyclerview.HeroBriefAdapter
 import io.github.mindjet.oros.recyclerview.decoration.VerticalLinearDecoration
-import jp.wasabeef.recyclerview.animators.SlideInDownAnimator
 import kotlinx.android.synthetic.main.activity_main.*
 import rx.Observable
 import rx.android.schedulers.AndroidSchedulers
