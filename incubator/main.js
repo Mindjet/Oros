@@ -21,6 +21,7 @@ function receiveHeroBrief(response) {
         hero.real_name = [hero.real_name, cnData.real_name[id]];
         hero.affiliation = [hero.affiliation, cnData.affiliation[id]];
         hero.base_of_operations = [hero.base_of_operations, cnData.base_of_operations[id]];
+        hero.role = cnData.role[id];
         return hero;
     }).forEach(hero => output.data.push(hero));
     writeFile(JSON.stringify(output) + '', './hero-brief.json');
