@@ -11,7 +11,7 @@ class VerticalLinearDecoration(private val margin: Int) : RecyclerView.ItemDecor
         val position = parent?.getChildAdapterPosition(view)
         val size = parent?.adapter?.itemCount
         outRect?.apply {
-            top = margin
+            top = margin * 2
             left = margin
             right = margin
             bottom = if (position == size?.minus(1)) margin else 0

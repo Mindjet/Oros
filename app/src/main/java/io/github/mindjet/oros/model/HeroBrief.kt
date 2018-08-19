@@ -34,7 +34,8 @@ data class HeroBrief(
         @SerializedName("base_of_operations") val baseOfOperation: List<String>,
         val difficulty: String,
         val url: String,
-        val role: String)
+        val role: String,
+        val avatar: String)
     : ILayoutId {
 
     override fun getLayoutId(): Int {

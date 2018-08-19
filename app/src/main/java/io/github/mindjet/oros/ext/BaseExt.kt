@@ -3,7 +3,10 @@ package io.github.mindjet.oros.ext
 import android.app.Activity
 import android.support.annotation.StringRes
 import android.util.Log
+import android.widget.ImageView
 import android.widget.Toast
+import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
 import io.github.mindjet.oros.BaseApplication
 
 fun Activity.log(content: Any?) {
@@ -16,4 +19,12 @@ fun Any.toast(content: Any?) {
 
 fun Any.toast(@StringRes stringId: Int) {
     toast(BaseApplication.getContext().resources.getString(stringId))
+}
+
+fun ImageView.load(url: String) {
+    Glide.with(this)
+            .load(url)
+            .thumbnail(0.2f)
+            .apply(RequestOptions.circleCropTransform())
+            .into(this)
 }

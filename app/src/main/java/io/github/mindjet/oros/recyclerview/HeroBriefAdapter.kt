@@ -2,6 +2,7 @@ package io.github.mindjet.oros.recyclerview
 
 import io.github.mindjet.oros.Constant
 import io.github.mindjet.oros.R
+import io.github.mindjet.oros.ext.load
 import io.github.mindjet.oros.model.HeroBrief
 import io.github.mindjet.oros.recyclerview.base.CommonRecyclerViewAdapter
 import io.github.mindjet.oros.recyclerview.base.CommonViewHolder
@@ -14,9 +15,11 @@ class HeroBriefAdapter : CommonRecyclerViewAdapter<HeroBrief>() {
     private val index = if (language == Locale("zh").language) Constant.LANGUAGE_CN else Constant.LANGUAGE_OTHER
 
     override fun onBindViewHolder(holder: CommonViewHolder, position: Int) {
+        val itemData = data[position]
         holder.itemView.apply {
-            text_view_hero_name.text = data[position].name[index]
-            val roleResId = when (data[position].role) {
+            iv_hero_avatar.load(itemData.avatar)
+            text_view_hero_name.text = itemData.name[index]
+            val roleResId = when (itemData.role) {
                 "0" -> R.drawable.ic_tank
                 "1" -> R.drawable.ic_offense
                 "2" -> R.drawable.ic_support
