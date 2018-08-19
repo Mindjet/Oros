@@ -29,7 +29,8 @@
       ],
       "difficulty": 3,
       "url": "https://overwatch-api.net/api/v1/hero/1",
-      "role": 2
+      "role": 2,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/ana/icon-portrait.png"
     },
     {
       "id": 2,
@@ -60,7 +61,8 @@
       ],
       "difficulty": 1,
       "url": "https://overwatch-api.net/api/v1/hero/2",
-      "role": 1
+      "role": 1,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/bastion/icon-portrait.png"
     },
     {
       "id": 3,
@@ -91,7 +93,8 @@
       ],
       "difficulty": 2,
       "url": "https://overwatch-api.net/api/v1/hero/3",
-      "role": 0
+      "role": 0,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/dva/icon-portrait.png"
     },
     {
       "id": 4,
@@ -122,7 +125,8 @@
       ],
       "difficulty": 3,
       "url": "https://overwatch-api.net/api/v1/hero/4",
-      "role": 1
+      "role": 1,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/genji/icon-portrait.png"
     },
     {
       "id": 5,
@@ -153,7 +157,8 @@
       ],
       "difficulty": 3,
       "url": "https://overwatch-api.net/api/v1/hero/5",
-      "role": 1
+      "role": 1,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/hanzo/icon-portrait.png"
     },
     {
       "id": 6,
@@ -184,7 +189,8 @@
       ],
       "difficulty": 2,
       "url": "https://overwatch-api.net/api/v1/hero/6",
-      "role": 1
+      "role": 1,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/junkrat/icon-portrait.png"
     },
     {
       "id": 7,
@@ -215,7 +221,8 @@
       ],
       "difficulty": 2,
       "url": "https://overwatch-api.net/api/v1/hero/7",
-      "role": 2
+      "role": 2,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/lucio/icon-portrait.png"
     },
     {
       "id": 8,
@@ -246,7 +253,8 @@
       ],
       "difficulty": 2,
       "url": "https://overwatch-api.net/api/v1/hero/8",
-      "role": 1
+      "role": 1,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/mccree/icon-portrait.png"
     },
     {
       "id": 9,
@@ -277,7 +285,8 @@
       ],
       "difficulty": 3,
       "url": "https://overwatch-api.net/api/v1/hero/9",
-      "role": 1
+      "role": 1,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/mei/icon-portrait.png"
     },
     {
       "id": 10,
@@ -308,7 +317,8 @@
       ],
       "difficulty": 1,
       "url": "https://overwatch-api.net/api/v1/hero/10",
-      "role": 2
+      "role": 2,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/mercy/icon-portrait.png"
     },
     {
       "id": 11,
@@ -339,7 +349,8 @@
       ],
       "difficulty": 1,
       "url": "https://overwatch-api.net/api/v1/hero/11",
-      "role": 1
+      "role": 1,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/pharah/icon-portrait.png"
     },
     {
       "id": 12,
@@ -370,7 +381,8 @@
       ],
       "difficulty": 1,
       "url": "https://overwatch-api.net/api/v1/hero/12",
-      "role": 1
+      "role": 1,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/reaper/icon-portrait.png"
     },
     {
       "id": 13,
@@ -401,7 +413,8 @@
       ],
       "difficulty": 1,
       "url": "https://overwatch-api.net/api/v1/hero/13",
-      "role": 0
+      "role": 0,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/reinhardt/icon-portrait.png"
     },
     {
       "id": 14,
@@ -432,7 +445,8 @@
       ],
       "difficulty": 1,
       "url": "https://overwatch-api.net/api/v1/hero/14",
-      "role": 0
+      "role": 0,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/roadhog/icon-portrait.png"
     },
     {
       "id": 15,
@@ -463,7 +477,8 @@
       ],
       "difficulty": 1,
       "url": "https://overwatch-api.net/api/v1/hero/15",
-      "role": 1
+      "role": 1,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/soldier-76/icon-portrait.png"
     },
     {
       "id": 16,
@@ -494,7 +509,8 @@
       ],
       "difficulty": 2,
       "url": "https://overwatch-api.net/api/v1/hero/16",
-      "role": 1
+      "role": 1,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/symmetra/icon-portrait.png"
     },
     {
       "id": 17,
@@ -525,7 +541,8 @@
       ],
       "difficulty": 2,
       "url": "https://overwatch-api.net/api/v1/hero/17",
-      "role": 1
+      "role": 1,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/torbjon/icon-portrait.png"
     },
     {
       "id": 18,
@@ -556,7 +573,8 @@
       ],
       "difficulty": 2,
       "url": "https://overwatch-api.net/api/v1/hero/18",
-      "role": 1
+      "role": 1,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/tracer/icon-portrait.png"
     },
     {
       "id": 19,
@@ -587,7 +605,8 @@
       ],
       "difficulty": 2,
       "url": "https://overwatch-api.net/api/v1/hero/19",
-      "role": 1
+      "role": 1,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/widowmaker/icon-portrait.png"
     },
     {
       "id": 20,
@@ -618,7 +637,8 @@
       ],
       "difficulty": 2,
       "url": "https://overwatch-api.net/api/v1/hero/20",
-      "role": 0
+      "role": 0,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/winston/icon-portrait.png"
     },
     {
       "id": 21,
@@ -649,7 +669,8 @@
       ],
       "difficulty": 3,
       "url": "https://overwatch-api.net/api/v1/hero/21",
-      "role": 0
+      "role": 0,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/zarya/icon-portrait.png"
     },
     {
       "id": 22,
@@ -680,7 +701,8 @@
       ],
       "difficulty": 3,
       "url": "https://overwatch-api.net/api/v1/hero/22",
-      "role": 2
+      "role": 2,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/zenyatta/icon-portrait.png"
     },
     {
       "id": 23,
@@ -711,7 +733,8 @@
       ],
       "difficulty": 3,
       "url": "https://overwatch-api.net/api/v1/hero/23",
-      "role": 1
+      "role": 1,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/sombra/icon-portrait.png"
     },
     {
       "id": 24,
@@ -742,7 +765,8 @@
       ],
       "difficulty": 2,
       "url": "https://overwatch-api.net/api/v1/hero/24",
-      "role": 0
+      "role": 0,
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/orisa/icon-portrait.png"
     }
   ]
 }

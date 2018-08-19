@@ -1,12 +1,17 @@
 const fetch = require("node-fetch");
 const fs = require('fs');
 const cnData = require('./cn.json');
+const commonData = require('./common.json');
 
 const HERO_BRIEF_URL = 'https://overwatch-api.net/api/v1/hero';
 
 function getHeroBrief(callback) {
     fetch(HERO_BRIEF_URL)
         .then(res => res.json())
+        .then(res => {
+            writeFile(JSON.stringify(res), './raw-hero-brief.json');
+            return res;
+        })
         .then(callback);
 }
 
@@ -21,10 +26,11 @@ function receiveHeroBrief(response) {
         hero.real_name = [hero.real_name, cnData.real_name[id]];
         hero.affiliation = [hero.affiliation, cnData.affiliation[id]];
         hero.base_of_operations = [hero.base_of_operations, cnData.base_of_operations[id]];
-        hero.role = cnData.role[id];
+        hero.role = commonData.role[id];
+        hero.avatar = commonData.avatar[id];
         return hero;
     }).forEach(hero => output.data.push(hero));
-    writeFile(JSON.stringify(output) + '', './hero-brief.json');
+    writeFile(JSON.stringify(output), './hero-brief.json');
 }
 
 function writeFile(source, path) {
