@@ -22,18 +22,19 @@ import io.github.mindjet.oros.recyclerview.base.ILayoutId
 
 data class HeroBrief(
         val id: String,
-        val name: String,
-        val description: String,
+        val name: List<String>,
+        val description: List<String>,
         val health: String,
         val armour: String,
         val shield: String,
-        @SerializedName("real_name") val realName: String,
+        @SerializedName("real_name") val realName: List<String>,
         val age: String,
         val height: String,
-        val affiliation: String,
-        @SerializedName("base_of_operations") val baseOfOperation: String,
+        val affiliation: List<String>,
+        @SerializedName("base_of_operations") val baseOfOperation: List<String>,
         val difficulty: String,
-        val url: String)
+        val url: String,
+        val role: String)
     : ILayoutId {
 
     override fun getLayoutId(): Int {
@@ -41,7 +42,7 @@ data class HeroBrief(
     }
 
     override fun toString(): String {
-        return "HeroBrief[id:$id,name:$name,description:$description]"
+        return "HeroBrief[id:$id,name:${name[0]},description:${description[0]}]"
     }
 
 }
