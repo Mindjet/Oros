@@ -1,6 +1,5 @@
 package io.github.mindjet.oros.ext
 
-import android.app.Activity
 import android.support.annotation.StringRes
 import android.util.Log
 import android.widget.ImageView
@@ -9,7 +8,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import io.github.mindjet.oros.BaseApplication
 
-fun Activity.log(content: Any?) {
+fun Any.log(content: Any?) {
     Log.i(this::class.simpleName, content.toString())
 }
 

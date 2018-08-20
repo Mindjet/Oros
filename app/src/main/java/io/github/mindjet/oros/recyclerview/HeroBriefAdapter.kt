@@ -1,8 +1,10 @@
 package io.github.mindjet.oros.recyclerview
 
+import android.view.View
 import io.github.mindjet.oros.Constant
 import io.github.mindjet.oros.R
 import io.github.mindjet.oros.ext.load
+import io.github.mindjet.oros.ext.toast
 import io.github.mindjet.oros.model.HeroBrief
 import io.github.mindjet.oros.recyclerview.base.CommonRecyclerViewAdapter
 import io.github.mindjet.oros.recyclerview.base.CommonViewHolder
@@ -26,7 +28,14 @@ class HeroBriefAdapter : CommonRecyclerViewAdapter<HeroBrief>() {
                 else -> R.drawable.ic_support
             }
             iv_hero_role.setImageResource(roleResId)
+            constraint_layout.setOnClickListener { toast("${itemData.name}") }
+            constraint_layout.setOnLongClickListener(this@HeroBriefAdapter::onLongClick)
         }
+    }
+
+    private fun onLongClick(view: View): Boolean {
+
+        return true
     }
 
 }
