@@ -3,6 +3,7 @@ package io.github.mindjet.oros
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
+import io.github.mindjet.oros.base.BaseActivity
 import io.github.mindjet.oros.model.HeroBrief
 import io.github.mindjet.oros.network.ApiManager
 import io.github.mindjet.oros.network.NetworkHandler
@@ -14,7 +15,7 @@ import rx.Observable
 import rx.android.schedulers.AndroidSchedulers
 import rx.schedulers.Schedulers
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
 
     private lateinit var adapter: HeroBriefAdapter
 

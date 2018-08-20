@@ -1,8 +1,10 @@
 package io.github.mindjet.oros.recyclerview
 
-import android.view.View
+import android.os.Bundle
 import io.github.mindjet.oros.Constant
+import io.github.mindjet.oros.HeroBriefBottomSheet
 import io.github.mindjet.oros.R
+import io.github.mindjet.oros.base.ActivityHub
 import io.github.mindjet.oros.ext.load
 import io.github.mindjet.oros.ext.toast
 import io.github.mindjet.oros.model.HeroBrief
@@ -29,12 +31,13 @@ class HeroBriefAdapter : CommonRecyclerViewAdapter<HeroBrief>() {
             }
             iv_hero_role.setImageResource(roleResId)
             constraint_layout.setOnClickListener { toast("${itemData.name}") }
-            constraint_layout.setOnLongClickListener(this@HeroBriefAdapter::onLongClick)
+            constraint_layout.setOnLongClickListener { onLongClick(itemData) }
         }
     }
 
-    private fun onLongClick(view: View): Boolean {
-
+    private fun onLongClick(itemData: HeroBrief): Boolean {
+        val bottomSheet = HeroBriefBottomSheet.newInstance(itemData)
+        bottomSheet.show(ActivityHub.getCurrentActivity().supportFragmentManager, Constant.TAG_HERO_BRIEF_BOTTOM_SHEET)
         return true
     }
 

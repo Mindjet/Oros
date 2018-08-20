@@ -3,6 +3,7 @@ package io.github.mindjet.oros.model
 import com.google.gson.annotations.SerializedName
 import io.github.mindjet.oros.R
 import io.github.mindjet.oros.recyclerview.base.ILayoutId
+import java.io.Serializable
 
 //{
 //    "id": 23,
@@ -36,7 +37,9 @@ data class HeroBrief(
         val url: String,
         val role: String,
         val avatar: String)
-    : ILayoutId {
+    : ILayoutId, Serializable {
+
+    private val serialVersionUID: Long = 12345L
 
     override fun getLayoutId(): Int {
         return R.layout.item_hero

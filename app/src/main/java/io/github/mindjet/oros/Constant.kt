@@ -6,4 +6,8 @@ object Constant {
 
     const val LANGUAGE_CN = 1
     const val LANGUAGE_OTHER = 0
+
+    const val ARG_HERO_BRIEF = "arg_hero_brief"
+
+    const val TAG_HERO_BRIEF_BOTTOM_SHEET = "tag_hero_brief_bottom_sheet"
 }
