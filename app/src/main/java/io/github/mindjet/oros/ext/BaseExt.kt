@@ -7,6 +7,8 @@ import android.widget.Toast
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import io.github.mindjet.oros.BaseApplication
+import io.github.mindjet.oros.Constant
+import java.util.*
 
 fun Any.log(content: Any?) {
     Log.i(this::class.simpleName, content.toString())
@@ -33,4 +35,13 @@ fun ImageView.load(url: String) {
             .load(url)
             .thumbnail(.2f)
             .into(this)
+}
+
+fun Any.getLanguageIndex(): Int {
+    val language = Locale.getDefault().language
+    return if (language == Locale("zh").language) Constant.LANGUAGE_CN else Constant.LANGUAGE_OTHER
+}
+
+fun String.withSpace(): String {
+    return this + " "
 }

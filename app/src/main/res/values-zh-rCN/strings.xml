@@ -3,4 +3,7 @@
     <string name="app_name">欧罗斯</string>
     <string name="unknown_hostname">无法连接至服务器，请检查您的网络连接或者稍后再试</string>
     <string name="socket_timeout">连接超时</string>
+    <string name="role_damage">输出</string>
+    <string name="role_tank">重装</string>
+    <string name="role_support">辅助</string>
 </resources>

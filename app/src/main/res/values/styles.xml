@@ -19,4 +19,9 @@
         <item name="windowActionBar">false</item>
     </style>
 
+    <style name="BottomSheetHeroTextTheme">
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:textColor">@color/secColor</item>
+    </style>
+
 </resources>

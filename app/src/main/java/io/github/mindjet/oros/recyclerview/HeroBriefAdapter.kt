@@ -4,19 +4,17 @@ import io.github.mindjet.oros.Constant
 import io.github.mindjet.oros.HeroBriefBottomSheet
 import io.github.mindjet.oros.R
 import io.github.mindjet.oros.base.ActivityHub
+import io.github.mindjet.oros.ext.getLanguageIndex
 import io.github.mindjet.oros.ext.load
-import io.github.mindjet.oros.ext.loadRounded
 import io.github.mindjet.oros.ext.toast
 import io.github.mindjet.oros.model.HeroBrief
 import io.github.mindjet.oros.recyclerview.base.CommonRecyclerViewAdapter
 import io.github.mindjet.oros.recyclerview.base.CommonViewHolder
 import kotlinx.android.synthetic.main.item_hero.view.*
-import java.util.*
 
 class HeroBriefAdapter : CommonRecyclerViewAdapter<HeroBrief>() {
 
-    private val language: String = Locale.getDefault().language
-    private val index = if (language == Locale("zh").language) Constant.LANGUAGE_CN else Constant.LANGUAGE_OTHER
+    private val index = getLanguageIndex()
 
     override fun onBindViewHolder(holder: CommonViewHolder, position: Int) {
         val itemData = data[position]

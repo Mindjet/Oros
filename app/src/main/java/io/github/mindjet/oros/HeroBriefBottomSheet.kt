@@ -5,11 +5,16 @@ import android.support.design.widget.BottomSheetDialogFragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import io.github.mindjet.oros.ext.loadRounded
+import io.github.mindjet.oros.ext.getHeroRole
+import io.github.mindjet.oros.ext.getLanguageIndex
+import io.github.mindjet.oros.ext.load
+import io.github.mindjet.oros.ext.withSpace
 import io.github.mindjet.oros.model.HeroBrief
 import kotlinx.android.synthetic.main.fragment_hero_brief.view.*
 
 class HeroBriefBottomSheet : BottomSheetDialogFragment() {
+
+    private val languageIndex = getLanguageIndex()
 
     companion object {
         fun newInstance(itemData: HeroBrief): HeroBriefBottomSheet {
@@ -25,8 +30,11 @@ class HeroBriefBottomSheet : BottomSheetDialogFragment() {
         val heroBrief = arguments?.getSerializable(Constant.ARG_HERO_BRIEF) as HeroBrief
         val view = inflater.inflate(R.layout.fragment_hero_brief, container, false)
         view.apply {
-            iv_hero_avatar.loadRounded(heroBrief.avatar)
-            tv_hero_name.text = heroBrief.realName.toString()
+            iv_hero_avatar.load(heroBrief.avatar)
+            tv_hero_real_name.text = heroBrief.realName[languageIndex].withSpace()
+            tv_hero_age.text = heroBrief.age.withSpace()
+            tv_hero_base.text = heroBrief.baseOfOperation[languageIndex].withSpace()
+            tv_hero_role.text = heroBrief.role.getHeroRole().withSpace()
         }
         return view
     }
