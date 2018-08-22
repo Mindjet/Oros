@@ -1,11 +1,11 @@
 package io.github.mindjet.oros.recyclerview
 
-import android.os.Bundle
 import io.github.mindjet.oros.Constant
 import io.github.mindjet.oros.HeroBriefBottomSheet
 import io.github.mindjet.oros.R
 import io.github.mindjet.oros.base.ActivityHub
 import io.github.mindjet.oros.ext.load
+import io.github.mindjet.oros.ext.loadRounded
 import io.github.mindjet.oros.ext.toast
 import io.github.mindjet.oros.model.HeroBrief
 import io.github.mindjet.oros.recyclerview.base.CommonRecyclerViewAdapter
@@ -22,7 +22,7 @@ class HeroBriefAdapter : CommonRecyclerViewAdapter<HeroBrief>() {
         val itemData = data[position]
         holder.itemView.apply {
             iv_hero_avatar.load(itemData.avatar)
-            text_view_hero_name.text = itemData.name[index]
+            text_view_hero_name.text = "${itemData.name[index]} "
             val roleResId = when (itemData.role) {
                 "0" -> R.drawable.ic_tank
                 "1" -> R.drawable.ic_offense

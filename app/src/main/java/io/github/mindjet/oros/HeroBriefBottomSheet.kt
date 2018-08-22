@@ -5,8 +5,7 @@ import android.support.design.widget.BottomSheetDialogFragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import io.github.mindjet.oros.ext.load
-import io.github.mindjet.oros.ext.toast
+import io.github.mindjet.oros.ext.loadRounded
 import io.github.mindjet.oros.model.HeroBrief
 import kotlinx.android.synthetic.main.fragment_hero_brief.view.*
 
@@ -24,10 +23,9 @@ class HeroBriefBottomSheet : BottomSheetDialogFragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val heroBrief = arguments?.getSerializable(Constant.ARG_HERO_BRIEF) as HeroBrief
-        toast(heroBrief)
         val view = inflater.inflate(R.layout.fragment_hero_brief, container, false)
         view.apply {
-            iv_hero_avatar.load(heroBrief.avatar)
+            iv_hero_avatar.loadRounded(heroBrief.avatar)
             tv_hero_name.text = heroBrief.realName.toString()
         }
         return view

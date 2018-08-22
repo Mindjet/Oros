@@ -20,10 +20,17 @@ fun Any.toast(@StringRes stringId: Int) {
     toast(BaseApplication.getContext().resources.getString(stringId))
 }
 
-fun ImageView.load(url: String) {
+fun ImageView.loadRounded(url: String) {
     Glide.with(this)
             .load(url)
             .thumbnail(0.2f)
             .apply(RequestOptions.circleCropTransform())
+            .into(this)
+}
+
+fun ImageView.load(url: String) {
+    Glide.with(this)
+            .load(url)
+            .thumbnail(.2f)
             .into(this)
 }
