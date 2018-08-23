@@ -19,7 +19,6 @@ function receiveHeroBrief(response) {
     const data = response.data;
     const output = {data: []};
     data.map(hero => {
-        hero = mystify(hero);
         const id = hero.id - 1;
         hero.name = [hero.name, cnData.name[id]];
         hero.description = [hero.description, cnData.description[id]];
@@ -29,21 +28,37 @@ function receiveHeroBrief(response) {
         hero.role = commonData.role[id];
         hero.avatar = commonData.avatar[id];
         return hero;
-    }).forEach(hero => output.data.push(hero));
+    })
+        .map(hero => mystifyObject(hero))
+        .forEach(hero => output.data.push(hero));
     writeFile(JSON.stringify(output), './hero-brief.json');
 }
 
 function writeFile(source, path) {
     fs.writeFile(path, source, 'utf-8', err => {
-        console.log('write file failed', err);
+        if (err != null) {
+            console.log("write file failed, " + err);
+            return;
+        }
+        console.log("write file succeed.");
     });
 }
 
-function mystify(o) {
+function mystifyObject(o) {
+    if (typeof o === 'number') {
+        return o;
+    }
+    if (o == null || o === '') {
+        return '■■■';
+    }
+    if (typeof o === 'string') {
+        return o;
+    }
+    if (o instanceof Array) {
+        return o.map(item => mystifyObject(item));
+    }
     for (let key in o) {
-        if (o[key] == null || o[key] === '') {
-            o[key] = '■■■';
-        }
+        o[key] = mystifyObject(o[key]);
     }
     return o;
 }
