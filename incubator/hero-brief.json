@@ -18,7 +18,7 @@
         "安娜·艾玛莉"
       ],
       "age": 60,
-      "height": "■■■",
+      "height": "███",
       "affiliation": [
         "Overwatch",
         "守望先锋"
@@ -52,12 +52,12 @@
       "age": 30,
       "height": 220,
       "affiliation": [
-        "■■■",
-        "■■■"
+        "███",
+        "███"
       ],
       "base_of_operations": [
-        "■■■",
-        "■■■"
+        "███",
+        "███"
       ],
       "difficulty": 1,
       "url": "https://overwatch-api.net/api/v1/hero/2",
@@ -82,7 +82,7 @@
         "宋哈娜"
       ],
       "age": 19,
-      "height": "■■■",
+      "height": "███",
       "affiliation": [
         "Mobile Exo-Force of the Korean Army",
         "韩国陆军特别机动部队"
@@ -114,7 +114,7 @@
         "岛田源氏"
       ],
       "age": 35,
-      "height": "■■■",
+      "height": "███",
       "affiliation": [
         "Shimada Clan",
         "岛田家"
@@ -212,8 +212,8 @@
       "age": 26,
       "height": 160,
       "affiliation": [
-        "■■■",
-        "■■■"
+        "███",
+        "███"
       ],
       "base_of_operations": [
         "Rio de Janeiro, Brazil",
@@ -367,17 +367,17 @@
       "shield": 0,
       "real_name": [
         "Gabriel Reyes",
-        "■■■"
+        "███"
       ],
       "age": 56,
       "height": 185,
       "affiliation": [
         "Overwatch",
-        "■■■"
+        "███"
       ],
       "base_of_operations": [
         "Los Angeles, California, United States of America",
-        "■■■"
+        "███"
       ],
       "difficulty": 1,
       "url": "https://overwatch-api.net/api/v1/hero/12",
@@ -463,7 +463,7 @@
       "shield": 0,
       "real_name": [
         "Jack Morrison",
-        "■■■"
+        "███"
       ],
       "age": 55,
       "height": 185,
@@ -472,8 +472,8 @@
         "守望先锋"
       ],
       "base_of_operations": [
-        "■■■",
-        "■■■"
+        "███",
+        "███"
       ],
       "difficulty": 1,
       "url": "https://overwatch-api.net/api/v1/hero/15",
@@ -719,10 +719,10 @@
       "shield": 0,
       "real_name": [
         "░░░░░░",
-        "■■■"
+        "███"
       ],
       "age": 30,
-      "height": "■■■",
+      "height": "███",
       "affiliation": [
         "Talon",
         "骷髅帮"
@@ -753,11 +753,11 @@
         "Orisa",
         "奥丽莎"
       ],
-      "age": "■■■",
-      "height": "■■■",
+      "age": "███",
+      "height": "███",
       "affiliation": [
-        "■■■",
-        "■■■"
+        "███",
+        "███"
       ],
       "base_of_operations": [
         "Numbani",

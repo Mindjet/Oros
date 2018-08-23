@@ -49,7 +49,7 @@ function mystifyObject(o) {
         return o;
     }
     if (o == null || o === '') {
-        return '■■■';
+        return '███';
     }
     if (typeof o === 'string') {
         return o;

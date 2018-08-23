@@ -34,6 +34,7 @@ class HeroBriefBottomSheet : BottomSheetDialogFragment() {
             tv_hero_real_name.text = heroBrief.realName[languageIndex].withSpace()
             tv_hero_age.text = heroBrief.age.withSpace()
             tv_hero_base.text = heroBrief.baseOfOperation[languageIndex].withSpace()
+            tv_hero_affiliation.text = heroBrief.affiliation[languageIndex].withSpace()
             tv_hero_role.text = heroBrief.role.getHeroRole().withSpace()
         }
         return view

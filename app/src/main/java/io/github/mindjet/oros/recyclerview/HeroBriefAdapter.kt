@@ -1,12 +1,12 @@
 package io.github.mindjet.oros.recyclerview
 
-import io.github.mindjet.oros.Constant
 import io.github.mindjet.oros.HeroBriefBottomSheet
 import io.github.mindjet.oros.R
 import io.github.mindjet.oros.base.ActivityHub
 import io.github.mindjet.oros.ext.getLanguageIndex
 import io.github.mindjet.oros.ext.load
 import io.github.mindjet.oros.ext.toast
+import io.github.mindjet.oros.ext.withSpace
 import io.github.mindjet.oros.model.HeroBrief
 import io.github.mindjet.oros.recyclerview.base.CommonRecyclerViewAdapter
 import io.github.mindjet.oros.recyclerview.base.CommonViewHolder
@@ -20,7 +20,7 @@ class HeroBriefAdapter : CommonRecyclerViewAdapter<HeroBrief>() {
         val itemData = data[position]
         holder.itemView.apply {
             iv_hero_avatar.load(itemData.avatar)
-            text_view_hero_name.text = "${itemData.name[index]} "
+            text_view_hero_name.text = itemData.name[index].withSpace()
             val roleResId = when (itemData.role) {
                 "0" -> R.drawable.ic_tank
                 "1" -> R.drawable.ic_offense
@@ -34,8 +34,9 @@ class HeroBriefAdapter : CommonRecyclerViewAdapter<HeroBrief>() {
     }
 
     private fun onLongClick(itemData: HeroBrief): Boolean {
-        val bottomSheet = HeroBriefBottomSheet.newInstance(itemData)
-        bottomSheet.show(ActivityHub.getCurrentActivity().supportFragmentManager, Constant.TAG_HERO_BRIEF_BOTTOM_SHEET)
+        HeroBriefBottomSheet
+                .newInstance(itemData)
+                .show(ActivityHub.getCurrentActivity().supportFragmentManager, "")
         return true
     }
 
