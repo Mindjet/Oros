@@ -69,7 +69,7 @@
                 android:id="@+id/iv_hero_age"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:src="@drawable/ic_tank" />
+                android:src="@drawable/ic_age" />
 
             <TextView
                 android:id="@+id/tv_hero_age"
@@ -86,7 +86,7 @@
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_marginTop="8dp"
-                android:src="@drawable/ic_tank"
+                android:src="@drawable/ic_affiliation"
                 app:layout_constraintTop_toBottomOf="@+id/iv_hero_age" />
 
             <TextView
@@ -105,7 +105,7 @@
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_marginTop="8dp"
-                android:src="@drawable/ic_tank"
+                android:src="@drawable/ic_base"
                 app:layout_constraintTop_toBottomOf="@+id/iv_hero_affiliation" />
 
             <TextView
