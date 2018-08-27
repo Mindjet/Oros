@@ -32,9 +32,9 @@ class HeroBriefBottomSheet : BottomSheetDialogFragment() {
         view.apply {
             iv_hero_avatar.load(heroBrief.avatar)
             tv_hero_real_name.text = heroBrief.realName[languageIndex].withSpace()
-            tv_hero_age.text = heroBrief.age.withSpace()
-            tv_hero_base.text = heroBrief.baseOfOperation[languageIndex].withSpace()
-            tv_hero_affiliation.text = heroBrief.affiliation[languageIndex].withSpace()
+            tv_hero_age.text = getString(R.string.hero_age, heroBrief.age).withSpace()
+            tv_hero_base.text = getString(R.string.hero_base, heroBrief.baseOfOperation[languageIndex]).withSpace()
+            tv_hero_affiliation.text = getString(R.string.hero_affiliation, heroBrief.affiliation[languageIndex]).withSpace()
             tv_hero_role.text = heroBrief.role.getHeroRole().withSpace()
         }
         return view

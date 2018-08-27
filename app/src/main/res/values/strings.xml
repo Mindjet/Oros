@@ -5,4 +5,7 @@
     <string name="role_damage">Damage</string>
     <string name="role_tank">Tank</string>
     <string name="role_support">Support</string>
+    <string name="hero_age">Age: %s</string>
+    <string name="hero_affiliation">Affiliation: %s</string>
+    <string name="hero_base">Base: %s</string>
 </resources>

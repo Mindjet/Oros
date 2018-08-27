@@ -6,4 +6,7 @@
     <string name="role_damage">输出</string>
     <string name="role_tank">重装</string>
     <string name="role_support">辅助</string>
+    <string name="hero_age">年龄：%s</string>
+    <string name="hero_affiliation">隶属：%s</string>
+    <string name="hero_base">行动基地：%s</string>
 </resources>
