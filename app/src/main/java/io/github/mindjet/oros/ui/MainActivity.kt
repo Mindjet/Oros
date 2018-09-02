@@ -1,8 +1,8 @@
-package io.github.mindjet.oros
+package io.github.mindjet.oros.ui
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
+import io.github.mindjet.oros.R
 import io.github.mindjet.oros.base.BaseActivity
 import io.github.mindjet.oros.model.HeroBrief
 import io.github.mindjet.oros.network.ApiManager

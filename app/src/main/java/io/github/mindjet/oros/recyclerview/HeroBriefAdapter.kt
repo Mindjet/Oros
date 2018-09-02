@@ -1,15 +1,14 @@
 package io.github.mindjet.oros.recyclerview
 
-import io.github.mindjet.oros.HeroBriefBottomSheet
+import io.github.mindjet.oros.Constant
 import io.github.mindjet.oros.R
 import io.github.mindjet.oros.base.ActivityHub
-import io.github.mindjet.oros.ext.getLanguageIndex
-import io.github.mindjet.oros.ext.load
-import io.github.mindjet.oros.ext.toast
-import io.github.mindjet.oros.ext.withSpace
+import io.github.mindjet.oros.ext.*
 import io.github.mindjet.oros.model.HeroBrief
 import io.github.mindjet.oros.recyclerview.base.CommonRecyclerViewAdapter
 import io.github.mindjet.oros.recyclerview.base.CommonViewHolder
+import io.github.mindjet.oros.ui.DetailActivity
+import io.github.mindjet.oros.ui.HeroBriefBottomSheet
 import kotlinx.android.synthetic.main.item_hero.view.*
 
 class HeroBriefAdapter : CommonRecyclerViewAdapter<HeroBrief>() {
@@ -28,7 +27,7 @@ class HeroBriefAdapter : CommonRecyclerViewAdapter<HeroBrief>() {
                 else -> R.drawable.ic_support
             }
             iv_hero_role.setImageResource(roleResId)
-            constraint_layout.setOnClickListener { toast("${itemData.name}") }
+            constraint_layout.setOnClickListener { onItemClick(itemData) }
             constraint_layout.setOnLongClickListener { onLongClick(itemData) }
         }
     }
@@ -38,6 +37,13 @@ class HeroBriefAdapter : CommonRecyclerViewAdapter<HeroBrief>() {
                 .newInstance(itemData)
                 .show(ActivityHub.getCurrentActivity().supportFragmentManager, "")
         return true
+    }
+
+    private fun onItemClick(itemData: HeroBrief) {
+        val intent = makeIntent(DetailActivity::class.java)
+                .putString(Constant.EXTRA_KEY_ID, itemData.id)
+                .putString(Constant.EXTRA_KEY_NAME, itemData.name[index])
+        startActivity(intent)
     }
 
 }

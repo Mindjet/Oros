@@ -1,10 +1,12 @@
-package io.github.mindjet.oros
+package io.github.mindjet.oros.ui
 
 import android.os.Bundle
 import android.support.design.widget.BottomSheetDialogFragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import io.github.mindjet.oros.Constant
+import io.github.mindjet.oros.R
 import io.github.mindjet.oros.ext.getHeroRole
 import io.github.mindjet.oros.ext.getLanguageIndex
 import io.github.mindjet.oros.ext.load

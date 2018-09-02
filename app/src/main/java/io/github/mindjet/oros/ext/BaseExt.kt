@@ -1,5 +1,6 @@
 package io.github.mindjet.oros.ext
 
+import android.content.Intent
 import android.support.annotation.StringRes
 import android.util.Log
 import android.widget.ImageView
@@ -8,6 +9,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import io.github.mindjet.oros.BaseApplication
 import io.github.mindjet.oros.Constant
+import io.github.mindjet.oros.base.ActivityHub
 import java.util.*
 
 fun Any.log(content: Any?) {
@@ -44,4 +46,19 @@ fun Any.getLanguageIndex(): Int {
 
 fun String.withSpace(): String {
     return this + " "
+}
+
+fun <T> Any.makeIntent(clazz: Class<T>): Intent {
+    return Intent(ActivityHub.getCurrentActivity(), clazz)
+}
+
+fun Intent.putString(key: String, value: String): Intent {
+    this.putExtra(key, value)
+    return this
+}
+
+fun Any.startActivity(intent: Intent) {
+    ActivityHub
+            .getCurrentActivity()
+            .startActivity(intent)
 }
