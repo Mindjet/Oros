@@ -36,7 +36,8 @@ data class HeroBrief(
         val difficulty: String,
         val url: String,
         val role: String,
-        val avatar: String)
+        val avatar: String,
+        val bio: List<String>)
     : ILayoutId, Serializable {
 
     private val serialVersionUID: Long = 12345L
