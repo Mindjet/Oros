@@ -10,4 +10,6 @@
     <string name="hero_age">年龄：%s</string>
     <string name="hero_affiliation">隶属：%s</string>
     <string name="hero_base">行动基地：%s</string>
+    <string name="reload">重新加载</string>
+    <string name="network_error_warning">无法连接至网络。</string>
 </resources>

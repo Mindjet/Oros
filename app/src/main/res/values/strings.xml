@@ -9,4 +9,6 @@
     <string name="hero_age">Age: %s</string>
     <string name="hero_affiliation">Affiliation: %s</string>
     <string name="hero_base">Base: %s</string>
+    <string name="reload">Reload</string>
+    <string name="network_error_warning">Network unavailable, please check.</string>
 </resources>
