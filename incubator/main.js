@@ -2,6 +2,7 @@ const fetch = require("node-fetch");
 const fs = require('fs');
 const cnData = require('./cn.json');
 const commonData = require('./common.json');
+const othersData = require('./others.json');
 
 const HERO_BRIEF_URL = 'https://overwatch-api.net/api/v1/hero';
 
@@ -27,6 +28,7 @@ function receiveHeroBrief(response) {
         hero.base_of_operations = [hero.base_of_operations, cnData.base_of_operations[id]];
         hero.role = commonData.role[id];
         hero.avatar = commonData.avatar[id];
+        hero.bio = [othersData.bio[id], cnData.bio[id]];
         return hero;
     })
         .map(hero => mystifyObject(hero))

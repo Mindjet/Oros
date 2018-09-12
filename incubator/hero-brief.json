@@ -30,7 +30,11 @@
       "difficulty": 3,
       "url": "https://overwatch-api.net/api/v1/hero/1",
       "role": 2,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/ana/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/ana/icon-portrait.png",
+      "bio": [
+        "EVERYONE MUST FIND THEIR CAUSE.",
+        "每个人都必须找到自己的使命。"
+      ]
     },
     {
       "id": 2,
@@ -62,7 +66,11 @@
       "difficulty": 1,
       "url": "https://overwatch-api.net/api/v1/hero/2",
       "role": 1,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/bastion/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/bastion/icon-portrait.png",
+      "bio": [
+        "I PLAY TO WIN.",
+        "███"
+      ]
     },
     {
       "id": 3,
@@ -94,7 +102,11 @@
       "difficulty": 2,
       "url": "https://overwatch-api.net/api/v1/hero/3",
       "role": 0,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/dva/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/dva/icon-portrait.png",
+      "bio": [
+        "EVEN IF I SACRIFICE MY BODY, I WILL NEVER SACRIFICE MY HONOR.",
+        "玩游戏就是要赢。"
+      ]
     },
     {
       "id": 4,
@@ -126,7 +138,11 @@
       "difficulty": 3,
       "url": "https://overwatch-api.net/api/v1/hero/4",
       "role": 1,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/genji/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/genji/icon-portrait.png",
+      "bio": [
+        "WITH EVERY DEATH COMES HONOR. WITH HONOR, REDEMPTION.",
+        "身可死，武士之名不可弃。"
+      ]
     },
     {
       "id": 5,
@@ -158,7 +174,11 @@
       "difficulty": 3,
       "url": "https://overwatch-api.net/api/v1/hero/5",
       "role": 1,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/hanzo/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/hanzo/icon-portrait.png",
+      "bio": [
+        "IT'S A PERFECT DAY FOR SOME MAYHEM.",
+        "荣誉之于生死，救赎之于荣誉。"
+      ]
     },
     {
       "id": 6,
@@ -190,7 +210,11 @@
       "difficulty": 2,
       "url": "https://overwatch-api.net/api/v1/hero/6",
       "role": 1,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/junkrat/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/junkrat/icon-portrait.png",
+      "bio": [
+        "COME ON, LET’S BRING IT TOGETHER!",
+        "今天适合闹点大动静！"
+      ]
     },
     {
       "id": 7,
@@ -222,7 +246,11 @@
       "difficulty": 2,
       "url": "https://overwatch-api.net/api/v1/hero/7",
       "role": 2,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/lucio/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/lucio/icon-portrait.png",
+      "bio": [
+        "JUSTICE AIN'T GONNA DISPENSE ITSELF.",
+        "来吧，跟上我的节奏！"
+      ]
     },
     {
       "id": 8,
@@ -254,7 +282,11 @@
       "difficulty": 2,
       "url": "https://overwatch-api.net/api/v1/hero/8",
       "role": 1,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/mccree/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/mccree/icon-portrait.png",
+      "bio": [
+        "OUR WORLD IS WORTH FIGHTING FOR.",
+        "正义可不会声张自己。"
+      ]
     },
     {
       "id": 9,
@@ -286,7 +318,11 @@
       "difficulty": 3,
       "url": "https://overwatch-api.net/api/v1/hero/9",
       "role": 1,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/mei/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/mei/icon-portrait.png",
+      "bio": [
+        "HEROES NEVER DIE.",
+        "我们的世界值得我们为之奋斗！"
+      ]
     },
     {
       "id": 10,
@@ -318,13 +354,17 @@
       "difficulty": 1,
       "url": "https://overwatch-api.net/api/v1/hero/10",
       "role": 2,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/mercy/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/mercy/icon-portrait.png",
+      "bio": [
+        "I WILL PROTECT THE INNOCENT.",
+        "英雄不朽。"
+      ]
     },
     {
       "id": 11,
       "name": [
         "Pharah",
-        "法拉"
+        "法老之鹰"
       ],
       "description": [
         "Soaring through the air in her combat armor, and armed with a launcher that lays down high-explosive rockets, Pharah is a force to be reckoned with.",
@@ -350,7 +390,11 @@
       "difficulty": 1,
       "url": "https://overwatch-api.net/api/v1/hero/11",
       "role": 1,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/pharah/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/pharah/icon-portrait.png",
+      "bio": [
+        "DEATH WALKS AMONG YOU.",
+        "就由我来保护无辜的人民。"
+      ]
     },
     {
       "id": 12,
@@ -382,7 +426,11 @@
       "difficulty": 1,
       "url": "https://overwatch-api.net/api/v1/hero/12",
       "role": 1,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/reaper/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/reaper/icon-portrait.png",
+      "bio": [
+        "JUSTICE WILL BE DONE.",
+        "死神来了。"
+      ]
     },
     {
       "id": 13,
@@ -414,7 +462,11 @@
       "difficulty": 1,
       "url": "https://overwatch-api.net/api/v1/hero/13",
       "role": 0,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/reinhardt/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/reinhardt/icon-portrait.png",
+      "bio": [
+        "I'M A ONE-MAN APOCALYPSE.",
+        "正义必将得到伸张。"
+      ]
     },
     {
       "id": 14,
@@ -446,7 +498,11 @@
       "difficulty": 1,
       "url": "https://overwatch-api.net/api/v1/hero/14",
       "role": 0,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/roadhog/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/roadhog/icon-portrait.png",
+      "bio": [
+        "WE'RE ALL SOLDIERS NOW.",
+        "我一个人就可以把对面全打趴下。"
+      ]
     },
     {
       "id": 15,
@@ -478,7 +534,11 @@
       "difficulty": 1,
       "url": "https://overwatch-api.net/api/v1/hero/15",
       "role": 1,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/soldier-76/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/soldier-76/icon-portrait.png",
+      "bio": [
+        "THE TRUE ENEMY OF HUMANITY IS DISORDER.",
+        "我们现在都是士兵了。"
+      ]
     },
     {
       "id": 16,
@@ -510,7 +570,11 @@
       "difficulty": 2,
       "url": "https://overwatch-api.net/api/v1/hero/16",
       "role": 1,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/symmetra/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/symmetra/icon-portrait.png",
+      "bio": [
+        "BUILD ‘EM UP, BREAK ‘EM DOWN.",
+        "人类真正的敌人是无序。"
+      ]
     },
     {
       "id": 17,
@@ -542,7 +606,11 @@
       "difficulty": 2,
       "url": "https://overwatch-api.net/api/v1/hero/17",
       "role": 1,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/torbjorn/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/torbjorn/icon-portrait.png",
+      "bio": [
+        "CHEERS, LOVE! THE CAVALRY’S HERE!",
+        "造得起，也砸得坏。"
+      ]
     },
     {
       "id": 18,
@@ -574,7 +642,11 @@
       "difficulty": 2,
       "url": "https://overwatch-api.net/api/v1/hero/18",
       "role": 1,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/tracer/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/tracer/icon-portrait.png",
+      "bio": [
+        "ONE SHOT, ONE KILL.",
+        "不用担心，交给我吧！"
+      ]
     },
     {
       "id": 19,
@@ -606,7 +678,11 @@
       "difficulty": 2,
       "url": "https://overwatch-api.net/api/v1/hero/19",
       "role": 1,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/widowmaker/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/widowmaker/icon-portrait.png",
+      "bio": [
+        "IMAGINATION IS THE ESSENCE OF DISCOVERY.",
+        "一枪，一个。"
+      ]
     },
     {
       "id": 20,
@@ -633,12 +709,16 @@
       ],
       "base_of_operations": [
         "Watchpoint Gibraltar",
-        "地平线”月球殖民地"
+        "地平线 月球殖民地"
       ],
       "difficulty": 2,
       "url": "https://overwatch-api.net/api/v1/hero/20",
       "role": 0,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/winston/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/winston/icon-portrait.png",
+      "bio": [
+        "TOGETHER WE ARE STRONG.",
+        "想象是发现的本质。"
+      ]
     },
     {
       "id": 21,
@@ -670,7 +750,11 @@
       "difficulty": 3,
       "url": "https://overwatch-api.net/api/v1/hero/21",
       "role": 0,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/zarya/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/zarya/icon-portrait.png",
+      "bio": [
+        "TRUE SELF IS WITHOUT FORM.",
+        "团结就是力量。"
+      ]
     },
     {
       "id": 22,
@@ -702,7 +786,11 @@
       "difficulty": 3,
       "url": "https://overwatch-api.net/api/v1/hero/22",
       "role": 2,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/zenyatta/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/zenyatta/icon-portrait.png",
+      "bio": [
+        "EVERYTHING CAN BE HACKED… AND EVERYONE.",
+        "本我不拘于形。"
+      ]
     },
     {
       "id": 23,
@@ -734,7 +822,11 @@
       "difficulty": 3,
       "url": "https://overwatch-api.net/api/v1/hero/23",
       "role": 1,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/sombra/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/sombra/icon-portrait.png",
+      "bio": [
+        "YOUR SAFETY IS MY PRIMARY CONCERN.",
+        "我可以黑掉任何东西……以及任何人。"
+      ]
     },
     {
       "id": 24,
@@ -766,7 +858,11 @@
       "difficulty": 2,
       "url": "https://overwatch-api.net/api/v1/hero/24",
       "role": 0,
-      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/orisa/icon-portrait.png"
+      "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/orisa/icon-portrait.png",
+      "bio": [
+        "███",
+        "保护你们的安全是我的首要职责。"
+      ]
     }
   ]
 }
