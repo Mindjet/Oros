@@ -68,7 +68,7 @@
       "role": 1,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/bastion/icon-portrait.png",
       "bio": [
-        "I PLAY TO WIN.",
+        "███",
         "███"
       ]
     },
@@ -104,7 +104,7 @@
       "role": 0,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/dva/icon-portrait.png",
       "bio": [
-        "EVEN IF I SACRIFICE MY BODY, I WILL NEVER SACRIFICE MY HONOR.",
+        "I PLAY TO WIN.",
         "玩游戏就是要赢。"
       ]
     },
@@ -140,7 +140,7 @@
       "role": 1,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/genji/icon-portrait.png",
       "bio": [
-        "WITH EVERY DEATH COMES HONOR. WITH HONOR, REDEMPTION.",
+        "EVEN IF I SACRIFICE MY BODY, I WILL NEVER SACRIFICE MY HONOR.",
         "身可死，武士之名不可弃。"
       ]
     },
@@ -176,7 +176,7 @@
       "role": 1,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/hanzo/icon-portrait.png",
       "bio": [
-        "IT'S A PERFECT DAY FOR SOME MAYHEM.",
+        "WITH EVERY DEATH COMES HONOR. WITH HONOR, REDEMPTION.",
         "荣誉之于生死，救赎之于荣誉。"
       ]
     },
@@ -212,7 +212,7 @@
       "role": 1,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/junkrat/icon-portrait.png",
       "bio": [
-        "COME ON, LET’S BRING IT TOGETHER!",
+        "IT'S A PERFECT DAY FOR SOME MAYHEM.",
         "今天适合闹点大动静！"
       ]
     },
@@ -248,7 +248,7 @@
       "role": 2,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/lucio/icon-portrait.png",
       "bio": [
-        "JUSTICE AIN'T GONNA DISPENSE ITSELF.",
+        "COME ON, LET’S BRING IT TOGETHER!",
         "来吧，跟上我的节奏！"
       ]
     },
@@ -284,7 +284,7 @@
       "role": 1,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/mccree/icon-portrait.png",
       "bio": [
-        "OUR WORLD IS WORTH FIGHTING FOR.",
+        "JUSTICE AIN'T GONNA DISPENSE ITSELF.",
         "正义可不会声张自己。"
       ]
     },
@@ -320,7 +320,7 @@
       "role": 1,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/mei/icon-portrait.png",
       "bio": [
-        "HEROES NEVER DIE.",
+        "OUR WORLD IS WORTH FIGHTING FOR.",
         "我们的世界值得我们为之奋斗！"
       ]
     },
@@ -356,7 +356,7 @@
       "role": 2,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/mercy/icon-portrait.png",
       "bio": [
-        "I WILL PROTECT THE INNOCENT.",
+        "HEROES NEVER DIE.",
         "英雄不朽。"
       ]
     },
@@ -392,7 +392,7 @@
       "role": 1,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/pharah/icon-portrait.png",
       "bio": [
-        "DEATH WALKS AMONG YOU.",
+        "I WILL PROTECT THE INNOCENT.",
         "就由我来保护无辜的人民。"
       ]
     },
@@ -428,7 +428,7 @@
       "role": 1,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/reaper/icon-portrait.png",
       "bio": [
-        "JUSTICE WILL BE DONE.",
+        "DEATH WALKS AMONG YOU.",
         "死神来了。"
       ]
     },
@@ -464,7 +464,7 @@
       "role": 0,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/reinhardt/icon-portrait.png",
       "bio": [
-        "I'M A ONE-MAN APOCALYPSE.",
+        "JUSTICE WILL BE DONE.",
         "正义必将得到伸张。"
       ]
     },
@@ -500,7 +500,7 @@
       "role": 0,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/roadhog/icon-portrait.png",
       "bio": [
-        "WE'RE ALL SOLDIERS NOW.",
+        "I'M A ONE-MAN APOCALYPSE.",
         "我一个人就可以把对面全打趴下。"
       ]
     },
@@ -536,7 +536,7 @@
       "role": 1,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/soldier-76/icon-portrait.png",
       "bio": [
-        "THE TRUE ENEMY OF HUMANITY IS DISORDER.",
+        "WE'RE ALL SOLDIERS NOW.",
         "我们现在都是士兵了。"
       ]
     },
@@ -572,7 +572,7 @@
       "role": 1,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/symmetra/icon-portrait.png",
       "bio": [
-        "BUILD ‘EM UP, BREAK ‘EM DOWN.",
+        "THE TRUE ENEMY OF HUMANITY IS DISORDER.",
         "人类真正的敌人是无序。"
       ]
     },
@@ -608,7 +608,7 @@
       "role": 1,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/torbjorn/icon-portrait.png",
       "bio": [
-        "CHEERS, LOVE! THE CAVALRY’S HERE!",
+        "BUILD ‘EM UP, BREAK ‘EM DOWN.",
         "造得起，也砸得坏。"
       ]
     },
@@ -644,7 +644,7 @@
       "role": 1,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/tracer/icon-portrait.png",
       "bio": [
-        "ONE SHOT, ONE KILL.",
+        "CHEERS, LOVE! THE CAVALRY’S HERE!",
         "不用担心，交给我吧！"
       ]
     },
@@ -680,7 +680,7 @@
       "role": 1,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/widowmaker/icon-portrait.png",
       "bio": [
-        "IMAGINATION IS THE ESSENCE OF DISCOVERY.",
+        "ONE SHOT, ONE KILL.",
         "一枪，一个。"
       ]
     },
@@ -716,7 +716,7 @@
       "role": 0,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/winston/icon-portrait.png",
       "bio": [
-        "TOGETHER WE ARE STRONG.",
+        "IMAGINATION IS THE ESSENCE OF DISCOVERY.",
         "想象是发现的本质。"
       ]
     },
@@ -752,7 +752,7 @@
       "role": 0,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/zarya/icon-portrait.png",
       "bio": [
-        "TRUE SELF IS WITHOUT FORM.",
+        "TOGETHER WE ARE STRONG.",
         "团结就是力量。"
       ]
     },
@@ -788,7 +788,7 @@
       "role": 2,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/zenyatta/icon-portrait.png",
       "bio": [
-        "EVERYTHING CAN BE HACKED… AND EVERYONE.",
+        "TRUE SELF IS WITHOUT FORM.",
         "本我不拘于形。"
       ]
     },
@@ -824,7 +824,7 @@
       "role": 1,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/sombra/icon-portrait.png",
       "bio": [
-        "YOUR SAFETY IS MY PRIMARY CONCERN.",
+        "EVERYTHING CAN BE HACKED… AND EVERYONE.",
         "我可以黑掉任何东西……以及任何人。"
       ]
     },
@@ -860,7 +860,7 @@
       "role": 0,
       "avatar": "http://overwatch.nos.netease.com/1/assets/images/hero/orisa/icon-portrait.png",
       "bio": [
-        "███",
+        "YOUR SAFETY IS MY PRIMARY CONCERN.",
         "保护你们的安全是我的首要职责。"
       ]
     }
