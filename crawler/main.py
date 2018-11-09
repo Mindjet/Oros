@@ -2,4 +2,7 @@ from overwatch import OverwatchCrawler
 
 if __name__ == '__main__':
     crawler = OverwatchCrawler()
-    crawler.get_hero_avatars()
+    heroes = crawler.get_hero_details()
+    for hero in heroes:
+        print(hero)
+    crawler.finish()
