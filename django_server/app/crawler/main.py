@@ -1,8 +1,7 @@
-from overwatch import OverwatchCrawler
+from app.crawler.overwatch import OverwatchCrawler
 
 if __name__ == '__main__':
     crawler = OverwatchCrawler()
     heroes = crawler.get_hero_details()
-    for hero in heroes:
-        print(hero)
+    print(heroes)
     crawler.finish()
