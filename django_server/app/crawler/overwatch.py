@@ -18,7 +18,7 @@ def get_info_after_colon(info):
 class OverwatchCrawler(object):
     def __init__(self):
         option = webdriver.ChromeOptions()
-        # option.headless = True
+        option.headless = True
         self.driver = webdriver.Chrome(executable_path=_driver_path, chrome_options=option)
         self.driver.implicitly_wait(5)
 
@@ -75,9 +75,6 @@ class OverwatchCrawler(object):
             item['bio'] = hero_bio
             item['base_of_operation'] = base_of_operation
             item['affiliation'] = affiliation
-            # item['abilities'] = [
-            #     {'name': ability_name_list[i], 'icon': ability_icon_list[i], 'video': ability_video_list[i]} for i in
-            #     range(0, len(ability_name_list))]
             item['abilities'] = abilities
             item['media'] = media
             output.append(item)

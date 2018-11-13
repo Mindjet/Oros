@@ -7,6 +7,7 @@ class Ability(models.Model):
     description = models.CharField(max_length=200)
     icon = models.URLField()
     video = models.URLField()
+    hero = models.ForeignKey("Hero", null=True, on_delete=models.SET_NULL)
 
 
 class Media(models.Model):
@@ -14,6 +15,7 @@ class Media(models.Model):
     name = models.CharField(max_length=20)
     type = models.CharField(max_length=10)
     source = models.URLField()
+    hero = models.ForeignKey("Hero", null=True, on_delete=models.SET_NULL)
 
 
 class Hero(models.Model):
@@ -33,6 +35,6 @@ class Hero(models.Model):
     base_of_operation = models.CharField(max_length=50)
     avatar = models.URLField()
     large_avatar = models.URLField()
-    abilities = models.ManyToManyField(to=Ability)
-    media = models.ManyToManyField(to=Media)
+    # abilities = models.ManyToManyField(to=Ability)
+    # media = models.ManyToManyField(to=Media)
     pass
