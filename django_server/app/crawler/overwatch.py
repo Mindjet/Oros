@@ -57,38 +57,28 @@ class OverwatchCrawler(object):
             hero_description = driver.find_element_by_class_name('hero-detail-description').get_attribute('innerText')
             hero_bio = driver.find_element_by_css_selector(
                 '#story>.hero-detail-wrapper>p.hero-detail-title').get_attribute('innerText')
-            ability_name_list = [i.get_attribute('data-ability-name') for i in
-                                 driver.find_elements_by_class_name('ability-showcase-button')]
-            ability_icon_list = [i.get_attribute('src') for i in
-                                 driver.find_elements_by_css_selector('.ability-showcase-button>.hero-ability-icon')]
-            ability_video_list = [i.find_element_by_tag_name('source').get_attribute('src') for i in
-                                  driver.find_elements_by_class_name('ability-showcase-video')]
 
-            story_segment = driver.find_elements_by_css_selector('.hero-bio-backstory>p')
-            hero_story = ''
-            for j, segment in enumerate(story_segment):
-                hero_story += segment.get_attribute('innerText')
-                if j != len(story_segment) - 1:
-                    hero_story += '\n'
-
-            base = driver.find_element_by_css_selector('.base>.hero-bio-copy').get_attribute('innerText')
-            base = get_info_after_colon(base)
+            base_of_operation = driver.find_element_by_css_selector('.base>.hero-bio-copy').get_attribute('innerText')
+            base_of_operation = get_info_after_colon(base_of_operation)
             affiliation = driver.find_element_by_css_selector('.affiliation>.hero-bio-copy').get_attribute('innerText')
             affiliation = get_info_after_colon(affiliation)
 
-            media = self.crawler_media()
+            hero_story = self.crawl_story()
+            abilities = self.crawl_abilities()
+            media = self.crawl_media()
 
             item['name'] = hero_name
             item['position'] = hero_type
             item['large_avatar'] = large_avatar
             item['description'] = hero_description
             item['story'] = hero_story
-            item['hero_bio'] = hero_bio
-            item['base'] = base
+            item['bio'] = hero_bio
+            item['base_of_operation'] = base_of_operation
             item['affiliation'] = affiliation
-            item['abilities'] = [
-                {'name': ability_name_list[i], 'icon': ability_icon_list[i], 'video': ability_video_list[i]} for i in
-                range(0, len(ability_name_list))]
+            # item['abilities'] = [
+            #     {'name': ability_name_list[i], 'icon': ability_icon_list[i], 'video': ability_video_list[i]} for i in
+            #     range(0, len(ability_name_list))]
+            item['abilities'] = abilities
             item['media'] = media
             output.append(item)
 
@@ -99,7 +89,41 @@ class OverwatchCrawler(object):
             sleep(8)
         return output
 
-    def crawler_media(self):
+    def crawl_story(self):
+        driver = self.driver
+        story_segment = driver.find_elements_by_css_selector('.hero-bio-backstory>p')
+        story = ''
+        for j, segment in enumerate(story_segment):
+            story += segment.get_attribute('innerText')
+            if j != len(story_segment) - 1:
+                story += '\n'
+        return story
+
+    def crawl_abilities(self):
+        driver = self.driver
+        name_list = [i.get_attribute('data-ability-name') for i in
+                     driver.find_elements_by_class_name('ability-showcase-button')]
+        icon_list = [i.get_attribute('src') for i in
+                     driver.find_elements_by_css_selector('.ability-showcase-button>.hero-ability-icon')]
+        video_list = [i.get_attribute('src') for i in
+                      driver.find_elements_by_css_selector('video.ability-showcase-video>source')]
+        description_list = [i.get_attribute('innerText') for i in
+                            driver.find_elements_by_css_selector('div.hero-ability>div.hero-ability-descriptor>p')]
+        result = []
+        for i in range(0, len(name_list)):
+            if i == 0:
+                description = ''
+            else:
+                description = description_list[i-1]
+            result.append({
+                'name': name_list[i],
+                'description': description,
+                'icon': icon_list[i],
+                'video': video_list[i]
+            })
+        return result
+
+    def crawl_media(self):
         driver = self.driver
         load_more_btn = driver.find_element_by_id('load-more-media')
         load_more_btn.click()
