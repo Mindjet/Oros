@@ -42,7 +42,7 @@ class OverwatchCrawler(object):
         count = len(hero_list)
         print('Total heroes: %d' % count)
 
-        for i, hero in enumerate(hero_list[1:2]):
+        for i, hero in enumerate(hero_list):
             print('\rProcessing [%d/%d]' % (i + 1, count), end='', flush=True)
             item = {}
             large_avatar = hero.find_element_by_class_name('portrait').get_attribute('src')

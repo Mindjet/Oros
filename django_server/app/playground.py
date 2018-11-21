@@ -49,6 +49,12 @@ def crawler_overwatch_hero(_):
 
 
 def show_heroes(_):
-    heroes = Hero.objects.all()
+    heroes = Hero.objects.order_by('id')
     heroes = serializers.serialize('json', heroes, ensure_ascii=False)
     return HttpResponse(heroes, content_type='application/json')
+
+
+def search_hero(_, _id):
+    hero = Hero.objects.filter(id=_id)
+    hero = serializers.serialize('json', hero, ensure_ascii=False)
+    return HttpResponse(hero, content_type='application/json')

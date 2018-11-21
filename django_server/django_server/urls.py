@@ -20,5 +20,7 @@ from app import playground
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^play/', playground.crawler_overwatch_hero)
+    url(r'^play/', playground.crawler_overwatch_hero),
+    url(r'^heroes', playground.show_heroes),
+    url(r'^hero/(\d+)$', playground.search_hero)
 ]
