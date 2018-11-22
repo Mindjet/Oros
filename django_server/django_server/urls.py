@@ -13,14 +13,15 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url
+from django.conf.urls import url, include
 from django.contrib import admin
-
 from app import playground
+from app.router import router
 
 urlpatterns = [
+    url(r'^', include(router.urls)),
     url(r'^admin/', admin.site.urls),
-    url(r'^play/', playground.crawler_overwatch_hero),
+    # url(r'^play/', playground.crawler_overwatch_hero),
     url(r'^heroes', playground.show_heroes),
     url(r'^hero/(\d+)$', playground.search_hero)
 ]
