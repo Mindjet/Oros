@@ -9,6 +9,6 @@ import rx.Observable
 interface OwService {
 
     @GET(Constant.HERO_BRIEF_URL)
-    fun getHeroList(): Observable<Wrapper<HeroBrief>>
+    fun getHeroList(): Observable<List<HeroBrief>>
 
 }

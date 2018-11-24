@@ -1,10 +1,13 @@
 package io.github.mindjet.oros.ui
 
 import android.os.Bundle
+import android.support.v7.widget.GridLayoutManager
 import android.support.v7.widget.LinearLayoutManager
+import android.support.v7.widget.RecyclerView
 import android.view.View
 import io.github.mindjet.oros.R
 import io.github.mindjet.oros.base.BaseActivity
+import io.github.mindjet.oros.ext.log
 import io.github.mindjet.oros.model.HeroBrief
 import io.github.mindjet.oros.network.ApiManager
 import io.github.mindjet.oros.network.NetworkHandler
@@ -26,7 +29,8 @@ class MainActivity : BaseActivity() {
         setContentView(R.layout.activity_main)
 
         adapter = HeroBriefAdapter()
-        recycler_view.layoutManager = LinearLayoutManager(this)
+//        recycler_view.layoutManager = LinearLayoutManager(this)
+        recycler_view.layoutManager = GridLayoutManager(this, 3, LinearLayoutManager.VERTICAL, false)
         recycler_view.addItemDecoration(VerticalLinearDecoration(resources.getDimensionPixelSize(R.dimen.card_margin)))
         recycler_view.adapter = adapter
 
@@ -40,13 +44,14 @@ class MainActivity : BaseActivity() {
                 .getHeroList()
                 .subscribeOn(Schedulers.io())
                 .doOnSubscribe { content_network_error.visibility = View.GONE }
-                .map { it.data }
+//                .map { it.data }
                 .flatMap { Observable.from(it) }
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(this::handleHeroList, this::handleError)
     }
 
     private fun handleHeroList(heroBrief: HeroBrief) {
+        log(heroBrief)
         adapter.data.add(heroBrief)
         adapter.notifyItemInserted(adapter.data.size - 1)
     }

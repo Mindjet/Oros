@@ -14,8 +14,10 @@ class VerticalLinearDecoration(private val margin: Int) : RecyclerView.ItemDecor
             top = margin * 2
             left = margin
             right = margin
-            bottom = if (position == size?.minus(1)) margin else 0
+//            bottom = if (position == size?.minus(1)) margin else 0
+            bottom = margin
         }
+
     }
 
 }

@@ -32,13 +32,13 @@ class HeroBriefBottomSheet : BottomSheetDialogFragment() {
         val heroBrief = arguments?.getSerializable(Constant.ARG_HERO_BRIEF) as HeroBrief
         val view = inflater.inflate(R.layout.fragment_hero_brief, container, false)
         view.apply {
-            iv_hero_avatar.load(heroBrief.avatar)
-            tv_hero_real_name.text = heroBrief.realName[languageIndex].withSpace()
-            tv_hero_bio.text = heroBrief.bio[languageIndex].withSpace()
-            tv_hero_age.text = getString(R.string.hero_age, heroBrief.age).withSpace()
-            tv_hero_base.text = getString(R.string.hero_base, heroBrief.baseOfOperation[languageIndex]).withSpace()
-            tv_hero_affiliation.text = getString(R.string.hero_affiliation, heroBrief.affiliation[languageIndex]).withSpace()
-            tv_hero_role.text = heroBrief.role.getHeroRole().withSpace()
+//            iv_hero_avatar.load(heroBrief.avatar)
+//            tv_hero_real_name.text = heroBrief.realName[languageIndex].withSpace()
+//            tv_hero_bio.text = heroBrief.bio[languageIndex].withSpace()
+//            tv_hero_age.text = getString(R.string.hero_age, heroBrief.age).withSpace()
+//            tv_hero_base.text = getString(R.string.hero_base, heroBrief.baseOfOperation[languageIndex]).withSpace()
+//            tv_hero_affiliation.text = getString(R.string.hero_affiliation, heroBrief.affiliation[languageIndex]).withSpace()
+//            tv_hero_role.text = heroBrief.role.getHeroRole().withSpace()
         }
         return view
     }

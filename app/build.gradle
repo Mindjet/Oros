@@ -16,7 +16,7 @@ android {
     }
     buildTypes {
         debug {
-            buildConfigField("String", "BASE_URL", '"https://overwatch-api.net/api/v1/"')
+            buildConfigField("String", "BASE_URL", '"http://206.189.73.174:8089/"')
         }
         release {
             minifyEnabled false
