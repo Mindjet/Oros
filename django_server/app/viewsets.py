@@ -11,3 +11,12 @@ class HeroViewSet(viewsets.ModelViewSet):
 class BriefHeroViewSet(viewsets.ModelViewSet):
     queryset = Hero.objects.all()
     serializer_class = BriefHeroSerializer
+
+
+class SpecificHeroViewSet(viewsets.ModelViewSet):
+    serializer_class = HeroSerializer
+
+    def get_queryset(self):
+        id = self.request.GET.get('id')
+        queryset = Hero.objects.filter(id=id)
+        return queryset
