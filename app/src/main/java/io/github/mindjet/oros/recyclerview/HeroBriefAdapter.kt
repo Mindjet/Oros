@@ -19,6 +19,7 @@ class HeroBriefAdapter : CommonRecyclerViewAdapter<HeroBrief>() {
         val itemData = data[position]
         holder.itemView.apply {
             iv_hero_avatar.load(itemData.avatar)
+            tv_hero_name.text = itemData.name
 //            text_view_hero_name.text = itemData.name[index].withSpace()
 //            val roleResId = when (itemData.role) {
 //                "0" -> R.drawable.ic_tank

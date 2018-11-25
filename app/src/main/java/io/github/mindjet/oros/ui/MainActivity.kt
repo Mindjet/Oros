@@ -28,7 +28,7 @@ class MainActivity : BaseActivity() {
 
         adapter = HeroBriefAdapter()
         recycler_view.layoutManager = GridLayoutManager(this, 3, LinearLayoutManager.VERTICAL, false)
-        recycler_view.addItemDecoration(MarginDecoration(resources.getDimensionPixelSize(R.dimen.card_margin)))
+//        recycler_view.addItemDecoration(MarginDecoration(resources.getDimensionPixelSize(R.dimen.card_margin)))
         recycler_view.adapter = adapter
 
         btn_reload.setOnClickListener { getHeroList() }

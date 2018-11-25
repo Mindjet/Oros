@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:cardBackgroundColor="@color/secColor"
-    app:cardCornerRadius="8dp"
-    app:cardElevation="2dp">
+    android:orientation="vertical"
+    bind:layout_margin="10dp"
+    bind:layout_width="100dp">
 
-    <android.support.constraint.ConstraintLayout
-        android:id="@+id/constraint_layout"
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/selectableItemBackground">
+        android:layout_marginLeft="@dimen/card_margin"
+        android:layout_marginTop="@dimen/card_margin_plus"
+        android:layout_marginRight="@dimen/card_margin"
+        android:layout_marginBottom="@dimen/card_margin_plus"
+        app:cardBackgroundColor="@color/secColor"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="5dp">
 
-        <ImageView
-            android:id="@+id/iv_hero_avatar"
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraint_layout"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            app:layout_constraintDimensionRatio="18:31" />
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground">
 
-    </android.support.constraint.ConstraintLayout>
+            <ImageView
+                android:id="@+id/iv_hero_avatar"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:contentDescription="hero-avatar"
+                app:layout_constraintDimensionRatio="18:31" />
 
+        </android.support.constraint.ConstraintLayout>
 
-</android.support.v7.widget.CardView>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_hero_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryCust"
+        android:textSize="@dimen/hero_brief_name_text_size"
+        android:textStyle="bold|italic"
+        bind:text="莱因哈特" />
+
+</LinearLayout>

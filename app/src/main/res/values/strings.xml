@@ -11,4 +11,5 @@
     <string name="hero_base">Base: %s</string>
     <string name="reload">Reload</string>
     <string name="network_error_warning">Network unavailable, please check.</string>
+    <string name="hero">Hero</string>
 </resources>
