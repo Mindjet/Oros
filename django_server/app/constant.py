@@ -9,8 +9,8 @@ HERO_FIELDS = (
     'base_of_operation',
     'avatar',
     'large_avatar',
-    # 'ability',
-    # 'media'
+    'ability_set',
+    'media_set'
 )
 
 BRIEF_HERO_FIELDS = (
