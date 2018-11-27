@@ -3,6 +3,7 @@ package io.github.mindjet.oros
 object Constant {
 
     const val HERO_BRIEF_URL = "hero-brief"
+    const val HERO_DETAIL = "hero"
 
     const val LANGUAGE_CN = 1
     const val LANGUAGE_OTHER = 0

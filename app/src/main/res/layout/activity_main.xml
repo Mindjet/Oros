@@ -16,8 +16,8 @@
         <android.support.v7.widget.Toolbar
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/colorPrimaryCust"
-            android:elevation="3dp">
+            android:background="@drawable/bg_titlebar"
+            android:elevation="5dp">
 
             <android.support.constraint.ConstraintLayout
                 android:layout_width="match_parent"
