@@ -10,5 +10,6 @@
 
     <include layout="@layout/content_basic_info" />
 
+    <include layout="@layout/content_slogan" />
 
 </LinearLayout>

@@ -8,4 +8,7 @@
     <dimen name="card_margin">6dp</dimen>
     <dimen name="card_margin_plus">8dp</dimen>
     <dimen name="card_margin_xplus">10dp</dimen>
+
+    <dimen name="card_radius">8dp</dimen>
+    <dimen name="card_elavation">5dp</dimen>
 </resources>

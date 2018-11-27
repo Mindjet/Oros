@@ -1,13 +1,12 @@
 package io.github.mindjet.oros.recyclerview
 
-import android.text.Html
-import io.github.mindjet.oros.R
 import io.github.mindjet.oros.ext.load
 import io.github.mindjet.oros.ext.log
 import io.github.mindjet.oros.model.Hero
 import io.github.mindjet.oros.recyclerview.base.CommonRecyclerViewAdapter
 import io.github.mindjet.oros.recyclerview.base.CommonViewHolder
 import kotlinx.android.synthetic.main.content_basic_info.view.*
+import kotlinx.android.synthetic.main.content_slogan.view.*
 
 class HeroDetailAdapter : CommonRecyclerViewAdapter<Hero>() {
     override fun onBindViewHolder(holder: CommonViewHolder, position: Int) {
@@ -19,6 +18,7 @@ class HeroDetailAdapter : CommonRecyclerViewAdapter<Hero>() {
             tv_hero_position.text = hero.position
             tv_hero_affiliation.text = hero.affiliation
             tv_hero_base.text = hero.base
+            tv_hero_bio.text = hero.bio
         }
     }
 

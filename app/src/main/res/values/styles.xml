@@ -28,4 +28,10 @@
         <item name="android:textColor">@color/secColor</item>
     </style>
 
+    <style name="DetailTitleTextStyle">
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:textColor">@color/secColor</item>
+        <item name="android:textSize">@dimen/hero_detail_title_text_size</item>
+    </style>
+
 </resources>
