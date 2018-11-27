@@ -13,4 +13,10 @@
     <string name="reload">重新加载</string>
     <string name="network_error_warning">无法连接至网络。</string>
     <string name="hero">英雄</string>
+    <string name="slogan">信条</string>
+    <string name="basic_info">基本信息</string>
+    <string name="affiliation">隶属：</string>
+    <string name="base_of_operation">行动基地：</string>
+    <string name="ability">技能</string>
+    <string name="media">资料</string>
 </resources>

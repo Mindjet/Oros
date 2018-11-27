@@ -2,7 +2,8 @@
 <resources>
     <dimen name="toolbar_title_text_size">20sp</dimen>
     <dimen name="hero_brief_name_text_size">17sp</dimen>
-    <dimen name="hero_detail_name_text_size">23sp</dimen>
+    <dimen name="hero_detail_name_text_size">25sp</dimen>
+    <dimen name="hero_detail_title_text_size">20sp</dimen>
 
     <dimen name="card_margin">6dp</dimen>
     <dimen name="card_margin_plus">8dp</dimen>

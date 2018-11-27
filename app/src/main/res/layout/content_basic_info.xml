@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_hero_avatar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_margin_plus"
+        android:layout_weight="1"
+        android:background="@color/secColor"
+        app:cardBackgroundColor="@color/secColor"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="5dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_hero_avatar"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:contentDescription="hero-avatar"
+                app:layout_constraintDimensionRatio="18:31" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_margin_plus"
+        android:layout_marginLeft="@dimen/card_margin_plus"
+        android:layout_weight="2"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="5dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:padding="@dimen/card_margin_xplus"
+                app:layout_constraintDimensionRatio="36:31">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="@dimen/card_margin_plus"
+                    android:text="@string/basic_info"
+                    android:textColor="@color/secColor"
+                    android:textSize="@dimen/hero_detail_title_text_size"
+                    android:textStyle="italic|bold"
+                    app:layout_constraintBottom_toTopOf="@id/tv_hero_name"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_weight="2" />
+
+                <TextView
+                    android:id="@+id/tv_hero_name"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:textColor="@color/colorPrimaryCust"
+                    android:textSize="@dimen/hero_detail_name_text_size"
+                    android:textStyle="bold|italic"
+                    app:layout_constraintBottom_toTopOf="@id/tv_hero_affiliation"
+                    app:layout_constraintHorizontal_weight="2"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toLeftOf="@id/tv_hero_position"
+                    app:layout_constraintTop_toBottomOf="@id/tv_title"
+                    app:layout_constraintVertical_weight="2"
+                    bind:text="莱因哈特" />
+
+                <TextView
+                    android:id="@+id/tv_hero_position"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimaryCust"
+                    android:textStyle="italic"
+                    app:layout_constraintBaseline_toBaselineOf="@id/tv_hero_name"
+                    app:layout_constraintHorizontal_bias="0.7"
+                    app:layout_constraintHorizontal_weight="1"
+                    app:layout_constraintLeft_toRightOf="@id/tv_hero_name"
+                    app:layout_constraintRight_toRightOf="parent"
+                    bind:text="重装" />
+
+                <TextView
+                    android:id="@+id/tv_hero_affiliation"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/card_margin_xplus"
+                    android:drawableLeft="@drawable/ic_affiliation"
+                    android:drawablePadding="@dimen/card_margin"
+                    android:textColor="@color/colorPrimaryCust"
+                    android:textStyle="italic"
+                    app:layout_constraintBottom_toTopOf="@id/tv_hero_base"
+                    app:layout_constraintTop_toBottomOf="@id/tv_hero_name"
+                    app:layout_constraintVertical_weight="1"
+                    bind:text="俄罗斯防御部队" />
+
+                <TextView
+                    android:id="@+id/tv_hero_base"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/card_margin"
+                    android:drawableLeft="@drawable/ic_base"
+                    android:drawablePadding="@dimen/card_margin"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorPrimaryCust"
+                    android:textStyle="italic"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_hero_affiliation"
+                    app:layout_constraintVertical_weight="1"
+                    bind:text="阿努比斯神殿" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

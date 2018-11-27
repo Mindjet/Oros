@@ -12,4 +12,10 @@
     <string name="reload">Reload</string>
     <string name="network_error_warning">Network unavailable, please check.</string>
     <string name="hero">Hero</string>
+    <string name="slogan">SLOGAN</string>
+    <string name="basic_info">BASIC INFO</string>
+    <string name="affiliation">"Affiliation: "</string>
+    <string name="base_of_operation">"Base: "</string>
+    <string name="ability">ABILITY</string>
+    <string name="media">MEDIA</string>
 </resources>
