@@ -19,4 +19,7 @@
     <string name="base_of_operation">行动基地：</string>
     <string name="ability">技能</string>
     <string name="media">资料</string>
+    <string name="brief">简介</string>
+    <string name="story">英雄故事</string>
+    <string name="more">更多</string>
 </resources>

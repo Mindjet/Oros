@@ -18,4 +18,7 @@
     <string name="base_of_operation">"Base: "</string>
     <string name="ability">ABILITY</string>
     <string name="media">MEDIA</string>
+    <string name="brief">Brief</string>
+    <string name="story">story</string>
+    <string name="more">more</string>
 </resources>
