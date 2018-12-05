@@ -14,4 +14,7 @@ object Constant {
 
     const val EXTRA_KEY_ID = "extra_key_id"
     const val EXTRA_KEY_NAME = "extra_key_name"
+
+    const val TYPE_IMAGE = "image"
+    const val TYPE_VIDEO = "video"
 }

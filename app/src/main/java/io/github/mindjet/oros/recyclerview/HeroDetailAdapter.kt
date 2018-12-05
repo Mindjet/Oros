@@ -9,11 +9,13 @@ import io.github.mindjet.oros.recyclerview.base.CommonViewHolder
 import kotlinx.android.synthetic.main.content_ability.view.*
 import kotlinx.android.synthetic.main.content_basic_info.view.*
 import kotlinx.android.synthetic.main.content_brief.view.*
+import kotlinx.android.synthetic.main.content_media.view.*
 import kotlinx.android.synthetic.main.content_slogan.view.*
 
 class HeroDetailAdapter : CommonRecyclerViewAdapter<Hero>() {
 
     private lateinit var abilityAdapter: HeroAbilityAdapter
+    private lateinit var mediaAdapter: HeroMediaAdapter
 
     override fun onBindViewHolder(holder: CommonViewHolder, position: Int) {
         val hero = data[position]
@@ -28,10 +30,17 @@ class HeroDetailAdapter : CommonRecyclerViewAdapter<Hero>() {
             tv_hero_brief.text = hero.description
 
             abilityAdapter = HeroAbilityAdapter()
-            recycler_view.adapter = abilityAdapter
-            recycler_view.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
+            recycler_view_ability.adapter = abilityAdapter
+            recycler_view_ability.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
             abilityAdapter.data.addAll(hero.abilitySet)
             abilityAdapter.notifyDataSetChanged()
+
+            mediaAdapter = HeroMediaAdapter()
+            recycler_view_media.adapter = mediaAdapter
+            recycler_view_media.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
+            mediaAdapter.data.addAll(hero.mediaSet)
+            mediaAdapter.notifyDataSetChanged()
+
         }
     }
 

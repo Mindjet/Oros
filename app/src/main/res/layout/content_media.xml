@@ -3,28 +3,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:bind="http://schemas.android.com/tools"
     android:layout_margin="@dimen/card_margin_xplus"
     app:cardCornerRadius="@dimen/card_radius"
     app:cardElevation="@dimen/card_elavation">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:padding="@dimen/card_margin_xplus"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/card_margin_xplus">
 
         <TextView
-            android:layout_width="match_parent"
             style="@style/DetailTitleTextStyle"
-            android:text="@string/ability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/card_margin_xplus"
-            android:layout_height="wrap_content" />
+            android:text="@string/media" />
 
         <android.support.v7.widget.RecyclerView
-            android:id="@+id/recycler_view_ability"
+            android:id="@+id/recycler_view_media"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
 
 
     </LinearLayout>

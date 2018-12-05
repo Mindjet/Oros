@@ -14,4 +14,6 @@
 
     <include layout="@layout/content_ability" />
 
+    <include layout="@layout/content_media" />
+
 </LinearLayout>
