@@ -8,6 +8,7 @@ import io.github.mindjet.oros.recyclerview.base.CommonRecyclerViewAdapter
 import io.github.mindjet.oros.recyclerview.base.CommonViewHolder
 import kotlinx.android.synthetic.main.content_ability.view.*
 import kotlinx.android.synthetic.main.content_basic_info.view.*
+import kotlinx.android.synthetic.main.content_brief.view.*
 import kotlinx.android.synthetic.main.content_slogan.view.*
 
 class HeroDetailAdapter : CommonRecyclerViewAdapter<Hero>() {
@@ -24,6 +25,8 @@ class HeroDetailAdapter : CommonRecyclerViewAdapter<Hero>() {
             tv_hero_affiliation.text = hero.affiliation
             tv_hero_base.text = hero.base
             tv_hero_bio.text = hero.bio
+            tv_hero_brief.text = hero.description
+
             abilityAdapter = HeroAbilityAdapter()
             recycler_view.adapter = abilityAdapter
             recycler_view.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_margin_xplus"
+    app:cardCornerRadius="@dimen/card_radius"
+    app:cardElevation="@dimen/card_elavation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/card_margin_xplus">
+
+        <TextView
+            style="@style/DetailTitleTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/card_margin_xplus"
+            android:text="@string/brief" />
+
+        <TextView
+            android:id="@+id/tv_hero_brief"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryCust"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
