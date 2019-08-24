@@ -1,0 +1,2420 @@
+[
+    {
+        "media": [
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/Wallpapers/Dva%20Wallpaper/2560x1440.jpg",
+                "name": "壁纸：D.Va",
+                "thumbnail": "http://hearthstone.nos.netease.com/a/images/2018/5/30/dbc91afc6618ad96eaa910123e496215.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/Dva03.jpg",
+                "name": "游戏截图：D.Va",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/Dva03-thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/Dva04.jpg",
+                "name": "游戏截图：D.Va",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/Dva04-thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/Dva02.jpg",
+                "name": "游戏截图：D.Va",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/Dva02-thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/Dva01.jpg",
+                "name": "游戏截图：D.Va",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/Dva01-thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/dva.jpg",
+                "name": "原画：D.Va",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/dva-thumb.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "韩国陆军特别机动部队",
+        "story": "D.Va曾是一名职业玩家，而现在则利用自己的技巧驾驶一台尖端机甲保卫国家。\n二十年前，韩国遭到一台从东海出现的巨型机甲怪兽的攻击。这台怪物在被击退前对多个沿海城市造成了毁灭性的破坏。为了应对这一威胁，韩国政府部署了一支机械化无人机部队“MEKA”，用以应对未来的智能机械威胁、保卫城市。\n随着一系列袭击事件的不断发生，韩国政府最担心的事情还是发生了。每过几年，那台巨型机械怪兽就会从海中出现袭击韩国和邻国。这台智能机械可以从每一次的遭遇战中学习，使用新武器和能力并且以不同形态出现。尽管韩国每次都能成功将其击退，但这台智能机械并未被彻底摧毁。\n随着智能机械不断进化，它最终干扰了MEKA的无人机控制网络，迫使军方派驾驶员驾驶这些机甲。由于难以找到合适的候选人，政府开始向那些拥有足以操控机甲尖端武器系统的必要反应和本能的国内职业玩家寻求帮助，其中就包括顶尖玩家之一的“D.Va”宋哈娜。作为一名为了获胜不惜一切代价的精英玩家，D.Va从来都不会对对手表现出丝毫的仁慈。\nD.Va将这次新任务视为一款全新的游戏，无所畏惧地和其他MEKA机甲冲向战场，随时准备保卫自己的国家。最近，她开始向她的粉丝直播战斗行动，而这也让她成为了世界巨星。",
+        "base_of_operation": "韩国，釜山",
+        "bio": "“玩游戏就是要赢。”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/dva/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/dva/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/dva/ability-fusion-cannons/icon-ability.png",
+                "name": "机甲：聚变机炮",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/dva/intro-video.webm",
+                "description": "D．Va的机甲装备有两台近距离旋转机炮。它们可以在不重新装填的情况下进行持续高伤害的火力输出，但使用时会降低D.Va的移动速度。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/dva/ability-light-gun/icon-ability.png",
+                "name": "驾驶员：光枪",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/dva/ability-fusion-cannons/video-ability.mp4",
+                "description": "离开机甲时，D.Va可以用中距离全自动冲击枪继续战斗"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/dva/ability-boosters/icon-ability.png",
+                "name": "机甲：推进器",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/dva/ability-light-gun/video-ability.mp4",
+                "description": "D.Va的机甲可以飞向空中。当加速器启动时，D.Va可以向前飞行。她可以改变飞行方向或撞开前方的敌人。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/dva/ability-defense-matrix/icon-ability.png",
+                "name": "机甲：防御矩阵",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/dva/ability-boosters/video-ability.mp4",
+                "description": "D.Va可以激活正前方的目标锁定矩阵，挡住前方射来的飞射物。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/dva/ability-micro-missiles/icon-ability.png",
+                "name": "微型飞弹",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/dva/ability-defense-matrix/video-ability.mp4",
+                "description": "D.Va射出一连串高爆飞弹。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/dva/ability-self-destruct/icon-ability.png",
+                "name": "机甲：自毁",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/dva/ability-micro-missiles/video-ability.mp4",
+                "description": "D.Va可以从机甲中弹出并将反应器设定为自爆，对附近敌人造成巨大伤害。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/dva/ability-call-mech/icon-ability.png",
+                "name": "驾驶员：呼叫机甲",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/dva/ability-self-destruct/video-ability.mp4",
+                "description": "如果D.Va的装甲战斗机甲被摧毁，她可以呼叫一台全新的机甲回到战斗。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/dva.png",
+        "description": "D.Va拥有一部强大的机甲，它具有两台全自动的近距离聚变机炮、可以使机甲飞跃敌人或障碍物的推进器、 还有可以抵御来自正面的远程攻击的防御矩阵。",
+        "name": "D.Va",
+        "position": "重装"
+    },
+    {
+        "media": [
+            {
+                "source": "https://flv.bn.netease.com/videolib3/1703/03/SXcJQ7632/HD/SXcJQ7632-mobile.mp4",
+                "name": "英雄故事：奥丽莎",
+                "thumbnail": "http://overwatch.nos.netease.com/a/images/2017/3/23/orisa-origins-video.jpg",
+                "type": "video"
+            },
+            {
+                "source": "https://flv.bn.netease.com/videolib3/1703/22/tWVCX9409/HD/tWVCX9409-mobile.mp4",
+                "name": "奥丽莎技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/a/images/2017/3/23/orisa-sizzle-video.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/OW_Orisa_005.jpg",
+                "name": "游戏截图：奥丽莎",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/OW_Orisa_005-thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/OW_Orisa_002.jpg",
+                "name": "游戏截图：奥丽莎",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/OW_Orisa_002-thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/OW_Orisa_008.jpg",
+                "name": "游戏截图：奥丽莎",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/OW_Orisa_008-thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/OW_Orisa_009.jpg",
+                "name": "游戏截图：奥丽莎",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/OW_Orisa_009-thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/orisa-concept.jpg",
+                "name": "原画：奥丽莎",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/orisa-concept_350x192.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "无",
+        "story": "奥丽莎是用在努巴尼昙花一现的OR15防御机器人的零件组装而成的，她是这座城市的新一代守护者但依然有很大的成长空间。\n早在智械危机之前，位于尼日利亚的大型智械中枢就开始生产OR14“伊迪纳”型安全机器人并将其投入使用。战后，该型号的机器人连同其他在智械危机期间出现的机器人被勒令停产。二十年后，努巴尼重新组装起了OR14生产线并将其用来保护这座城市免受外界的威胁。这些全新的OR15型机器人虽然已经开始部署，但很快就在“末日铁拳”发动的一次袭击中被消灭。\n这场袭击之后该项目再次停产，剩余的OR15也都被市政府全部卖出。其中一些零件被一位名为伊菲·奥拉迪尔的天才少女买入，她先前曾在机器人以及人工智能领域的杰出成就而荣获阿达维基金“天才奖”。\n在得到开明的父母同意之后，伊菲将获得的奖金用来购买那些报废的OR15机器人。她相信努巴尼依然需要一位守护者，而经过升级改造的OR15就是最合适的选择。伊菲修复并重新设置了机器人程序，同时将自己设计的人格核心数据也安装了进去。\n她将努巴尼新一代的守护者称为奥丽莎。\n奥丽莎虽然证明了自己可以为这座城市服务，但她依然在努力优化自己的程序。经验的缺乏让她时不时地会惹一些麻烦，但好在伊菲一直都在为她进行必要的改造，而奥丽莎也对人工智能表现出了极强的适应能力，在两人的共同努力下一切都在往好的方向发展。\n随着奥丽莎成为这座城市的守护者，她需要学习许多关于这个世界和她的职责的知识。但只要在伊菲积极乐观的影响以及她本身越来越强的荣誉和职责感的引导下，奥丽莎将不惜一切守护努巴尼。",
+        "base_of_operation": "努巴尼",
+        "bio": "“保护你们的安全是我的首要职责。”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/orisa/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/orisa/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/orisa/ability-fusion-driver/icon-ability.png",
+                "name": "聚变驱动器",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/orisa/intro-video.webm",
+                "description": "奥丽莎的全自动武器可以持续输出伤害，但在开火时会降低移动速度。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/orisa/ability-fortify/icon-ability.png",
+                "name": "强固防御",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/orisa/ability-fusion-driver/video-ability.mp4",
+                "description": "奥丽莎短时内降低本身受到的伤害，并且免疫行动限制效果。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/orisa/ability-halt/icon-ability.png",
+                "name": "站住别动！",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/orisa/ability-fusion-driver/video-ability.webm",
+                "description": "奥丽莎射出一枚可以引爆的重力弹，使附近的敌人减速并将其拉向爆炸中心。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/orisa/ability-protective-barrier/icon-ability.png",
+                "name": "防护屏障",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/orisa/ability-fortify/video-ability.mp4",
+                "description": "奥丽莎扔出一道固定屏障，掩护她和队友并吸收敌方火力。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/orisa/ability-supercharger/icon-ability.png",
+                "name": "超充能器",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/orisa/ability-fortify/video-ability.webm",
+                "description": "奥丽莎部署一台设备，强化她视野内队友造成的伤害。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/orisa.png",
+        "description": "奥丽莎是团队的核心，可以用防护屏障掩护前线队友。她可以从远距离进行攻击、强化自身的防御、发射重力弹使敌人减速并打乱阵型，同时还能部署超充能器强化范围多个队友的伤害输出。",
+        "name": "奥丽莎",
+        "position": "重装"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv2.bn.netease.com/videolib3/1711/04/aMSoJ8166/HD/aMSoJ8166-mobile.mp4",
+                "name": "动画短片：《荣耀》",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/reinhardt-animated-short.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/XaIEl6842/HD/XaIEl6842-mobile.mp4",
+                "name": "莱因哈特游戏预览",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/reinhardt-preview.24Txj.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/uJlUh5797/HD/uJlUh5797-mobile.mp4",
+                "name": "莱因哈特技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/reinhardt-gameplay.4UkSR.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nosdn.127.net/2/media/screenshots/reinhardt-screenshot-003.jpg",
+                "name": "游戏截图：莱因哈特",
+                "thumbnail": "http://overwatch.nosdn.127.net/2/media/screenshots/reinhardt-thumbnail-003.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nosdn.127.net/2/media/screenshots/reinhardt-screenshot-007.jpg",
+                "name": "游戏截图：莱因哈特",
+                "thumbnail": "http://overwatch.nosdn.127.net/2/media/screenshots/reinhardt-thumbnail-007.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nosdn.127.net/2/media/screenshots/reinhardt-screenshot-006.jpg",
+                "name": "游戏截图：莱因哈特",
+                "thumbnail": "http://overwatch.nosdn.127.net/2/media/screenshots/reinhardt-thumbnail-006.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/reinhardt-concept.3RpTQ.jpg",
+                "name": "莱因哈特",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/reinhardt-concept.1LGeF.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "（前）守望先锋成员",
+        "story": "莱因哈特•威尔海姆的行事作风就像一个属于过去的勇士，时刻铭记着骑士的信条：无畏、公正、勇敢。\n三十多年前，为了应对全球范围内日益增长的机器人叛乱威胁，人类建立了守望先锋。作为一名当时表现极其出色的德国士兵，莱因哈特因此成为了守望先锋攻击部队的第一批成员，誓以结束这场“智械危机”。当战争结束后，守望先锋成为了一个国际组织，保护着这个被战火蹂躏的世界。而莱因哈特则通过无数的战斗，证明了自己是守望先锋最强大的战士。\n莱因哈特独特的道德观和舍小为大的信念，深得其上级的喜爱。他有话直说，因此成为了守望先锋最坚定的拥护者，同时在有必要时，也是守望先锋最刻薄的批评者，时刻提醒着其他人，守望先锋是一支正义之师。\n莱因哈特一直服役到将近六十岁，因此不得不面临强制退役。当得知自己无法继续参加战斗后，意志消沉的莱因哈特担心自己为了荣耀而战的日子即将走向终点。随着世界局势再次日渐动荡，而守望先锋又深陷腐败和煽动叛乱之嫌的泥沼，莱因哈特只能眼睁睁地看着自己守护了一生的信念被吞噬。\n尽管守望先锋最终解散，但莱因哈特绝不会在世界陷入混乱之时袖手旁观。他再一次穿上了十字军战甲，立誓为正义而战，像曾经的白银骑士那样守护欧罗巴大陆无辜的人民，坚信光明的未来必将到来。",
+        "base_of_operation": "德国，斯图加特",
+        "bio": "“正义必将得到伸张。”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/reinhardt/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/reinhardt/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/reinhardt/ability-rocket-hammer/icon-ability.png",
+                "name": "火箭重锤",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/reinhardt/intro-video.webm",
+                "description": "莱因哈特的火箭重锤是一把无坚不摧的近战武器，兼具超大的攻击范围和势大力沉的攻击威力。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/reinhardt/ability-shield/icon-ability.png",
+                "name": "屏障力场",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/reinhardt/ability-rocket-hammer/video-ability.mp4",
+                "description": "莱因哈特可以生成一面大型能量屏障，在被摧毁之前可以吸收可观的伤害。尽管莱因哈特可以使用这块屏障保护自己和队友，但在屏障力场持续期间，他无法进行攻击。"
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/Reinhardt/Charge/icon-ability.png",
+                "name": "冲锋",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/reinhardt/ability-shield/video-ability.mp4",
+                "description": "莱因哈特向前方一条直线快速冲锋，并抓住被击中的敌人。如果敌人被击到墙面，则将受到巨额伤害。"
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/Reinhardt/FireStrike/icon-ability.png",
+                "name": "烈焰打击",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/reinhardt/ability-charge/video-ability.mp4",
+                "description": "莱因哈特可以向前挥动火箭重锤，射出一道火焰能量对任何被击中的敌人造成伤害。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/reinhardt/ability-earth-shatter/icon-ability.png",
+                "name": "裂地猛击",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/reinhardt/ability-fire-strike/video-ability.mp4",
+                "description": "莱因哈特用火箭重锤猛击地面，巨大的力道可以击倒并对正前方所有敌人造成伤害。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/reinhardt.png",
+        "description": "莱因哈特穿着一套厚重的动力装甲，既可以挥舞着火箭重锤，用强大的冲锋杀入敌阵，也能用巨大的能量屏障保护盟友。",
+        "name": "莱因哈特",
+        "position": "重装"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1509/22/zbiaK7989/HD/zbiaK7989-mobile.mp4",
+                "name": "路霸技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/roadhog-gameplay.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/Wallpapers/Halloween_Terror/2560x1440.jpg",
+                "name": "壁纸：万圣夜惊魂",
+                "thumbnail": "http://overwatch.nos.netease.com/a/images/2018/5/30/48b259f38658ed3790664cc4e9e38383.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/junkertown-screenshot-001.jpg",
+                "name": "游戏截图：渣客镇",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/junkertown-screenshot-001-s.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/junkertown-screenshot-002.jpg",
+                "name": "游戏截图：渣客镇",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/junkertown-screenshot-002-s.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/junkertown-screenshot-005.jpg",
+                "name": "游戏截图：渣客镇",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/junkertown-screenshot-005-s.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/junkertown-screenshot-004.jpg",
+                "name": "游戏截图：渣客镇",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/junkertown-screenshot-004-s.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/junkertown-screenshot-003.jpg",
+                "name": "游戏截图：渣客镇",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/junkertown-screenshot-003-s.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/Roadhog_005_Full.jpg",
+                "name": "游戏截图：路霸",
+                "thumbnail": "http://overwatch.nosdn.127.net/2/media/screenshots/roadhog-screenshot-003-2.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/Roadhog_007_Full.jpg",
+                "name": "游戏截图：路霸",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/Roadhog_007_Thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/Roadhog_004_Full.jpg",
+                "name": "游戏截图：路霸",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/Roadhog_004_Thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/Roadhog_008_Full.jpg",
+                "name": "游戏截图：路霸",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/Roadhog_008_Thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/Roadhog_001_Full.jpg",
+                "name": "游戏截图：路霸",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/Roadhog_001_Thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/Roadhog_artwork.jpg",
+                "name": "原画：路霸",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/Roadhog_Thumb.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "（前）渣客",
+        "story": "“路霸”是一个残暴的杀手，因残忍和肆意破坏而臭名昭著。\n马可曾是众多居住在澳洲内陆的居民之一，当这里被占领后就立即开始了智械中枢的建造。但在智械危机爆发后，政府作出了一个极具争议的决定，将这里送给了差点摧毁整个国家的智能机器人，以求达成永久的和平协定。这一决定直接导致马可和大批居民被迫离开，其中包括幸存者、太阳能农民和不愿离开的人。\n因失去家园而怒不可遏的马可和其他人开始了一场暴力起义。他们组成了澳大利亚解放阵线（ALF）并开始攻击智械中枢和智能机器人，希望能夺回被抢走的家园。起义事件不断升级，直到ALF炸掉了中枢的聚变核心，引发了一场大爆炸，导致周围数公里地区全部遭到辐射，只留下了变形的金属和残骸。\n马可亲眼看着自己的家园变成了一个末世荒地，从此被永远地改变了。\n为了在这种环境下生存下来，他戴上了面具、骑着破烂摩托开上了通往澳洲内陆的残破高速公路。一路上，他的人性一点一点地被消磨，马可最终消失了，而“路霸”就此诞生。",
+        "base_of_operation": "（前）澳大利亚，渣客镇",
+        "bio": "“我一个人就可以把对面全打趴下。”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/roadhog/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/roadhog/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/roadhog/ability-scrap-gun/icon-ability.png",
+                "name": "爆裂枪",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/roadhog/intro-video.webm",
+                "description": "“路霸”的爆裂枪可以在近距离内射出大量金属碎片。此外，还可以射出碎片球在远距离爆炸，从爆炸点射出大量碎片。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/roadhog/ability-take-a-breather/icon-ability.png",
+                "name": "呼吸器",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/roadhog/ability-scrap-gun/video-ability.mp4",
+                "description": "“路霸”在一段时间内为自己恢复大量生命值。"
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/Roadhog/ChainHook/icon-ability.png",
+                "name": "链钩",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/roadhog/ability-take-a-breather/video-ability.mp4",
+                "description": "“路霸”向目标扔出铁链；如果击中目标，就会把目标拉回来。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/roadhog/ability-whole-hog/icon-ability.png",
+                "name": "鸡飞狗跳",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/roadhog/ability-chain-hook/video-ability.mp4",
+                "description": "“路霸”在爆裂枪上装上一个装填器并倒入大量弹药。随后在短时间内，他可以疯狂攻击敌人并将其击飞。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/roadhog.png",
+        "description": "“路霸”可以用他标志性的链钩将敌人勾到他的身边，然后用爆裂枪重创他们。他能够承受巨大的伤害，还可以通过呼吸器恢复生命值。",
+        "name": "路霸",
+        "position": "重装"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/OWRpD3919/HD/OWRpD3919-mobile.mp4",
+                "name": "查莉娅游戏预览",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/zarya-preview.0FnY9.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/umGzc9410/HD/umGzc9410-mobile.mp4",
+                "name": "查莉娅技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/zarya-gameplay.0S6Ke.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/zarya-screenshot-002.0ftnl.jpg",
+                "name": "游戏截图：查莉娅",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/zarya-screenshot-002.3nYxQ.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/zarya-screenshot-003.1NDpW.jpg",
+                "name": "游戏截图：查莉娅",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/zarya-screenshot-003.0yV1l.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/zarya-screenshot-001.02y0U.jpg",
+                "name": "游戏截图：查莉娅",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/zarya-screenshot-001.4T35j.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/zarya-screenshot-004.0CLdC.jpg",
+                "name": "游戏截图：查莉娅",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/zarya-screenshot-004.1XbuI.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/zarya-concept.0TW4q.jpg",
+                "name": "查莉娅",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/zarya-concept.0Mntk.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "俄罗斯防御部队",
+        "story": "亚历山德拉·查莉娅诺娃是世界上最强壮的女运动员之一。在战争期间，为了家人、朋友和祖国，毅然放弃了个人荣誉。\n亚历山德拉出生在一个偏远的西伯利亚村庄，三十多年前的“智械危机”却让这里变成了战争前线。尽管俄罗斯军队击败了机器人并且关闭了这些机器人的控制中枢，但整个地区却被战火彻底摧毁。那时还是孩子的亚历山德拉亲眼目睹了被战火蹂躏的家乡，于是在她的成长过程中，她便发誓要变得更强，来帮助她的同胞。\n然而就在世锦赛前夕，一直处于休眠状态的西伯利亚机器人控制中枢再度发动攻击，战火再次蔓延到了她的家乡。早已名利双收的亚历山德拉，毅然抛弃了一切，立即回到家乡加入了当地的防御部队。\n如今对大部分人来说，她是众人眼中的模范士兵。但对亚历山德拉自己而言，她终于可以实现曾经许下的保护所爱之人的誓言了。",
+        "base_of_operation": "俄罗斯，克拉斯诺亚尔斯克前线",
+        "bio": "“团结就是力量。”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/zarya/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/zarya/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/zarya/ability-particle-cannon/icon-ability.png",
+                "name": "粒子炮",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/zarya/intro-video.webm",
+                "description": "查莉娅强大的粒子炮可以释放出毁灭性的的短距离能量光束，还可以射出爆炸粒子攻击多个敌人。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/zarya/ability-particle-barrier/icon-ability.png",
+                "name": "粒子屏障",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/zarya/ability-particle-cannon/video-ability.mp4",
+                "description": "粒子炮可以投射出个人屏障保护查莉娅抵挡攻击，同时还可以将这些攻击能量重新导向至她的武器，提高伤害和光束宽度。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/zarya/ability-projected-barrier/icon-ability.png",
+                "name": "投射屏障",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/zarya/ability-particle-barrier/video-ability.mp4",
+                "description": "查莉娅可以用能量屏障保护一名队友，吸收伤害的同时强化粒子炮的威力。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/zarya/ability-graviton-surge/icon-ability.png",
+                "name": "重力喷涌",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/zarya/ability-projected-barrier/video-ability.mp4",
+                "description": "查莉娅射出一枚重力弹，将敌人拉至重力弹附近并造成伤害。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/zarya.png",
+        "description": "查莉娅可以为自己或队友施加护盾，吸收伤害并且提升她粒子炮的能量，因此查莉雅具备有前线作战的强大实力。",
+        "name": "查莉娅",
+        "position": "重装"
+    },
+    {
+        "media": [
+            {
+                "source": "http://overwatch.nosdn.127.net/2/videos/OVR-2018-14178_owo_WB_WRECKING_BALL_zhCN_YT.mp4.mp4",
+                "name": "英雄故事：“破坏球”",
+                "thumbnail": "http://overwatch.nosdn.127.net/2/media/screenshots/wrecking-ball-origin.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://blz-videos.nosdn.127.net/1/OverWatch/OVR_WB-Sizzle_zhCN_YT.mp4.mp4",
+                "name": "“破坏球”技能简介",
+                "thumbnail": "http://overwatch.nosdn.127.net/2/media/screenshots/wrecking-ball-gameplay-thumb.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nosdn.127.net/2/media/screenshots/wrecking-ball-screenshot-04-big.jpg",
+                "name": "游戏截图：“破坏球”",
+                "thumbnail": "http://overwatch.nosdn.127.net/2/media/screenshots/wrecking-ball-screenshot-04.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nosdn.127.net/2/media/screenshots/wrecking-ball-screenshot-02-big.jpg",
+                "name": "游戏截图：“破坏球”",
+                "thumbnail": "http://overwatch.nosdn.127.net/2/media/screenshots/wrecking-ball-screenshot-02.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nosdn.127.net/2/media/screenshots/wrecking-ball-screenshot-03-big.jpg",
+                "name": "游戏截图：“破坏球”",
+                "thumbnail": "http://overwatch.nosdn.127.net/2/media/screenshots/wrecking-ball-screenshot-03.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nosdn.127.net/2/media/screenshots/wrecking-ball-screenshot-01-big.jpg",
+                "name": "游戏截图：“破坏球”",
+                "thumbnail": "http://overwatch.nosdn.127.net/2/media/screenshots/wrecking-ball-screenshot-01.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "无",
+        "story": "科学家在\"地平线\"月球基地展开了多项科学实验，其中的一项是针对动物进行基因治疗，并评估治疗带来的转变是否利于长期在月球生活。由于实验产生了超出预期的副作用，部分实验体的体型和大脑机能都呈现出了异常的发育。虽然绝大多数测试对象都是大猩猩或是其他灵长类动物，但也有少许例外，其中就包括一只名叫哈蒙德的仓鼠。\n和其他实验体一样，哈蒙德的智力也在实验中得到了提升，这也让他对这个世界变得愈发地好奇。哈蒙德频繁地逃往月球基地的各个区域，给科学家们带来了惊喜与迷惑。每一次，科学家们都能将他抓捕回牢房，但是他们从未弄清过这些夜间逃亡背后的真实目的。他们不知道，哈蒙德其实是在努力学习机械技能，而这些技能很快便将派上用场。\n随着一些大猩猩开始反抗人类科学家，并夺得了控制权，月球基地最终陷入了一片混乱。然而并非所有动物都参与了这场暴动，一只名叫温斯顿的大猩猩早已制订好了计划，在暴乱开始时逃往地球。哈蒙德嗅到了这次机遇。他制作了一个临时太空舱，将它偷偷挂载在温斯顿的火箭上。进入地球的大气层之后，哈蒙德的太空舱与火箭分离，在澳洲内陆的一片废墟之中着陆。\n为了赢取丰厚的奖励，哈蒙德改进了他的逃生舱，参加了废料场的机械角斗大赛。\"破坏球\"在角斗场中节节胜利，从普通的挑战者成长为了冠军。但没有任何人知道这台机甲的驾驶员究竟是什么身份。伴随着一场场的胜利，哈蒙德将自己的机甲逐步升级。如今，即使离开渣客们控制的内陆地区，它也可以适应所有危险的环境。\n\n现在哈蒙德可以自由自在地旅行、随心所欲地生活了，他将探索这个世界，并在沿途寻找新的冒险。\n\n\n\n\n",
+        "base_of_operation": "（前）“地平线”月球基地、（前）渣客镇",
+        "bio": "“别把仓鼠惹毛了。”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nosdn.127.net/2/heroes/wrecking-ball/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nosdn.127.net/2/heroes/wrecking-ball/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nosdn.127.net/2/heroes/wrecking-ball/ability-quad-cannons/icon-ability.png",
+                "name": "四联火炮",
+                "video": "http://overwatch.nosdn.127.net/2/heroes/wrecking-ball/intro-video.webm",
+                "description": "破坏球的全自动冲锋火炮可在中距离粉碎一切威胁。"
+            },
+            {
+                "icon": "http://overwatch.nosdn.127.net/2/heroes/wrecking-ball/ability-roll/icon-ability.png",
+                "name": "动力铁球",
+                "video": "http://overwatch.nosdn.127.net/2/heroes/wrecking-ball/ability-quad-cannons/video-ability.mp4",
+                "description": "破坏球变成球形，提高最大移动速度。"
+            },
+            {
+                "icon": "http://overwatch.nosdn.127.net/2/heroes/wrecking-ball/ability-grappling-claw/icon-ability.png",
+                "name": "工程抓钩",
+                "video": "http://overwatch.nosdn.127.net/2/heroes/wrecking-ball/ability-quad-cannons/video-ability.webm",
+                "description": "破坏球可以发射一枚抓钩，将自己固定在一个位置，并以此为中心进行摆动。当强力的摆动撞击到敌人时，可以造成伤害并将其击退。"
+            },
+            {
+                "icon": "http://overwatch.nosdn.127.net/2/heroes/wrecking-ball/ability-adaptive-shield/icon-ability.png",
+                "name": "感应护盾",
+                "video": "http://overwatch.nosdn.127.net/2/heroes/wrecking-ball/ability-roll/video-ability.mp4",
+                "description": "破坏球的临时个人护盾可吸收伤害，护盾值随附近敌人增多而增高。"
+            },
+            {
+                "icon": "http://overwatch.nosdn.127.net/2/heroes/wrecking-ball/ability-piledriver/icon-ability.png",
+                "name": "重力坠击",
+                "video": "http://overwatch.nosdn.127.net/2/heroes/wrecking-ball/ability-roll/video-ability.webm",
+                "description": "破坏球从空中向下发动猛击，对敌人造成伤害并将其击飞。"
+            },
+            {
+                "icon": "http://overwatch.nosdn.127.net/2/heroes/wrecking-ball/ability-minefield/icon-ability.png",
+                "name": "地雷禁区",
+                "video": "http://overwatch.nosdn.127.net/2/heroes/wrecking-ball/ability-grappling-claw/video-ability.mp4",
+                "description": "破坏球部署一片感应地雷，可以持续很长时间。地雷会在接触到敌人时爆炸。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nosdn.127.net/2/heroes/wrecking-ball/hero-select-portrait.png",
+        "description": "破坏球驰骋于战场，使用多种武器和自制机甲强大的躯壳粉碎敌人。",
+        "name": "破坏球",
+        "position": "重装"
+    },
+    {
+        "media": [
+            {
+                "source": "https://blz-videos.nosdn.127.net/1/OverWatch/Overwatch_2019_Hero30_BAPTISTE_ORIGIN_zhCN_zh63jki.mp4",
+                "name": "英雄故事：巴蒂斯特",
+                "thumbnail": "https://overwatch.nosdn.127.net/a/images/2019/2/28/e71e72ef7b2afbe2173c4118ea2fad7b.jpg",
+                "type": "video"
+            },
+            {
+                "source": "https://blz-videos.nosdn.127.net/1/OverWatch/OVR_HeroTrailer-Baptiste_zhCN_9o9xfr.mp4",
+                "name": "巴蒂斯特技能简介",
+                "thumbnail": "https://overwatch.nosdn.127.net/a/images/2019/3/20/4ab1905e77d707c9cada7330e79b1ded.jpg",
+                "type": "video"
+            },
+            {
+                "source": "https://overwatch.nosdn.127.net/a/images/2019/2/27/53cc78dcaccbc2793548e53919760124.jpg",
+                "name": "游戏截图：巴蒂斯特",
+                "thumbnail": "https://overwatch.nosdn.127.net/a/images/2019/2/27/a92fb47b50a6d31a9c8e37110c07ac69.jpg",
+                "type": "image"
+            },
+            {
+                "source": "https://overwatch.nosdn.127.net/a/images/2019/3/20/52624998a42645c7ccac05e1ef10d166.jpg",
+                "name": "游戏截图：巴蒂斯特",
+                "thumbnail": "https://overwatch.nosdn.127.net/a/images/2019/3/20/55d92f1c07a00db6d5f230eafbbec7cc.jpg",
+                "type": "image"
+            },
+            {
+                "source": "https://overwatch.nosdn.127.net/a/images/2019/3/20/0ceb3812f14167833d690487b955b409.jpg",
+                "name": "游戏截图：巴蒂斯特",
+                "thumbnail": "https://overwatch.nosdn.127.net/a/images/2019/3/20/00de721464c426b3b2a5a70adb07409f.jpg",
+                "type": "image"
+            },
+            {
+                "source": "https://overwatch.nosdn.127.net/a/images/2019/2/27/531a2da878fae7b11ad85ba6bdfc38d4.jpg",
+                "name": "游戏原画：巴蒂斯特",
+                "thumbnail": "https://overwatch.nosdn.127.net/a/images/2019/2/27/8f6fb3a084f62131c655365c8eb047b6.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "（前）加勒比联盟 、（前）黑爪",
+        "story": "巴蒂斯特是一位精英战地医疗兵，曾担任黑爪特工，但现在的他致力于使用自己的能力去帮助那些饱受战火袭扰的人们。\n在智械危机中，有三千万儿童沦为孤儿，让-巴蒂斯特·奥古斯汀就是其中之一。为了获得更多的资源与成长机会，他应征入伍，加入了加勒比联盟，这支为应对智械危机而组建的岛屿作战部队成为了他的新家。巴蒂斯特的内心渴望帮助他人，他选择成为一名战地医疗兵，在加勒比联盟的特种部队中服役。\n但在服役期满之后，巴蒂斯特独特的能力似乎并不受赏识。面对为数不多的机会，他做出了选择：加入“黑爪”佣兵集团，在战争的余波与混乱中牟取利益。\n巴蒂斯特第一次体会到了什么叫“美妙的人生”。“黑爪”的任务简单，回报丰厚，他用自己的部分收入在家乡开设了一间诊所。但很快，他接到的命令逐渐开始变得愈发暴力，佣兵组织开始插手政治刺杀，以及导致平民伤亡的军事行动。在这些行动中，巴蒂斯特意识到，自己的行为正在导致暴力的循环，这与多年前毁灭了自己家园的力量别无二致。他唾弃自己曾经的所做作为，并决心离开“黑爪”，开辟新的道路。\n但“黑爪”可不会轻易放过一个对组织知根知底的老兵，他们派出了特工，想让巴蒂斯特永远闭嘴。越来越多的特工开始追捕他，其中还包括巴蒂斯特曾经的战友。为了躲避追杀，巴蒂斯特四处漂泊，同时也在为全球各地的人道主义事业出力。有少数“黑爪”成员侥幸发现了他的行踪，但却再也没有人知道他们的下落。\n如今的巴蒂斯特正在为了更美好的未来而不懈奋斗，他总是尽力去救治他人，在需要的时候也会英勇作战。他深知过去的错误已无法挽回，但更重要的是自己在此时此刻能做的贡献。\n\n\n\n",
+        "base_of_operation": "（前）海地，托尔图加岛",
+        "bio": "“有我在，你们都不会死。”",
+        "abilities": [
+            {
+                "icon": "https://overwatch.nosdn.127.net/1/assets/images/hero/baptiste/icon-right-menu-gj24.png",
+                "name": " ",
+                "video": "https://overwatch.nosdn.127.net/2/heroes/Baptiste/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/Baptiste/BioticLauncher/icon-ability.png",
+                "name": "生化榴弹枪",
+                "video": "https://overwatch.nosdn.127.net/2/heroes/Baptiste/intro-video.webm",
+                "description": "巴蒂斯特使用的是三连发的生化榴弹枪，有着较高的精准度，后坐力也容易控制，可以输出大量伤害。同时也能作为治疗设备使用，在此状态下发射的弹药可以治疗落点附近的队友。"
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/Baptiste/RegenerativeBurst/icon-ability.png",
+                "name": "愈合冲击",
+                "video": "https://overwatch.nosdn.127.net/2/heroes/Baptiste/BioticLauncher/video-ability.mp4",
+                "description": "巴蒂斯特启动强大的医疗脉冲装置，持续治疗自己和附近的队友。"
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/Baptiste/ImmortalityField/icon-ability.png",
+                "name": "维生力场",
+                "video": "https://overwatch.nosdn.127.net/2/heroes/Baptiste/BioticLauncher/video-ability.webm",
+                "description": "巴蒂斯特部署一个力场发生器，可以让队友免于死亡。该发生器可以被摧毁。"
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/Baptiste/AmplificationMatrix/icon-ability.png",
+                "name": "增幅矩阵",
+                "video": "https://overwatch.nosdn.127.net/2/heroes/Baptiste/RegenerativeBurst/video-ability.mp4",
+                "description": "巴蒂斯特制造出一个矩阵，友方发射的弹药穿过矩阵后造成的伤害和治疗效果翻倍。"
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/Baptiste/ExoBoots/icon-ability.png",
+                "name": "动力战靴",
+                "video": "https://overwatch.nosdn.127.net/2/heroes/Baptiste/RegenerativeBurst/video-ability.webm",
+                "description": "巴蒂斯特在蓄力后可以跳得更高。"
+            }
+        ],
+        "large_avatar": "https://overwatch.nosdn.127.net/2/heroes/Baptiste/hero-select-portrait.png",
+        "description": "巴蒂斯特装备了一系列新型武器与设备，可以在激烈的战局中确保队友的存活，也能亲手除掉威胁。他是一名久经战阵的战地医疗兵，救死扶伤和消灭敌人都是他的拿手好戏。",
+        "name": "巴蒂斯特",
+        "position": "支援"
+    },
+    {
+        "media": [
+            {
+                "source": "https://blz-videos.nosdn.127.net/1/OverWatch/Overwatch_OrginStory_Sigma_%CE%A3jdn4u.mp4",
+                "name": "英雄故事：“西格玛”",
+                "thumbnail": "https://overwatch.nosdn.127.net/2/heroes/Sigma/sigma-origins-video.jpg",
+                "type": "video"
+            },
+            {
+                "source": "https://blz-videos.nosdn.127.net/1/OverWatch/Overwatch_Sigma_HeroTrailer_zhCN_ze%5Ej8.mp4",
+                "name": "游戏预览：“西格玛”",
+                "thumbnail": "https://overwatch.nosdn.127.net/2/heroes/Sigma/sigma-sizzle-reel.jpg",
+                "type": "video"
+            },
+            {
+                "source": "https://overwatch.nosdn.127.net/2/media/screenshots/sigma-screenshot-001.jpg",
+                "name": "游戏截图：“西格玛”",
+                "thumbnail": "https://overwatch.nosdn.127.net/2/media/screenshots/sigma-screenshot-001-thumbnail.jpg",
+                "type": "image"
+            },
+            {
+                "source": "https://overwatch.nosdn.127.net/2/media/screenshots/sigma-screenshot-002.jpg",
+                "name": "游戏截图：“西格玛”",
+                "thumbnail": "https://overwatch.nosdn.127.net/2/media/screenshots/sigma-screenshot-002-thumbnail.jpg",
+                "type": "image"
+            },
+            {
+                "source": "https://overwatch.nosdn.127.net/2/media/screenshots/sigma-screenshot-003.jpg",
+                "name": "游戏截图：“西格玛”",
+                "thumbnail": "https://overwatch.nosdn.127.net/2/media/screenshots/sigma-screenshot-003-thumbnail.jpg",
+                "type": "image"
+            },
+            {
+                "source": "https://overwatch.nosdn.127.net/2/media/screenshots/sigma-screenshot-004.jpg",
+                "name": "游戏截图：“西格玛”",
+                "thumbnail": "https://overwatch.nosdn.127.net/2/media/screenshots/sigma-screenshot-004-thumbnail.jpg",
+                "type": "image"
+            },
+            {
+                "source": "https://overwatch.nosdn.127.net/2/media/screenshots/sigma-concept.jpg",
+                "name": "原画：“西格玛”",
+                "thumbnail": "https://overwatch.nosdn.127.net/2/media/screenshots/sigma-concept-thumbnail.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "黑爪",
+        "story": "希尔伯伦·德·柯伊伯博士曾是一名杰出的天体物理学家，但在一场实验事故之后，他的生活发生了永久性的改变。他获得了控制引力的能力。现在，黑爪通过操控他来达到自己的目的。\n德·柯伊伯被视作是天体物理学领域的先驱。他的一生都致力于研究出掌控引力能量的方法。在研究上不断取得突破的同时，他古怪的性格也同样广为人知。德·柯伊伯的大多数研究都在海牙的实验室内完成，在他认为自己的实验即将取得决定性进展时，便决定将最重要的一次实验放在一座国际空间站上进行。\n但实验中却出现了事故，形成了短暂的黑洞。尽管德·柯伊伯只在黑洞的能量中暴露了一小段时间，却还是受到了严重的精神伤害。他周围的区域开始产生奇怪的引力波动，附近的引力大小都会随着他的情绪而产生起伏。他必须立即撤离空间站。\n回到地球后，德·柯伊伯被隔离在了一个秘密的政府设施内。他遭受了严重的精神伤害，一直在疯狂地重复着关于宇宙规律的呓语，再加上他周围不停出现引力异常的现象，政府认定他的存在会危及公共安全，于是将他关押了起来，数年间一直称他为“实验体西格玛”。德·柯伊伯孤立无援，也无法控制体内的力量，便只好躲避在自己的思想世界中。曾经他以为自己再也见不到外面的世界了。\n当黑爪发现了德·柯伊伯的存在后，便准备利用他的聪明才智和研究成果来推动自己的计划。于是黑爪潜入政府设施，将他带离了监牢。在被黑爪监禁期间，德·柯伊伯慢慢地掌握了自己的力量。现在，他可以根据自身的意愿来操控引力，离实现自己的人生目标也只有一步之遥。那场实验开阔了他的思维，但同时也让他的思想变得支离破碎，而他也在竭力维系着自己残破的精神。\n德·柯伊伯仍在不断深入研究自己的能力，希望能借此解开宇宙的奥秘。然而他却没有意识到，黑爪正在利用他和他的研究成果。",
+        "base_of_operation": "（前）荷兰，海牙",
+        "bio": "“宇宙并没有让你理解的义务。”",
+        "abilities": [
+            {
+                "icon": "https://overwatch.nosdn.127.net/1/images/home/20190814/HeroAbility-icon--hoverState.png",
+                "name": " ",
+                "video": "https://overwatch.nosdn.127.net/2/heroes/Sigma/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/Sigma/Hyperspheres.png",
+                "name": "超能之球",
+                "video": "https://overwatch.nosdn.127.net/2/heroes/Sigma/intro-video.webm",
+                "description": "“西格玛”发射两团可以在墙壁上反弹的引力电荷，它们会在一段时间后爆炸，对一定范围内的敌人造成伤害。"
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/Sigma/ExperimentalBarrier.png",
+                "name": "实验屏障",
+                "video": "https://overwatch.nosdn.127.net/2/heroes/Sigma/ability-hyperspheres/video-ability.mp4",
+                "description": "“西格玛”制造一道悬浮的屏障飞往其指定的位置，他可以随时解除屏障。"
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/Sigma/KineticGrasp.png",
+                "name": "动能俘获",
+                "video": "https://overwatch.nosdn.127.net/2/heroes/Sigma/ability-hyperspheres/video-ability.webm",
+                "description": "“西格玛”可以将向他飞来的子弹冻结至半空中，并将其转化为护盾。"
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/Sigma/Accretion.png",
+                "name": "质量吸附",
+                "video": "https://overwatch.nosdn.127.net/2/heroes/Sigma/ability-experimental-barrier/video-ability.mp4",
+                "description": "“西格玛”汇聚一团物质投向敌人，将对方击倒。"
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/Sigma/GraviticFlux.png",
+                "name": "引力乱流",
+                "video": "https://overwatch.nosdn.127.net/2/heroes/Sigma/ability-experimental-barrier/video-ability.webm",
+                "description": "“西格玛”释放出全部的能量，飞跃至空中，举起目标区域内的敌人，先将其投向空中然后再砸向地面。"
+            }
+        ],
+        "large_avatar": "https://overwatch.nosdn.127.net/2/heroes/Sigma/hero-select-portrait.png",
+        "description": "“西格玛”是一名性格古怪的天体物理学家，也是一名极其不稳定的重装战力。在一场轨道空间站中的实验事故之后，他获得了控制引力的能力。作为被黑爪操控的一件人形兵器，“西格玛”在战场上的存在是不容忽视的。",
+        "name": "“西格玛”",
+        "position": "重装"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1608/18/eSyhU4503/HD/eSyhU4503-mobile.mp4",
+                "name": "动画短片：《最后的堡垒》",
+                "thumbnail": "http://overwatch.nos.netease.com/a/images/2016/11/14/bastion-animated-short.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/tqaxL6950/HD/tqaxL6950-mobile.mp4",
+                "name": "堡垒游戏预览",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/bastion-preview.2sKxS.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/HJZou8194/HD/HJZou8194-mobile.mp4",
+                "name": "堡垒技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/bastion-gameplay.3Wotx.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/bastion-screenshot-004.3KK7a.jpg",
+                "name": "游戏截图：堡垒",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/bastion-screenshot-004.3oybi.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/bastion-screenshot-001.0eJdA.jpg",
+                "name": "游戏截图：堡垒",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/bastion-screenshot-001.1tBPI.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/bastion-concept.1bPc9.jpg",
+                "name": "原画：堡垒",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/bastion-concept.26xnt.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "无",
+        "story": "作为曾经在造成毁灭性结果的“智械危机”中的前线战斗单位，充满好奇心的“堡垒”现在成为了一名探险者，被人性之善深深吸引，却又惧怕人性之恶。\n“堡垒”系列在设计之初是被用于维和目的的，这一系列的机器单位拥有能够快速在突击和攻城模式之间转换的独特能力。但在“智械危机”期间，该系列却被用来对抗其人类发明者，成为了机器人叛军的中坚力量。随着后来危机的解除，几乎所有的“堡垒”系列机器人都被销毁或拆解。直到今天，“堡垒”依旧是当年那场可怕战争的代名词。\n但是有一台独特的“堡垒”机器人，在那场战争的决战中严重受损，因此被遗忘了数十年。处于休眠状态的“堡垒”在这数十年间慢慢被锈蚀，藤蔓将其层层包裹，各种动物也在其外壳内安了家。但“堡垒”静如岩石，似乎一点都没有注意到时间的流逝。直到有一天，它被意外地重新激活，它的战斗程序几乎全部受损，取而代之的是对自然世界及其住民的强烈好奇。好奇的“堡垒”于是在这个被战火蹂躏过的世界上，开始了探索和寻找自我价值的旅途。\n尽管“堡垒”看上去就像个绅士，有时候甚至可以说人畜无害。但当它遭遇到危险时，其内部最核心的战斗程序依然会被激活，将其转变成一台足以消灭任何威胁的战斗个体。它也因此曾与少数人类发生过冲突，从那之后，“堡垒”便刻意避开人群，探索蛮荒、未被记录的神奇世界。\n",
+        "base_of_operation": "不明",
+        "bio": "",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/bastion/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/bastion/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/bastion/ability-config-recon/icon-ability.png",
+                "name": "侦查模式",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/bastion/intro-video.webm",
+                "description": "在侦查模式下，“堡垒”的机动能力达到最高，并配有可以在中距离提供稳定连射的微型冲锋枪。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/bastion/ability-config-sentry/icon-ability.png",
+                "name": "哨卫模式",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/bastion/ability-config-recon/video-ability.mp4",
+                "description": "在哨卫模式下，“堡垒”可以变成一座固定炮台，利用一台加特林机枪向敌人倾泻子弹。机枪准星可以在多个目标之间“游走”，对中短距离敌人造成毁灭性的伤害。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/bastion/ability-reconfigure/icon-ability.png",
+                "name": "切换模式",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/bastion/ability-config-sentry/video-ability.mp4",
+                "description": "“堡垒”可以在两种主要战斗模式之间切换，适应多变的战局。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/bastion/ability-self-repair/icon-ability.png",
+                "name": "自我修复",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/bastion/ability-reconfigure/video-ability.mp4",
+                "description": "“堡垒”可以自我修复恢复生命值；在自我修复时无法移动或使用武器。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/bastion/ability-config-tank/icon-ability.png",
+                "name": "坦克模式",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/bastion/ability-self-repair/video-ability.mp4",
+                "description": "在坦克模式下，“堡垒”可以延伸出履带并生成一台强大的远距离火炮。火炮的高爆弹药可以摧毁大范围内的敌人，但“堡垒”只能在该模式下维持一小段时间。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/bastion.png",
+        "description": "“堡垒”具有自我修复的能力，还可以在哨卫模式、侦查模式以及极具毁灭性的坦克模式间进行切换。",
+        "name": "堡垒",
+        "position": "输出"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv2.bn.netease.com/videolib3/1707/10/ysRVP6708/HD/ysRVP6708-mobile.mp4",
+                "name": "英雄故事：末日铁拳",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/videos/doomfist-origins-video.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv2.bn.netease.com/videolib3/1707/27/KDPHG4373/HD/KDPHG4373-mobile.mp4",
+                "name": "末日铁拳技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/videos/doomfist-sizzle.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/doomfist-screenshot-004.jpg",
+                "name": "游戏截图：末日铁拳",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/doomfist-screenshot-004_small.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/doomfist-screenshot-003.jpg",
+                "name": "游戏截图：末日铁拳",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/doomfist-screenshot-003_small.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/doomfist-screenshot-002.jpg",
+                "name": "游戏截图：末日铁拳",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/doomfist-screenshot-002_small.jpg",
+                "type": "image"
+            },
+            {
+                "source": "https://d1u1mce87gyfbn.cloudfront.net/media/screenshot/doomfist-screenshot-001.jpg",
+                "name": "游戏截图：末日铁拳",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/doomfist-screenshot-001_small.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/doomfist-concept.jpg",
+                "name": "原画：末日铁拳",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/doomfist-concept_small.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "黑爪",
+        "story": "刚刚逃出牢狱的“末日铁拳”决意将世界扯入新的冲突，因为他相信只有这样才能让人类变强。\n阿坎·奥古迪姆出生于尼日利亚一个名声显赫的家族，生来就注定继承家族的义体科技公司。奥古迪姆兼具智慧和人格魅力，他帮忙扩张了家族的生意，为公司的未来奠定了方向。而在闲余时间，他则全身心投入到他的爱好——竞技武术。他学习了丹倍和吉迪搏等传统非洲格斗术，还有摔跤等现代格斗术，并将其中最高效的招式融会贯通，自成一派。奥古迪姆巡回全大陆参加比赛，他利用直觉和技术洞察对手，再用惊人的速度和力量取胜。\n然而，他在智械危机后不久失去右臂，而他的武术生涯还没来得及登上巅峰就结束了。他公司的机械义体技术治好了他的伤病，甚至还让他变得更强，但这些强化肢体也导致他再也没有资格参加比赛。他试着把他对格斗的热情投入到商业中去，但无论如何也无法填补心中的空虚……直到后来，阿金吉·奥迪耶米——也就是努巴尼之灾，第二任”末日铁拳”——给了他一个新的机会。\n奥迪耶米提议让奥古迪姆以雇佣兵的身份在他身边战斗。奥古迪姆警惕地同意了。可他发现，如今他终于有了一个赛场，可以让他尽情发挥他强化后的能力。最终，奥迪耶米把奥古迪姆带进了“黑爪”组织。“黑爪”认为人类必须经历冲突才能变强，这一信条和奥古迪姆的个人经历不谋而合。此外，”“黑爪”内部的权力斗争也给了他一个新的机会，让他可以带着斗士的狡猾在董事会上发挥他的天赋。\n奥迪耶米对于“黑爪”来说是个可用之才，然而组织在奥古迪姆身上看到了更大的潜力，他的智慧和能力都足以担任指挥职责。奥迪耶米满足于袭击努巴尼的薄利，然而奥古迪姆看得更远。志向的差距最终导致奥古迪姆杀死了自己的导师，并继承了”末日铁拳”的名号和拳套。\n作为新一代”末日铁拳”，奥古迪姆在“黑爪”中的地位节节攀升。他参与策划了一起新的冲突，在“黑爪”的愿景中，这场冲突终有一天将会吞没整个世界。然而，不等他们的计划实现，奥古迪姆就被一支包括“猎空”、温斯顿和源氏在内的守望先锋小队击败并逮捕。他被关押在一座最高安全级别的监狱中。几年来，他一直在耐心等待当初埋下的棋子掀起波浪。\n终于，他感觉到回归的时机成熟了。他逃出监狱，并在一场一边倒的战斗中击溃了努巴尼最新部署的OR15型机器人，拿回了“末日铁拳”。现在，他已在“黑爪”高层中夺回了自己的位置，并准备好再次掀起一场席卷全世界的战争。",
+        "base_of_operation": "尼日利亚，奥约",
+        "bio": "“不经历冲突怎能不断进化。”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/doomfist/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/doomfist/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/doomfist/ability-hand-cannon/icon-ability.png",
+                "name": "手炮",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/doomfist/intro-video.webm",
+                "description": "“末日铁拳”从拳头的指关节发射短射程的连发子弹。弹药会在短时间内自动装填。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/doomfist/ability-meteor-strike/icon-ability.png",
+                "name": "裂地重拳",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/doomfist/ability-hand-cannon/video-ability.mp4",
+                "description": "“末日铁拳”向前方跃出并猛击地面，将附近的敌人朝自己的方向击飞。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/doomfist/ability-rising-uppercut/icon-ability.png",
+                "name": "上勾重拳",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/doomfist/ability-hand-cannon/video-ability.webm",
+                "description": "“末日铁拳”对前方的敌人打出上勾拳，将其击飞到空中。"
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/Doomfist/RocketPunch/icon-ability.png",
+                "name": "火箭重拳",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/doomfist/ability-seismic-slam/video-ability.mp4",
+                "description": "“末日铁拳”蓄力并向前冲出，击退一名敌人。如果该敌人撞上墙壁，还将受到额外伤害。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/doomfist/ability-seismic-slam/icon-ability.png",
+                "name": "毁天灭地",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/doomfist/ability-seismic-slam/video-ability.webm",
+                "description": "“末日铁拳”用技能造成伤害后，自身可生成临时护盾。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/doomfist.png",
+        "description": "“末日铁拳”身上的机械元件使他成为一名高机动力、高破坏力的前线战士。除了用手炮从远距离造成伤害，“末日铁拳”还能猛击地面，将敌人击飞或令其失去平衡，或者用火箭重拳冲进战场。当面对一群阵型紧密的敌人时，”末日铁拳”可以跳到敌人视野之外，紧接着以毁天灭地之势坠落强袭。",
+        "name": "末日铁拳",
+        "position": "输出"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1605/16/nTaMi2329/HD/nTaMi2329-mobile.mp4",
+                "name": "动画短片：《双龙》",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/videos/dragons-animated-short.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1511/07/knqlK8344/HD/knqlK8344-mobile.mp4",
+                "name": "源氏技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/videos/genji-ability.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/1/assets/images/media/wallpaper/genji-theatrical-standard.jpg",
+                "name": "壁纸：源氏",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/Wallpapers/thumb-genji-theatrical.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/Genji03.jpg",
+                "name": "游戏截图：源氏",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/Genji03-thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/Genji02.jpg",
+                "name": "游戏截图：源氏",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/Genji02-thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/Genji04.jpg",
+                "name": "游戏截图：源氏",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/Genji04-thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/Genji01.jpg",
+                "name": "游戏截图：源氏",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/Genji01-thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/genji.jpg",
+                "name": "原画：源氏",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/genji-thumb.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "（前）岛田家，（前）守望先锋",
+        "story": "半机械人岛田源氏已经接受了他曾经排斥的强化躯体，并因此发现了更高境界的人性。\n作为岛田忍者家族大名最年轻的儿子，源氏的一生荣华富贵。他对家族的非法生意毫无兴趣，尽管他精通并且享受忍者训练，但他依然热衷花花公子的生活。家族内的许多人都将源氏视为一个危险的累赘，并且怨恨其父亲一再地包庇和宽容。在家族大名意外死亡后，源氏的哥哥半藏，要求源氏在父亲创建的帝国中扮演一个更加积极的角色。但源氏拒绝了，他的拒绝激怒了半藏。两兄弟之间的怨恨最终导致了一场生死对决，源氏也因此差点送命。\n半藏自认为杀死了自己的弟弟，但源氏被守望先锋救下并得到了齐格勒博士的照料。这一全球维和组织认为源氏将会在对付岛田家族的持久行动中扮演重要的角色。由于源氏的重伤使他无法正常战斗，守望先锋将会为他重建身躯但前提是源氏必须为守望先锋效命。源氏随后经过了一系列昂贵的机械化手术，强化了速度和敏捷性同时也强化了他超人的忍者技巧。在被变成一个活体武器后，源氏一心只想完成摧毁他父亲罪恶帝国的任务。\n但随着时间的推移，源氏越发觉得自我矛盾。他厌恶自己的机械身躯，无法接受他现在的模样。当他的任务完成之后，他离开了守望先锋并游历世界希望能找到自己存在的意义。数年之后，他遇到了智械僧侣禅雅塔。尽管源氏一开始拒绝接受禅雅塔的教诲，但这位博爱的智械僧侣不会放弃。于是，禅雅塔成为了他的导师，并且在这位僧侣的引导下，源氏体内的人类和机械体验终于融合在了一起。他开始明白，尽管他有一副机械身躯，但他的人类灵魂是完整的，他渐渐意识到自己的新形态是给予自己的恩赐和力量。\n现在，即使源氏无法看到自己最终的结局会是如何，但他第一次感受到了自由。",
+        "base_of_operation": "尼泊尔，香巴里寺庙",
+        "bio": "“身可死，武士之名不可弃。”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/genji/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/genji/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/genji/ability-shuriken/icon-ability.png",
+                "name": "镖",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/genji/intro-video.webm",
+                "description": "源氏快速扔出3枚致命的手里剑。按鼠标右键可以在更宽的范围内同时扔出3枚手里剑。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/genji/ability-deflect/icon-ability.png",
+                "name": "闪",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/genji/ability-shuriken/video-ability.mp4",
+                "description": "格挡向你射来的飞射物并将其向你瞄准方向反弹回去，同时还能格挡近战攻击。"
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/genji/SwiftStrike/icon-ability.png",
+                "name": "影",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/genji/ability-deflect/video-ability.mp4",
+                "description": "快速向前冲刺，对遇到的敌人造成伤害。消灭敌人可以重置冷却时间。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/genji/ability-dragonblade/icon-ability.png",
+                "name": "斩",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/genji/ability-swift-strike/video-ability.mp4",
+                "description": "源氏在短时间内拔出武士刀。在入鞘之前，源氏可以对敌人造成巨大伤害。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/genji.png",
+        "description": "源氏可以用致命而准确的手里剑重创敌人，他的高科技武士刀可以用来反弹敌人的远程攻击，或是对敌人施展一次快速攻击。",
+        "name": "源氏",
+        "position": "输出"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1605/16/nTaMi2329/HD/nTaMi2329-mobile.mp4",
+                "name": "动画短片：《双龙》",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/videos/dragons-animated-short.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/jXmcO1091/HD/jXmcO1091-mobile.mp4",
+                "name": "半藏游戏预览",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/hanzo-preview.0N1xN.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/wOkPa9369/HD/wOkPa9369-mobile.mp4",
+                "name": "半藏技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/hanzo-gameplay.2oi3P.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/hanzo-screenshot-001.1Cg4W.jpg",
+                "name": "游戏截图：半藏",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/hanzo-screenshot-001.2u0up.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/hanzo-screenshot-002.0F64o.jpg",
+                "name": "游戏截图：半藏",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/hanzo-screenshot-002.4Xldr.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/hanzo-concept.49XGv.jpg",
+                "name": "原画：半藏",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/hanzo-concept.3UPgE.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "岛田家",
+        "story": "作为一名箭术和忍术大师，岛田半藏一直都在追求极致完美的技艺以证明自己是最强大的武士。\n岛田家据传已有数百年的历史。以忍者为主要成员的岛田家，经过多年的发展，已经建立起一个以军火和非法物资交易为主的庞大黑道帝国。作为大名的长子，半藏注定要继承他的父亲统治岛田帝国。因此从很小的时候开始，半藏就以这一责任为目标接受训练，并表现出了天生的领导能力以及对战略战术惊人的天赋。同时，他还是精通武术、剑术和箭术的天才。\n父亲过世后，家族长老就建议半藏帮助他那刚愎自用的弟弟，以便两人携手管理岛田帝国。在遭到拒绝后，半藏被迫亲手了结了自己的弟弟。半藏因此深受打击，他拒绝继承父亲的遗产并最终抛弃了自己的家族和所有辛苦换来的成果。\n现在，半藏四海为家，不断磨练着自己作为一名武士的技巧，希望终有一天能挽回自己的名誉并真正放下自己的过去。\n",
+        "base_of_operation": "日本，花村（前）",
+        "bio": "“荣誉之于生死，救赎之于荣誉。”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/hanzo/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/hanzo/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/hanzo/ability-storm-bow/icon-ability.png",
+                "name": "风",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/hanzo/intro-video.webm",
+                "description": "半藏向视野内的一个目标射出箭矢。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/hanzo/ability-sonic-arrow/icon-ability.png",
+                "name": "音",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/hanzo/ability-storm-bow/video-ability.mp4",
+                "description": "半藏射出一支带有声呐追踪装置的箭矢；在探测范围内的任何敌人都会被探测到，以便追踪。"
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/1/assets/images/hero/hanzo/ability-storm-arrows/icon-ability.png",
+                "name": "岚",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/hanzo/ability-sonic-arrow/video-ability.mp4",
+                "description": "半藏接下来的几发箭矢可以瞬间发出但伤害降低。"
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/1/assets/images/hero/hanzo/ability-lunge/icon-ability.png",
+                "name": "跃",
+                "video": "https://overwatch.nosdn.127.net/1/assets/images/hero/hanzo/ability-storm-arrows/video-ability.mp4",
+                "description": "半蔵可以二段跳，期间可以改变方向。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/hanzo/ability-dragon-strike/icon-ability.png",
+                "name": "竜",
+                "video": "https://overwatch.nosdn.127.net/1/assets/images/hero/hanzo/ability-lunge/video-ability.mp4",
+                "description": "半藏召唤神龙之魂，穿透任何目标（包括墙壁）对一条直线上的所有敌人造成巨大伤害。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/hanzo.png",
+        "description": "半藏的弓箭具备有不同的功能，既可以侦测敌情，也可以分散成数股箭矢攻击多个敌人。他还可以攀爬墙壁，从高处攻击敌人，或是召唤巨大的巨龙之魂冲击敌人。",
+        "name": "半藏",
+        "position": "输出"
+    },
+    {
+        "media": [
+            {
+                "source": "https://blz-videos.nosdn.127.net/1/OverWatch/OVR-S03_E03_McCree_REUNION_zhCN_1080P_mb78.mp4",
+                "name": "动画短片：《重逢》",
+                "thumbnail": "https://overwatch.nosdn.127.net/a/images/2018/11/5/0e282147eef1db225bbbcc9469efbd6d.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/AHrUa4158/HD/AHrUa4158-mobile.mp4",
+                "name": "麦克雷游戏预览",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/mccree-preview.0nR3h.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/dDzRa2074/HD/dDzRa2074-mobile.mp4",
+                "name": "麦克雷技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/mccree-gameplay.3nQqu.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/mccree-screenshot-003.3Kh6U.jpg",
+                "name": "游戏截图：麦克雷",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/mccree-screenshot-003.2OXwS.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/mccree-screenshot-001.3kkwU.jpg",
+                "name": "游戏截图：麦克雷",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/mccree-screenshot-001.0sKUa.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/mccree-screenshot-002.3SsEt.jpg",
+                "name": "游戏截图：麦克雷",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/mccree-screenshot-002.0eZ2K.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/mccree-concept.0ACsH.jpg",
+                "name": "原画：麦克雷",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/mccree-concept.0kow2.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "（前）守望先锋成员",
+        "story": "杰西·麦克雷依靠手中值得信赖的“维和者”四处亡命，以自己的方式伸张正义。\n当麦克雷和他的同伙在守望先锋的一次突击行动中被逮捕时，他早已是在美国西南部因非法军火交易而臭名昭著的“死局”帮中，最令人胆寒的一员。由于其枪法精湛且足智多谋，守望先锋给了他两个选择：在最高安全级别的监狱中度过余生，或加入守望先锋的秘密行动部队“暗影守望”。他选择了后者。\n尽管一开始他对守望先锋的理念嗤之以鼻，但他逐渐相信可以通过扫除世上的不公，来弥补自己过去犯下的罪行。而暗影守望不受官方明文制约、我行我素的行动风格正合麦克雷之意。然而，随着守望先锋影响力的不断缩小，暗影守望内部出现了异样的气氛：废除守望先锋，独掌大权。麦克雷由于不想参与其中，于是便独自离开，销声匿迹。\n多年之后，他以雇佣兵的身份再次出现。尽管许多大小团体都想拉拢他，但他只为自己眼中的正义而战。\n",
+        "base_of_operation": "美国新墨西哥州，圣达菲",
+        "bio": "“正义可不会伸张自己。”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/mccree/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/mccree/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/mccree/ability-peacekeeper/icon-ability.png",
+                "name": "维和者",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/mccree/intro-video.webm",
+                "description": "麦克雷手中的六发左轮手枪是他的主要武器。他可以迅速扣下扳机，打光所有子弹。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/mccree/ability-combat-roll/icon-ability.png",
+                "name": "战术翻滚",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/mccree/ability-peacekeeper/video-ability.mp4",
+                "description": "麦克雷向移动方向翻滚的同时，利索地重新装填“维和者”的子弹。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/mccree/ability-flashbang/icon-ability.png",
+                "name": "闪光弹",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/mccree/ability-combat-roll/video-ability.mp4",
+                "description": "麦克雷扔出一枚会在数秒后迅速爆炸的闪光弹。爆炸会使小范围内的敌人目眩。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/mccree/ability-deadeye/icon-ability.png",
+                "name": "神射手",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/mccree/ability-flashbang/video-ability.mp4",
+                "description": "集中、瞄准、拔枪。麦克雷只需花费宝贵的数秒时间就可以锁定敌人；当麦克雷锁定敌人后，他会向每个被锁定的敌人射出子弹。敌人越虚弱，锁定速度就越快。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/mccree.png",
+        "description": "麦克雷拥有一把维和者左轮手枪，他可以用神射手精准解决他的目标，也可以用战术翻滚如苍鹰般在战场中出入自如。",
+        "name": "麦克雷",
+        "position": "输出"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv2.bn.netease.com/videolib3/1708/24/QBOvM1297/HD/QBOvM1297-mobile.mp4",
+                "name": "动画短片：《我们出发吧》",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/videos/mei-animated-short.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1511/07/bvwyf7328/HD/bvwyf7328-mobile.mp4",
+                "name": "美技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/videos/frost-ability.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/Wallpapers/Winter_Wonderland/2560x1440.jpg",
+                "name": "壁纸：雪国仙境",
+                "thumbnail": "http://overwatch.nos.netease.com/a/images/2018/5/30/da0d64b5e7bebbcd0113cc8b77ecc17f.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/Mei01.jpg",
+                "name": "游戏截图：美",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/Mei01-thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/Mei02.jpg",
+                "name": "游戏截图：美",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/Mei02-thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/Mei03.jpg",
+                "name": "游戏截图：美",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/Mei03-thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/Mei05.jpg",
+                "name": "游戏截图：美",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/Mei05-thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/Mei04.jpg",
+                "name": "游戏截图：美",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/Mei04-thumb.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/frost.jpg",
+                "name": "原画：美",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/frost-thumb.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "（前）守望先锋",
+        "story": "美是一名为了保护环境而选择战斗的科学家。\n尽管许多人都将全球不断升级的怪异气候现象归结为新科技的发明、智械不断扩大的人口数量和资源消耗的不断增加，但真正的原因无人能知。为了找到解决办法，守望先锋在世界各个偏远、重要的位置建立了一系列生态监测站。\n周美灵就是这一长久项目的成员之一。作为一名顶尖的气象学家，她引入了一系列在气候控制领域划时代的发明创意，并成功地保护了亚洲以及其他地区的高风险地区。当她来到该项目的监控站点 – 监测站：南极洲时，一场突如其来的毁灭性极地风暴摧毁了大部分设施并将这里与外界隔绝了开来，也把科学家们困在了这里。随着补给物资的不断消耗，他们进入了急冻状态希望能够撑到救援队抵达的那一天。\n但救援并没有抵达。几年后，当这些科学家的急冻舱最终被发现时，美作为唯一的幸存者仍然处于急冻休眠状态。\n当美醒来时，这个世界已经发生了翻天覆地的变化：守望先锋已经解散、原本就已严重的气候问题越来越糟糕而所有的生态监测站也都已经被废弃。他们之前收集的研究数据全部丢失。",
+        "base_of_operation": "中国，西安",
+        "bio": "“我们的世界值得我们为之奋斗！”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/mei/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/mei/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/mei/ability-endothermic-blaster/icon-ability.png",
+                "name": "冰霜冲击枪",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/mei/intro-video.webm",
+                "description": "美的冲击枪可以射出一连串高密度、近距离冰霜对敌人造成伤害、减速并最终将其冰冻。美还可以用冲击枪在中距离范围内射出冰锥。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/mei/ability-cryo-freeze/icon-ability.png",
+                "name": "急冻",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/mei/ability-endothermic-blaster/video-ability.mp4",
+                "description": "美可以立即用一整块厚实的冰块包围自己。在冰块内，她可以治疗自己并且无视任何伤害，但无法移动或使用技能。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/mei/ability-ice-wall/icon-ability.png",
+                "name": "冰墙",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/mei/ability-cryo-freeze/video-ability.mp4",
+                "description": "美可以生成一块巨大的冰墙干扰视线、阻碍行动并且吸收攻击伤害。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/mei/ability-blizzard/icon-ability.png",
+                "name": "暴雪",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/mei/ability-ice-wall/video-ability.mp4",
+                "description": "美可以部署一台气候改良无人机，在大范围内喷射出寒风和冰雪。在暴雪内的敌人将会被减速并受到伤害；那些在暴雪内停留时间过长的敌人还会被完全冰冻。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/mei.png",
+        "description": "美的天气控制设备可以使敌人减速或是进行区域控制。她的冰霜冲击枪可以射出冰锥或是冷气对敌人造成伤害。她可以将自己急冻在冰块中治疗自己或者抵挡伤害，还可以用冰墙来阻碍敌方的行动。",
+        "name": "美",
+        "position": "输出"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/Pqmax9037/HD/Pqmax9037-mobile.mp4",
+                "name": "法老之鹰游戏预览",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/pharah-preview.1ntOO.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/giJyG4756/HD/giJyG4756-mobile.mp4",
+                "name": "法老之鹰技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/pharah-gameplay.4fwzw.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/pharah-screenshot-003.1ZV98.jpg",
+                "name": "游戏截图：法老之鹰",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/pharah-screenshot-003.4NvIi.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/pharah-concept.1nlWL.jpg",
+                "name": "原画：法老之鹰",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/pharah-concept.1cBY2.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "海力士国际安保公司",
+        "story": "法芮尔•艾玛莉骨子里就是一个恪守岗位的人。她来自一个军功卓越的军人世家，贡献与荣耀就是她最高的追求。\n还是孩子的时候，法芮尔就梦想着能够像妈妈一样加入全球维和组织，守望先锋。在加入埃及军队后，她的坚韧和在战术上的天赋使她很快就晋升为了一名军官。作为一名果敢的领袖，任何在她手下服役的士兵都对她抱有绝对的忠诚。有了所有这些卓越的表现，法芮尔自然成了守望先锋最青睐的一名候选人。但在她正式加入之前，守望先锋就解散了。\n当她带着所有的荣誉退役后，法芮尔加入了一家名为“海力士国际安保”的私人安保公司，该公司的最重要的一笔订单就是负责保护吉萨高原地下的人工智能研究设施。这个高度机密的设施不仅对地区，更对全球安全都起着至关重要的作用。法芮尔自然欣然接受了这一任务并接受了实验性作战服，“猛禽”M-VI的专门训练以提高作战机动性和火力。\n现在，法芮尔被称为“法老之鹰”。负责AI设施的防卫工作。尽管她对守望先锋的解散感到无比的遗憾，但她依旧梦想着能为正义而战并改变这个残破的世界。\n",
+        "base_of_operation": "埃及，吉萨",
+        "bio": "“就由我来保护无辜的人民。”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/pharah/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/pharah/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/pharah/ability-rocket-launcher/icon-ability.png",
+                "name": "火箭发射器",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/pharah/intro-video.webm",
+                "description": "“法老之鹰”的主要武器可以射出火箭弹对范围内的敌人造成伤害。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/pharah/ability-jump-jet/icon-ability.png",
+                "name": "推进背包",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/pharah/ability-rocket-launcher/video-ability.mp4",
+                "description": "启动作战服背后的推进器后，“法老之鹰”可以蹿升至高空。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/pharah/ability-concussive-blast/icon-ability.png",
+                "name": "震荡冲击",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/pharah/ability-jump-jet/video-ability.mp4",
+                "description": "“法老之鹰”从手腕射出火箭弹，击退任何被击中的敌人。"
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/Pharah/RocketBarrage/icon-ability.png",
+                "name": "火箭弹幕",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/pharah/ability-concussive-blast/video-ability.mp4",
+                "description": "“法老之鹰”迅速启动涡轮推进器，飞到空中持续射出微型火箭弹。发射时，可以引导弹幕攻击大群敌人。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/pharah.png",
+        "description": "可以通过喷气作战服翱翔天际，也能用火箭发射器投下高爆火箭，“法老之鹰”代表着一股让你无法忽视的强大力量。",
+        "name": "法老之鹰",
+        "position": "输出"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/prtzK0499/HD/prtzK0499-mobile.mp4",
+                "name": "死神游戏预览",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/reaper-preview.1atCx.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/dchNI5301/HD/dchNI5301-mobile.mp4",
+                "name": "死神技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/reaper-gameplay.0esOe.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/reaper-screenshot-004.3caxL.jpg",
+                "name": "游戏截图：死神",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/reaper-screenshot-004.1bhPq.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/reaper-screenshot-005.1GcKT.jpg",
+                "name": "游戏截图：死神",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/reaper-screenshot-005.3KPno.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/reaper-screenshot-002.2hbaF.jpg",
+                "name": "游戏截图：死神",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/reaper-screenshot-002.0KYPm.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/reaper-concept.3VucN.jpg",
+                "name": "原画：死神",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/reaper-concept.0tqr6.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "不明",
+        "story": "关于这个黑袍恐怖分子的传闻并不多，只知道大家都称他为“死神”。虽然没人知道他的真实身份和动机，但有一点是可以肯定的，他的出现意味着死亡。\n“死神”是一名极其不稳定、残暴、冷酷的雇佣兵，在世界各地犯下多起恐怖袭击案件。在过去的数十年间，他参与了许多武装冲突，但其本人却不属于任何组织。\n战后幸存者曾描述到一个黑色的幽灵毫发无伤地穿越即便是最可怕的战场。被他杀死的受害者尸体苍白无血色，任何生命迹象都被从躯壳中抽出，显示出极其可怕的衰老迹象。“死神”极有可能是一项基因改良工程的失败品，他的细胞以极快的速度衰老，同时也在以相同的速度再生。\n在多年的追踪后，“死神”神秘的面纱终于被慢慢揭开。据信，“死神”正在追杀前守望先锋特工并系统地逐一消灭。\n",
+        "base_of_operation": "不明",
+        "bio": "“死神来了。”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/reaper/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/reaper/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/reaper/ability-hellfire-shotguns/icon-ability.png",
+                "name": "地狱火霰弹枪",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/reaper/intro-video.webm",
+                "description": "“死神”用两把霰弹枪消灭敌人。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/reaper/ability-wraith-form/icon-ability.png",
+                "name": "幽灵形态",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/reaper/ability-hellfire-shotguns/video-ability.mp4",
+                "description": "“死神”可以撕裂自己的物质形态，在一段时间内变成幽灵形态。在幽灵形态下，不会受到任何伤害还可以穿越敌人，但无法开火或使用其他技能。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/reaper/ability-shadow-step/icon-ability.png",
+                "name": "暗影步",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/reaper/ability-wraith-form/video-ability.mp4",
+                "description": "确认目标位置后，“死神”消失并立即出现在目标位置。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/reaper/ability-death-blossom/icon-ability.png",
+                "name": "死亡绽放",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/reaper/ability-shadow-step/video-ability.mp4",
+                "description": "“死神”变得难以捉摸，以极快的速度向附近所有敌人倾泻弹药，造成巨大伤害。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/reaper.png",
+        "description": "”死神”能用地狱火霰弹枪造成巨大伤害，能够用幽灵形态躲避伤害，还能用暗影步在各个地点来回穿梭，这些能力让他足以成为最致命的杀手。",
+        "name": "死神",
+        "position": "输出"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1605/22/auDfZ8781/HD/auDfZ8781-mobile.mp4",
+                "name": "动画短片：《英雄》",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/videos/hero_media_thumb.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1507/09/vOtfZ7017/HD/vOtfZ7017-mobile.mp4",
+                "name": "士兵：76游戏预览",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/soldier-76-preview.0QqG7.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1507/21/mnjfz9826/HD/mnjfz9826-mobile.mp4",
+                "name": "士兵：76技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/soldier-76-gameplay.07JJN.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/Wallpapers/Soldier76%20Wallpaper/2560x1440.jpg",
+                "name": "壁纸 - 士兵：76",
+                "thumbnail": "http://overwatch.nos.netease.com/a/images/2018/5/31/0e4267d05b63434e8fca747e412df1cd.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/soldier-76-screenshot-003.0fV00.jpg",
+                "name": "游戏截图 - 士兵：76",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/soldier-76-screenshot-003.3fof1.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/soldier-76-screenshot-002.3tWQu.jpg",
+                "name": "游戏截图 - 士兵：76",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/soldier-76-screenshot-002.2F6vc.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/soldier-76-screenshot-001.2H7KU.jpg",
+                "name": "游戏截图 - 士兵：76",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/soldier-76-screenshot-001.0cowI.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/soldier-76-concept.40OZx.jpg",
+                "name": "士兵：76",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/soldier-76-concept.2Fk8m.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "（前）守望先锋成员",
+        "story": "被全球通缉的独行侠“士兵：76”独自一人发动了一场旨在查出守望先锋解散真相的战争。\n“士兵：76”在全球一系列针对金融机构、秘密集团和守望先锋基地的袭击活动中被曝光。尽管外界至今不清楚他的动机是什么，但有人认为他曾是一位守望先锋特工，决心查出守望先锋垮台的幕后黑手。\n虽然他的真实身份依旧是个谜，但据信他曾参加过美国的“士兵强化计划”并接受过专业训练。他的身体条件远超一般的士兵，再加上某些方面的强化使他成为了一名顶尖的战斗人员。此外，他还拥有许多从前守望先锋基地窃取的划时代武器。\n在查出守望先锋垮台的幕后阴谋之前，“士兵：76”不会停下。\n",
+        "base_of_operation": "未知",
+        "bio": "“我们现在都是士兵了。”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/soldier-76/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/soldier-76/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/soldier-76/ability-heavy-pulse-rifle/icon-ability.png",
+                "name": "重型脉冲步枪",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/soldier-76/intro-video.webm",
+                "description": "“士兵：76”的步枪在进行全自动脉冲射击的同时还可以保持极限稳定。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/soldier-76/ability-helix-rockets/icon-ability.png",
+                "name": "螺旋飞弹",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/soldier-76/ability-heavy-pulse-rifle/video-ability.mp4",
+                "description": "微型火箭从“士兵：76”的脉冲步枪中以螺旋方式同时射出。火箭可以对小范围内的敌人造成爆炸伤害。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/soldier-76/ability-sprint/icon-ability.png",
+                "name": "疾跑",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/soldier-76/ability-helix-rockets/video-ability.mp4",
+                "description": "“士兵：76”可以在短时间内快速冲刺，借此躲避火力或是冲向敌阵。采取任何其他动作都会令疾跑终止。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/soldier-76/ability-biotic-field/icon-ability.png",
+                "name": "生物力场",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/soldier-76/ability-sprint/video-ability.mp4",
+                "description": "“士兵：76”在地上放置一个生物发射器。其能量可以治疗“士兵：76”和附近的队友。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/soldier-76/ability-tactical-visor/icon-ability.png",
+                "name": "战术目镜",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/soldier-76/ability-biotic-field/video-ability.mp4",
+                "description": "“士兵：76”精准的目标锁定目镜可以将准星锁定在最近的敌对目标身上。如果敌人离开视野，“士兵：76”可以快速锁定下一个目标。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/soldier-76.png",
+        "description": "他装备有最先进的武器，一把试验性的可以发射螺旋高爆火箭的脉冲步枪，而且他还是经过专业训练的战斗人员，拥有强大的机动以及辅助能力。",
+        "name": "士兵：76",
+        "position": "输出"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1611/04/ufvNh7404/SD/ufvNh7404-mobile.mp4",
+                "name": "动画短片：《渗透》",
+                "thumbnail": "http://overwatch.nos.netease.com/2/zz/201611/05saba700x396.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1611/04/nZQwK3872/SD/nZQwK3872-mobile.mp4",
+                "name": "英雄故事：黑影",
+                "thumbnail": "http://overwatch.nos.netease.com/a/images/2016/11/14/sombra-origins-video-b7bbc4ee1d373eaa85ca3328ed0847fb3841e060395f9f0c09814de896eae1764b46957af83ba19249ebb1969a85b641c5dfa3428605334d68d8b0e15d89dc2c.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1611/04/tckrM3675/SD/tckrM3675-mobile.mp4",
+                "name": "黑影技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/2/zz/201611/05sbskill700x396.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/sombra-screenshot-006-F.jpg",
+                "name": "游戏截图：黑影",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/sombra-screenshot-006-S.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/sombra-screenshot-002-F.jpg",
+                "name": "游戏截图：黑影",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/sombra-screenshot-002-S.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/sombra-screenshot-003-F.jpg",
+                "name": "游戏截图：黑影",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/sombra-screenshot-003-S.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/sombra-screenshot-001-F.jpg",
+                "name": "游戏截图：黑影",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/sombra-screenshot-001-S.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/sombra-screenshot-005-F.jpg",
+                "name": "游戏截图：黑影",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/sombra-screenshot-005-S.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/sombra-screenshot-004-F.jpg",
+                "name": "游戏截图：黑影",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/sombra-screenshot-004-S.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/sombra-concept.jpg",
+                "name": "原画：黑影",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/sombra-concept_thumb.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "黑爪、（前）骷髅帮",
+        "story": "作为全世界最臭名昭著的黑客，“黑影”利用信息与情报操控权贵。\n早在她称自己为“黑影”之前，░░░░░░是千千万万在智械危机后变成孤儿的儿童之一。在家乡大部分基础设施都被摧毁的情况下，她依靠自己在黑客以及计算机方面的天赋活了下来。\n在加入墨西哥的骷髅帮之后，░░░░░░协助该帮派用其所谓的革命对抗政府。骷髅帮相信墨西哥的重建工作实际上造福的是有钱人和有权人，而真正需要帮助的人却被遗忘。\n一连串的胜利让░░░░░░对自己的实力过度自信，最终她在毫无防备的情况下，陷入了一张覆盖全球的阴谋网——并且也因此被人盯上了。由于自己的安全面临严重威胁，░░░░░░不得不删除关于自己的全部信息，从此销声匿迹。\n后来，她以“黑影”的身份再度出现，经过改造的她决心查出那张阴谋网背后的真相。“黑影”发动了一系列比以往更加大胆的黑客攻击，这些行动也让许多人成了她的仰慕者，其中就包括“黑爪”。她随后加入了“黑爪” 并参与了一系列大规模网络攻击，目标均为带有政府背景的集团。这些攻击行动导致了光明科创集团在墨西哥遭到舆论质疑以及俄罗斯反智械防御项目的生产方沃斯卡娅工业集团遭到袭击。\n现在，有了“黑爪”的丰厚资源做后盾，“黑影”终于可以专注于她真正的目的：揭开阴谋背后的真相并利用这些信息为自己服务。",
+        "base_of_operation": "墨西哥，多拉多",
+        "bio": "“我可以黑掉任何东西……以及任何人。”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/sombra/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/sombra/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/sombra/ability-machine-pistol/icon-ability.png",
+                "name": "自动手枪",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/sombra/intro-video.webm",
+                "description": "“黑影”的全自动手枪可以在近距离范围内扫射。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/sombra/ability-hack/icon-ability.png",
+                "name": "黑客入侵",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/sombra/ability-machine-pistol/video-ability.mp4",
+                "description": "“黑影”可以侵入敌人使其暂时无法使用技能和急救包，变得毫无缚鸡之力。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/sombra/ability-thermoptic-camo/icon-ability.png",
+                "name": "隐秘潜行",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/sombra/ability-machine-pistol/video-ability.webm",
+                "description": "“黑影”可以变为隐身状态，隐身期间她的速度会大大提升。攻击、使用攻击性技能或受到伤害会中断隐身效果。“黑影”在隐身期间无法占领目标点。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/sombra/ability-translocator/icon-ability.png",
+                "name": "位移传动",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/sombra/ability-hack/video-ability.mp4",
+                "description": "“黑影”扔出一个传动信标。信标激活时（包括在半空中），“黑影”可以立刻回到信标位置。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/sombra/ability-emp/icon-ability.png",
+                "name": "电磁脉冲",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/sombra/ability-hack/video-ability.webm",
+                "description": "“黑影”向周围大范围区域释放出电磁能量，摧毁敌方屏障以及护盾，并且侵入范围内的所有敌人。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/sombra.png",
+        "description": "隐身与削弱敌人的能力让“黑影”成为了一个强大的渗透者。她的黑客入侵技能可以干扰敌人，使其更容易被击杀，而她的电磁脉冲可以在对付多个敌人时获得先手优势。“黑影”的位移传动和隐秘潜行也让她难以被敌人压制。",
+        "name": "黑影",
+        "position": "输出"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/dtSYh0095/HD/dtSYh0095-mobile.mp4",
+                "name": "秩序之光游戏预览",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/symmetra-preview.3qgRu.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/symmetra-screenshot-001.0OuV8.jpg",
+                "name": "游戏截图：秩序之光",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/symmetra-screenshot-001.1S5Fn.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/symmetra-screenshot-002.4899e.jpg",
+                "name": "游戏截图：秩序之光",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/symmetra-screenshot-002.2nwnH.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/symmetra-concept.1saWU.jpg",
+                "name": "原画：秩序之光",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/symmetra-concept.2rctK.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "费斯卡集团",
+        "story": "“秩序之光”可以在真正意义上扭曲现实。通过控制高强度光束，她可以将世界改造成自己想象中的模样，实现一个完美、有序的社会。\n“智械危机”之后，位于印度南部的费斯卡集团开始建造一系列全新的，可以自给自足的城市，用来接纳那些无家可归的人民。其中一座被称为乌托邦的城市就是通过尖端的高强度光束科技，让光子建筑师们可以在眨眼间建成城市的街道、基础设施和生活区域。\n当被认为是为数不多可以成为光子建筑师的人才之后，年轻的塞特娅•法斯瓦尼离开了贫穷的家乡，成为了费斯卡光子建筑师学院的一员，但再也无法回到家园。在这个隔绝、孤独的新生活中，塞特娅将自己完全投入到了学习和训练中。她很快就掌握了高强度光束科技的应用方式并成为了班级中最出色的学员之一。和她的同学不同的是，塞特娅控制高强度光束的方式与众不同，相较于程序化和机械化的控制方式，她的建筑方式就像其家乡优雅的传统舞蹈。\n尽管她已经成为了乌托邦最顶尖的光子建筑师，但费斯卡集团在塞特娅身上还是看到了更广阔的发展潜力。费斯卡集团称其为“秩序之光”，为了集团的利益和扩大在其他国家的影响力，将其派遣到全球执行秘密任务。\n虽然“秩序之光”相信她的所作所为是为了实现人性之“大善”，但有时候她也会怀疑她所希望实现的控制和秩序，是否真的是人类最需要的。",
+        "base_of_operation": "印度，乌托邦",
+        "bio": "“人类真正的敌人是无序。”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/symmetra/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nosdn.127.net/2/heroes/symmetra/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nosdn.127.net/2/heroes/symmetra/ability-photon-projector/icon-ability.png",
+                "name": "光子发射器",
+                "video": "http://overwatch.nosdn.127.net/2/heroes/symmetra/intro-video.webm",
+                "description": "“秩序之光”的光子发射器可以射出一道光束，造成持续伤害，光束连接的时间越长，伤害越高。光子发射器还可以射出爆炸能量球，接触到目标后造成大量伤害。"
+            },
+            {
+                "icon": "http://overwatch.nosdn.127.net/2/heroes/symmetra/ability-sentry-turret/icon-ability.png",
+                "name": "哨戒炮",
+                "video": "http://overwatch.nosdn.127.net/2/heroes/symmetra/ability-photon-projector/video-ability.mp4",
+                "description": "“秩序之光”发射一个小型炮台，会用减速射线自动攻击射程内距离最近的敌人。最多可同时在战场上部下三个炮台。"
+            },
+            {
+                "icon": "http://overwatch.nosdn.127.net/2/heroes/symmetra/ability-teleporter-pad/icon-ability.png",
+                "name": "传送面板",
+                "video": "http://overwatch.nosdn.127.net/2/heroes/symmetra/ability-photon-projector/video-ability.webm",
+                "description": "“秩序之光”在远距离处以及她所处的当前位置部署可持续一段时间的传送面板。队友（以及他们的部分技能，例如“狂鼠”的“炸弹轮胎”）可以在两个面板之间瞬时传送。"
+            },
+            {
+                "icon": "http://overwatch.nosdn.127.net/2/heroes/symmetra/ability-photon-barrier/icon-ability.png",
+                "name": "光子屏障",
+                "video": "http://overwatch.nosdn.127.net/2/heroes/symmetra/ability-sentry-turret/video-ability.mp4",
+                "description": "“秩序之光”部署一道可以阻挡远程攻击的能量屏障，该屏障巨大无比，可横穿整张地图。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/symmetra.png",
+        "description": "“秩序之光”能够使用光子发射器来分割敌人阵形，为队友提供护盾，建造传送面板或是部署粒子射线哨戒炮。",
+        "name": "“秩序之光”",
+        "position": "输出"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/rEKzo6151/HD/rEKzo6151-mobile.mp4",
+                "name": "托比昂游戏预览",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/torbjorn-preview.0IeXs.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/RzJvG6920/HD/RzJvG6920-mobile.mp4",
+                "name": "托比昂技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/torbjorn-gameplay.0f91I.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/Wallpapers/Winter_Wonderland/2560x1440.jpg",
+                "name": "壁纸：雪国仙境",
+                "thumbnail": "http://overwatch.nos.netease.com/a/images/2018/5/30/da0d64b5e7bebbcd0113cc8b77ecc17f.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/torbjorn-screenshot-002.4Il9p.jpg",
+                "name": "游戏截图：托比昂",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/torbjorn-screenshot-002.3ehQS.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/torbjorn-screenshot-007.3vjOO.jpg",
+                "name": "游戏截图：托比昂",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/torbjorn-screenshot-007.02Fqc.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/torbjorn-concept.0MrTa.jpg",
+                "name": "原画：托比昂",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/torbjorn-concept.19FeQ.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "（前）守望先锋成员",
+        "story": "巅峰时期的守望先锋，拥有世界上最顶尖的武器设备，而这些武器都出自一位名叫托比昂·林德霍姆的天才工程师之手。\n在“智械危机”之前，托比昂就因为世界上多个国家设计武器系统而臭名昭著。然而在他认为，科技必须让人类更进步，这让他和他的雇主们经常闹矛盾，因为他们只想利用网络化的智能计算机控制他的武器。\n托比昂极其不信任拥有智能的机器人，但他的同行都认为这只是他杞人忧天而已。但托比昂最担心的事情最终还是发生了，一场机器人对抗其人类发明者的“智械危机”在全球范围内爆发。由于其在工程学方面的天才造诣，守望先锋向他伸出了橄榄枝，并将其纳入了最早的守望先锋攻击部队，而他也证明了自己在终结这场危机中的关键价值。在随后的多年中，守望先锋渐渐成为了一个国际维和组织，而托比昂依旧是该组织在科学技术和武器系统方面最重要的一环。\n但在守望先锋解散后，托比昂设计出的许多武器被偷走并被藏在世界各地。出于对自己作品的责任心，托比昂便发誓不能让这些武器落入敌手，危害无辜的世人。\n",
+        "base_of_operation": "瑞典，哥德堡",
+        "bio": "“造得起，也砸得坏。”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/torbjorn/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/torbjorn/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/Torbjorn/ability-rivet-gun/icon-ability.png",
+                "name": "铆钉枪",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/torbjorn/intro-video.webm",
+                "description": "托比昂可以发射远程铆钉，或在近距离射出大量融化金属。"
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/Torbjorn/ability-forge-hammer/icon-ability.png",
+                "name": "锻造锤",
+                "video": "https://overwatch.nosdn.127.net/2/heroes/Torbjorn/ability-rivet-gun/video-ability.mp4",
+                "description": "这把多功能锻造锤可以修复炮台，必要时还可以当做武器。"
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/Torbjorn/ability-deploy-turret/icon-ability.png",
+                "name": "部署炮台",
+                "video": "https://overwatch.nosdn.127.net/2/heroes/Torbjorn/ability-rivet-gun/video-ability.webm",
+                "description": "托比昂可以部署一座自动建造的炮台，炮台可以自动追踪并攻击敌人。"
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/Torbjorn/ability-overload/icon-ability.png",
+                "name": "热力过载",
+                "video": "https://overwatch.nosdn.127.net/2/heroes/Torbjorn/ability-forge-hammer/video-ability.mp4",
+                "description": "托比昂可以在短时间内获得额外的护甲，同时提高攻击、移动及装弹速度。"
+            },
+            {
+                "icon": "https://overwatch.nosdn.127.net/2/heroes/Torbjorn/ability-molten-core/icon-ability.png",
+                "name": "熔火核心",
+                "video": "https://overwatch.nosdn.127.net/2/heroes/Torbjorn/ability-forge-hammer/video-ability.webm",
+                "description": "托比昂可以在地上制造熔渣池，对敌人造成大量持续性伤害（对护甲造成额外伤害），还可以阻止敌人通过关键位置。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/torbjorn.png",
+        "description": "托比昂的各类武器包括铆钉枪、锤子，以及一个可以用来建造炮台的锻炉。",
+        "name": "托比昂",
+        "position": "输出"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/IhJPZ6310/HD/IhJPZ6310-mobile.mp4",
+                "name": "猎空游戏预览",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/tracer-preview.3vrGl.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/bXhCO7667/HD/bXhCO7667-mobile.mp4",
+                "name": "猎空技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/tracer-gameplay.07Mui.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/Wallpapers/Tracer%20Wallpaper/2560x1440.jpg",
+                "name": "壁纸：猎空",
+                "thumbnail": "http://overwatch.nos.netease.com/a/images/2018/5/28/889bec6b41211a05cb8fa0d536e5b676.jpg",
+                "type": "image"
+            },
+            {
+                "source": "https://d1u1mce87gyfbn.cloudfront.net/media/wallpaper/winter-wonderland-wide.jpg",
+                "name": "壁纸：雪国仙境",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/Wallpapers/Winter_Wonderland/2560x1440.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/tracer-screenshot-004.4SxTb.jpg",
+                "name": "游戏截图：猎空",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/tracer-screenshot-004.2TPPe.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/tracer-screenshot-008.1718n.jpg",
+                "name": "游戏截图：猎空",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/tracer-screenshot-008.2NotL.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/tracer-screenshot-002.00UEN.jpg",
+                "name": "游戏截图：猎空",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/tracer-screenshot-002.2S7JV.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/tracer-concept.2haJr.jpg",
+                "name": "原画：猎空",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/tracer-concept.2dpWp.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "（前）守望先锋成员",
+        "story": "（前）守望先锋成员“猎空”是一位可以进行时间跳跃的冒险家，为了正义而不懈努力着。\n莉娜·奥克斯顿（代号：“猎空”）是守望先锋原型机试飞计划的最年轻成员。由于其大胆的飞行技术，她被选为一架可进行传送的原型战机，“跃空者”的试飞员。但在第一次试飞过程中，原型机的传送阵列出现故障，包括飞行员在内完全失踪。莉娜也因此被认定为已阵亡。\n然而莉娜却在几个月后再次出现，不过这次她并不是原来的她了：她身上的分子无法和时间流同步。这种被称为“时间解离”的症状使她彻底变成了一个“活生生”的幽灵，时不时地会突然消失数小时甚至几天。即使她短暂出现在正常时间，也无法维持自己的实体形态。\n守望先锋的医生和研究人员对此束手无策，“猎空”似乎不得不永远保持这一形态，直到一位名叫温斯顿的科学家设计出了“时间加速器”，一台可以让“猎空”维持在当前时间的装置。不仅如此，这一装置还让“猎空”有能力控制她自己的时间流，使她可以任意加速或减慢时间。有了这一全新的能力，她成了守望先锋最强大的特工之一。\n守望先锋解散后，“猎空”依旧选择为了正义而战，守护无辜。",
+        "base_of_operation": "英国，伦敦",
+        "bio": "“不用担心，交给我吧！”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/tracer/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/tracer/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/tracer/ability-pulse-pistols/icon-ability.png",
+                "name": "脉冲双枪",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/tracer/intro-video.webm",
+                "description": "“猎空”用两把手枪向敌人快速射击。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/tracer/ability-blink/icon-ability.png",
+                "name": "闪现",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/tracer/ability-pulse-pistols/video-ability.mp4",
+                "description": "“猎空”可以快速穿越空间，在数码之外重新出现。闪现技能可以最多叠加三次，每隔几秒可以叠加一次。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/tracer/ability-recall/icon-ability.png",
+                "name": "闪回",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/tracer/ability-blink/video-ability.mp4",
+                "description": "“猎空”可以倒回时间，她的生命值、弹药和所处位置都会回到几秒前的状态。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/tracer/ability-pulse-bomb/icon-ability.png",
+                "name": "脉冲炸弹",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/tracer/ability-recall/video-ability.mp4",
+                "description": "“猎空”扔出一枚可以附着在任何表面或倒霉蛋身上的大炸弹。几秒后，炸弹会爆炸对范围内所有敌人造成大量伤害。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/tracer.png",
+        "description": "“猎空”的武器有两把脉冲手枪，强大的脉冲炸弹以及永不停歇的欢声笑语。猎空能够通过闪现快速移动并且利用闪回调整自己的状态，然后以这些强大的能力除尽世上的邪恶。",
+        "name": "猎空",
+        "position": "输出"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1604/04/JXgVi8886/HD/JXgVi8886-mobile.mp4",
+                "name": "动画短片：《新生》",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/videos/widowmaker-animated-short.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/pPJZh2425/HD/pPJZh2425-mobile.mp4",
+                "name": "黑百合游戏预览",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/widowmaker-preview.364gD.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/eLErO8446/HD/eLErO8446-mobile.mp4",
+                "name": "黑百合技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/widowmaker-gameplay.0Qu4D.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/widowmaker-screenshot-001.3MTk1.jpg",
+                "name": "游戏截图：黑百合",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/widowmaker-screenshot-001.1Ji6a.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/widowmaker-screenshot-004.069Eh.jpg",
+                "name": "游戏截图：黑百合",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/widowmaker-screenshot-004.4E527.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/widowmaker-screenshot-002.4O3Az.jpg",
+                "name": "游戏截图：黑百合",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/widowmaker-screenshot-002.4C1t4.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/widowmaker-screenshot-005.1NoD6.jpg",
+                "name": "游戏截图：黑百合",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/widowmaker-screenshot-005.2oJ0v.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/widowmaker-concept.1EwFH.jpg",
+                "name": "原画：黑百合",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/widowmaker-concept.4WuQB.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "黑爪",
+        "story": "“黑百合”是一位完美的杀手：耐心、果断、无情。没有任何情感且事后毫无悔意。\n根据资料描述，“黑百合”在成为如今的杀手之前，曾与杰哈·拉克瓦结婚。杰哈·拉克瓦的真实身份是守望先锋在对抗恐怖组织“黑爪”的一系列行动中的先锋探员。在多次刺杀杰哈无果之后，黑爪决定将目标转向他的妻子，艾米丽。黑爪特工绑架了艾米丽并对其进行了一项高强度神经重构计划。他们击垮了她的意志，抑制了其本身的人性，将其变成了一个潜伏特工。她最终被守望先锋探员找到并在确认无致命伤之后重新过上了以前的生活。\n两周之后，她杀死了睡梦中的杰哈。\n完成任务之后，艾米丽回归了黑爪，而他们也最终完成了将艾米丽变为一个活体武器的计划。她接受了高强度的隐秘行动训练，生理结构也被进行了调整，心跳速率大幅降低，体温骤降的同时皮肤也变成了冰冷的蓝色并且再也无法感受到人类情感。曾经的艾米丽已经彻底消失了。\n现在，“黑百合”成为了黑爪最强大的杀手，只有在完美完成一项任务之后才会感到些许的满足。",
+        "base_of_operation": "法国，安纳西",
+        "bio": "“一枪，一个。”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/widowmaker/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/widowmaker/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/widowmaker/ability-widows-kiss/icon-ability.png",
+                "name": "黑百合之吻",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/widowmaker/intro-video.webm",
+                "description": "“黑百合”的多功能狙击步枪是一种理想的远距离狙击武器。而当目标靠近后，这把武器还可以切换为全自动步枪模式。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/widowmaker/ability-grappling-hook/icon-ability.png",
+                "name": "抓钩",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/widowmaker/ability-widows-kiss/video-ability.mp4",
+                "description": "“黑百合”可以向目标位置射出抓钩--当抓钩遇到可攀登表面时就会迅速回收，将“黑百合”拉向目标位置。这一技能可以让她纵览整个战场，躲避或包抄敌人。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/widowmaker/ability-venom-mine/icon-ability.png",
+                "name": "剧毒诡雷",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/widowmaker/ability-grappling-hook/video-ability.mp4",
+                "description": "“黑百合”的剧毒诡雷可以附着在几乎任何表面并快速启动。当目标靠近诡雷的动感触发器范围之内时就会爆炸，对范围内所有敌人释放毒气。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/widowmaker/ability-infra-sight/icon-ability.png",
+                "name": "红外侦测",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/widowmaker/ability-venom-mine/video-ability.mp4",
+                "description": "“黑百合”的红外护目镜可以让她和队友在一段时间内看透墙壁后方的敌人热能反应。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/widowmaker.png",
+        "description": "“黑百合”全身都是致命的武器，包括能够放出致命毒素的诡雷、能够为队友提供红外视野的护目镜以及一把可以在狙击和自动模式间切换的强大步枪。",
+        "name": "黑百合",
+        "position": "输出"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1607/12/bZuco2577/SD/bZuco2577-mobile.mp4",
+                "name": "英雄故事：安娜",
+                "thumbnail": "http://overwatch.nos.netease.com/2/zz/201607/ana-origins-video.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1607/13/WlJni5815/HD/WlJni5815-mobile.mp4",
+                "name": "安娜技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/a/images/2016/11/14/ana-sizzle-reel.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/zz/201607/ana-screenshot-005.jpg",
+                "name": "游戏截图：安娜",
+                "thumbnail": "http://overwatch.nos.netease.com/2/zz/201607/ana-screenshot-005350x192.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/zz/201607/ana-screenshot-004.jpg",
+                "name": "游戏截图：安娜",
+                "thumbnail": "http://overwatch.nos.netease.com/2/zz/201607/ana-screenshot-004350x192.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/zz/201607/ana-screenshot-003.jpg",
+                "name": "游戏截图：安娜",
+                "thumbnail": "http://overwatch.nos.netease.com/2/zz/201607/ana-screenshot-003350x192.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/zz/201607/ana-screenshot-001.jpg",
+                "name": "游戏截图：安娜",
+                "thumbnail": "http://overwatch.nos.netease.com/2/zz/201607/ana-screenshot-001350x192.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/zz/201607/ana-screenshot-002.jpg",
+                "name": "游戏截图：安娜",
+                "thumbnail": "http://overwatch.nos.netease.com/2/zz/201607/ana-screenshot-002350x192.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "（前）守望先锋成员",
+        "story": "作为守望先锋的创始成员之一，安娜利用她的技巧和专长保护家园和最亲密的人。\n智械危机期间，当埃及遭到沉重打击后，这个国家的精锐狙击手们为元气大伤的安全部队提供了强有力的支援，其中就包括安娜·艾玛莉——世界公认的最出色的狙击手之一。她的精准、果断和直觉使其自然而然地成为了守望先锋突击部队的一员，最终结束了这场智械危机。\n危机结束后，安娜被晋升为了上尉，并在随后的多年里一直是战地指挥官莫里森的左膀右臂。尽管身居要职，但已年过半百的安娜拒绝离开战场，依然亲临前线。直至在一次人质解救行动中，遭遇了一个叫做“黑百合”的黑爪特工，所有人都认为安娜死在了那场战斗中。\n但事实上，安娜活了下来，身受重伤并且失去了自己的右眼。在恢复期间，她感受到了战斗中生命的不可承受之重，因此决定就此隐居。然而随着时间一天天过去，看着自己家乡遭到的威胁愈演愈烈，她突然意识到自己依然有责任保护身边的亲人。\n在“征用”了守望先锋军械库中的装备后，安娜重新回到了这个世界，为了一个更安全、稳定的和平世界而战。",
+        "base_of_operation": "埃及，开罗",
+        "bio": "「每个人都必须找到自己的使命。」",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/ana/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/ana/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/ana/ability-biotic-rifle/icon-ability.png",
+                "name": "生物步枪",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/ana/ability-biotic-rifle/video-ability.mp4",
+                "description": "安娜可以用手中的步枪射出飞镖为队友恢复生命值或对敌人造成持续性伤害。她也可以用步枪的瞄准镜进行放大瞄准以便更精准地击中目标。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/ana/ability-sleep-dart/icon-ability.png",
+                "name": "麻醉镖",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/ana/ability-sleep-dart/video-ability.mp4",
+                "description": "安娜可以用她的副武器射出飞镖，使敌人失去意识（目标受到任何伤害后将会醒来）。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/ana/ability-biotic-grenade/icon-ability.png",
+                "name": "生物手雷",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/ana/ability-biotic-grenade/video-ability.mp4",
+                "description": "安娜扔出一颗生物手雷；当手雷爆炸后，对小范围内的敌人造成伤害并治疗队友。受影响的队友在短时间内受到的所有治疗效果将会提高，而受影响的敌人则会在短时间内无法受到治疗。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/ana/ability-stim-boost/icon-ability.png",
+                "name": "纳米激素",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/ana/ability-stim-boost/video-ability.mp4",
+                "description": "安娜用激素强化一位队友，在短时间内提高目标队友造成的伤害并且降低其受到的伤害。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/ana.png",
+        "description": "安娜全方位的武器配备让她可以应对战场上的所有情况。她的生物步枪和生物手雷可以用来治疗队友并对敌人造成伤害，同时还能对敌人造成负面影响；她的副武器可以麻醉重要目标，而纳米激素则可以大大强化她的一名队友。",
+        "name": "安娜",
+        "position": "支援"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv2.bn.netease.com/videolib3/1802/28/ohwZq4239/HD/ohwZq4239-mobile.mp4",
+                "name": "英雄故事：布丽吉塔",
+                "thumbnail": "http://overwatch.nosdn.127.net/2/media/videos/brigitte-origins-video.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv2.bn.netease.com/videolib3/1803/20/YVpnl2879/HD/YVpnl2879-mobile.mp4",
+                "name": "布丽吉塔技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/1/assets/images/hero/brigitte/media/video/brigitte-intro-thumbnail.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/brigitte-screenshot-01_n2d31.jpg",
+                "name": "游戏截图：布丽吉塔",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/brigitte-screenshot-thumbnail-01_n2d31.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/brigitte-screenshot-03_n2d31.jpg",
+                "name": "游戏截图：布丽吉塔",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/brigitte-screenshot-thumbnail-03_n2d31.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/brigitte-screenshot-02_n2d31.jpg",
+                "name": "游戏截图：布丽吉塔",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/brigitte-screenshot-thumbnail-02_n2d31.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/brigitte-concept.jpg",
+                "name": "原画：布丽吉塔",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/brigitte-concept-s.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "无",
+        "story": "布丽吉塔·林德霍姆不再置身事外，她拿起武器捍卫那些需要保护的人民。\n布丽吉塔是武器工程师托比昂·林德霍姆最小的女儿，也是他第一个对机械工程感兴趣的孩子。布丽吉塔只要一有空，基本就呆在父亲的工作室里学习磨练。她继承了父亲在工程学上的天赋，但是跟制造出顶尖武器而举世闻名（也可以说是臭名昭著）的托比昂不一样，布丽吉塔最喜欢的还是制作护甲和防御系统。\n大家都以为布丽吉塔会继续学习，并跟随父亲的脚步，但是因为受到她生命中一位重要人物的影响，她走上了另一条道路。这个人就是她父亲在守望先锋的战友，莱因哈特·威尔海姆。作为家族挚友和布丽吉塔的教父，莱因哈特陪伴着她在英雄和骑士精神的故事中长大。在他退役以及守望先锋解散以后，莱因哈特宣布自己要成为伸张正义的游侠骑士。临行前，布丽吉塔出乎意料地请求追随他同行，一起踏上冒险的旅途。莱因哈特接受了。\n布丽吉塔有许多职责，其中最重要的就是保养莱因哈特的十字军护甲（她很熟悉这副护甲，因为目前这款是他父亲设计的）。但是，她越来越觉得自己的主要工作其实是照顾莱因哈特，保护他不会因为对战斗的热忱而不顾及自己已经饱经沧桑的身体。\n最后她明白了，只当工程师是不够的，帮助莱因哈特最好的方式就是让自己也成为一名战士。于是，她一边跟着莱因哈特学习战斗技巧，一边偷偷地开始为自己打造一副护甲。\n现在，布丽吉塔与莱因哈特并肩作战，像骑士一样锄强扶弱，在她的追随之路上，在一场又一场的战斗中，让这个世界变得更加美好。",
+        "base_of_operation": "（前）瑞典，哥德堡",
+        "bio": "“我会证明我自己的！”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/brigitte/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/brigitte/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/brigitte/ability-rocket-flail/icon-ability.png",
+                "name": "火箭连枷",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/brigitte/intro-video.webm",
+                "description": "布丽吉塔的近战武器拥有较大的攻击范围，可以一次击中多个敌人。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/brigitte/ability-repair-pack/icon-ability.png",
+                "name": "恢复包",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/brigitte/ability-rocket-flail/video-ability.mp4",
+                "description": "布丽吉塔丢出的恢复包可以治疗一名盟友。超出盟友最大生命值的过量治疗将转化为护甲。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/brigitte/ability-whip-shot/icon-ability.png",
+                "name": "流星飞锤",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/brigitte/ability-repair-pack/video-ability.mp4",
+                "description": "布丽吉塔可以向远处甩出连枷，将一名敌人击退并造成伤害。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/brigitte/ability-barrier-shield/icon-ability.png",
+                "name": "屏障护盾",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/brigitte/ability-whip-shot/video-ability.mp4",
+                "description": "布丽吉塔可以在前方展开一道能量屏障，吸收一定伤害。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/brigitte/ability-shield-bash/icon-ability.png",
+                "name": "能量盾击",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/brigitte/ability-barrier-shield/video-ability.mp4",
+                "description": "展开屏障护盾后，布丽吉塔可以向前疾冲，击晕一名敌人。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/brigitte/ability-rally/icon-ability.png",
+                "name": "集结号令",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/brigitte/ability-shield-bash/video-ability.mp4",
+                "description": "布丽吉塔可以加快移动速度，并为周围的盟友提供护甲。护甲在抵消一定伤害后消失。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/brigitte.png",
+        "description": "布丽吉塔对装备非常在行。她可以丢出恢复包治疗队友，而且当连枷对敌人造成伤害时还可以自动治疗周围的队友。她的连枷拥有较大的攻击范围，可以击中多个目标，而且她也可以用流星飞锤击晕远处的敌人。在战斗中，她可以用屏障护盾保护自己，同时用能量盾击攻击敌人。布丽吉塔的终极技能集结号令可以为她提供短暂的移动速度加成，并为周围的所有队友提供持久的护甲。",
+        "name": "布丽吉塔",
+        "position": "支援"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/BWImH3317/HD/BWImH3317-mobile.mp4",
+                "name": "天使游戏预览",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/mercy-preview.4e9AH.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/Wallpapers/Mercy_wallpaper/2560x1440.jpg",
+                "name": "壁纸：天使",
+                "thumbnail": "http://overwatch.nos.netease.com/a/images/2018/5/30/51eade5a6b3e31564e570c743c9986cd.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/mercy-screenshot-002.05epQ.jpg",
+                "name": "游戏截图：天使",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/mercy-screenshot-002.0JXq9.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/mercy-screenshot-001.37iw4.jpg",
+                "name": "游戏截图：天使",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/mercy-screenshot-001.2byvR.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/mercy-concept.42fUr.jpg",
+                "name": "原画：天使",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/mercy-concept.3WGvI.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "（前）守望先锋成员",
+        "story": "作为所有伤者的守护天使，安吉拉•齐格勒博士是一名顶尖的治疗者、出色的科学家和坚定的和平主义者。\n齐格勒在踏入可以极大改善致命疾病和损伤治疗效果的突破性应用纳米生物学领域之前，是瑞士一家顶尖医院的手术部门负责人。正是她在医学领域的成就，引起了守望先锋的注意。\n由于齐格勒的双亲都被战争夺走了生命，因此她从一开始就极其反对该组织通过军事手段进行维和。但最终，她意识到守望先锋给她提供了一个可以拯救更多人生命的机会。作为守望先锋医学研究部门的负责人，安吉拉致力于更好地在前线治疗受到致命伤的病员。“女武神”快速反应作战服因此诞生，齐格勒也穿着这套作战服参加了许多守望先锋的任务。\n尽管她对守望先锋做出了巨大的贡献，但齐格勒博士经常质疑她的上司以及守望先锋的长远目标。而当守望先锋解散之后，齐格勒博士便致力于帮助那些受战争波及的受难者。\n尽管她大部分时间都在全球各地帮助那些流离失所、无依无靠的难民，但当无辜人民遇到危险时，齐格勒博士依然会穿着她的“女武神”作战服挺身而出。",
+        "base_of_operation": "瑞士，苏黎世",
+        "bio": "“英雄不朽。”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/mercy/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/mercy/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/mercy/ability-caduceus-staff/icon-ability.png",
+                "name": "天使之杖",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/mercy/intro-video.webm",
+                "description": "“天使”可以分别将两根不同的光束聚焦于一名队友。持续的光束聚焦可以为目标队友恢复生命值或提高其造成的伤害。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/mercy/ability-caduceus-blaster/icon-ability.png",
+                "name": "天使冲击枪",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/mercy/ability-caduceus-staff/video-ability.mp4",
+                "description": "“天使”用副武器射出一枚子弹。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/mercy/ability-guardian-angel/icon-ability.png",
+                "name": "守护天使",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/mercy/ability-caduceus-blaster/video-ability.mp4",
+                "description": "“天使”飞向一名目标队友，在危急的情况下为队友提供帮助。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/mercy/ability-resurrect/icon-ability.png",
+                "name": "重生",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/mercy/ability-guardian-angel/video-ability.mp4",
+                "description": "“天使”复活一名盟友并使其恢复全部生命值。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/mercy/ability-angelic-descent/icon-ability.png",
+                "name": "天使降临",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/mercy/ability-resurrect/video-ability.mp4",
+                "description": "通过启动她的女武神作战服，“天使”可以降低从高处下落的速度。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/mercy/ability-valkyrie/icon-ability.png",
+                "name": "女武神",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/mercy/ability-angelic-descent/video-ability.mp4",
+                "description": "获得飞行的能力。“天使”的技能得到增强。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/mercy.png",
+        "description": "“天使”的女武神作战服可以让她像守护天使一样保护战场上的队友。她的治疗杖可以射出两种光束，治疗或是强化队友，她还可以使用复活技能使队友死而复生。",
+        "name": "“天使”",
+        "position": "支援"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv2.bn.netease.com/videolib3/1711/04/yMQKY7570/HD/yMQKY7570-mobile.mp4",
+                "name": "英雄故事：莫伊拉",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/videos/moira-origins-video.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv2.bn.netease.com/videolib3/1711/04/OEQmI6379/HD/OEQmI6379-mobile.mp4",
+                "name": "莫伊拉技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/videos/moira-sizzle-reel.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/moira-screenshot-002.jpg",
+                "name": "游戏截图：莫伊拉",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/moira-screenshot-002-s.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/moira-screenshot-004-s.jpg",
+                "name": "游戏截图：莫伊拉",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/moira-screenshot-004.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/moira-screenshot-003.jpg",
+                "name": "游戏截图：莫伊拉",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/moira-screenshot-003-s.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/moira-screenshot-001.jpg",
+                "name": "游戏截图：莫伊拉",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/moira-screenshot-001-s.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/moira-concept.jpg",
+                "name": "原画：莫伊拉",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/moira-concept-s.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "黑爪；（前）暗影守望成员",
+        "story": "黑爪的科学家莫伊拉·奥德莱恩有着杰出的才华，但她的工作也引起了诸多争议。她是基因工程方面的顶尖专家，研究的方向是如何对生命最基本的单元加以改进。\n十多年以前，奥德莱恩发表的一篇论文，详细阐述了定制基因程序的方法，借此可以在细胞层面上改写DNA。论文引起了轩然大波。沿着这条道路走下去，人类可能能够征服疾病，抹除自身的缺陷，将人类的潜能发挥到最大。\n然而她的同行很快就提出了异议。许多人认为她的工作非常危险，甚至触及了伦理道德的禁区，甚至有人指控奥德莱恩对科技进步有着非同寻常的迷恋，而在世人眼中，当年恰恰正是这样的迷恋导致了智械危机的到来。此外，其他基因科学家无法复现莫伊拉的研究成果，这更让人对她的发现产生质疑。这篇论文并没有让她的事业就此腾飞，反而令她的名声一落千丈。\n就在这时，一支出乎意料的势力向她伸出了援手：隶属于守望先锋的秘密分部，暗影守望。她在阴影中继续着自己的研究，为这支组织开发出了全新的武器与技术。组织对雇佣她这件事一直守口如瓶，直到威尼斯事件之后的调查将此事公布于众。守望先锋的许多高层官员都公开表示，对她为组织效力的事毫不知情。\n守望先锋解散之后，奥德莱恩不得不通过非常规手段获得研究经费。这一次，向她发出邀请的是创建了绿洲城的科学团体。还有传言声称，黑爪组织多年来一直在暗中支持着她，为她提供实验仪器，同时也借助她的研究成果实现组织不可告人的目的。\n尽管她的工作并不为世人所知，但为了取得科学上的突破，奥德莱恩不惜付出任何代价。现在她已经摆脱了一切束缚，改变世界也只是时间问题了。",
+        "base_of_operation": "爱尔兰，都伯林；伊拉克，绿洲城",
+        "bio": "“科学会揭示真相。”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/moira/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/moira/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/moira/ability-biotic-grasp/icon-ability.png",
+                "name": "生化之握",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/moira/intro-video.webm",
+                "description": "莫伊拉的左手可以散发生化能量，治愈自己身前的队友。她的右手则可以使用远距离光束武器，削弱敌人的生命，同时为莫伊拉恢复生命，并让她更快地积累生物能量。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/moira/ability-biotic-orb/icon-ability.png",
+                "name": "生化之球",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/moira/ability-biotic-grasp/video-ability.mp4",
+                "description": "莫伊拉可以放出来回弹射的生化能量球；她可以选择恢复能量球，治愈沿途经过的盟友；也可以选择腐蚀能量球，对敌人造成伤害。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/moira/ability-fade/icon-ability.png",
+                "name": "消散",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/moira/ability-biotic-orb/video-ability.mp4",
+                "description": "莫伊拉可以快速进行短距离传送"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/moira/ability-coalescence/icon-ability.png",
+                "name": "聚合射线",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/moira/ability-fade/video-ability.mp4",
+                "description": "莫伊拉能够引导一道长距离光束，可以为盟友恢复生命，同时也能够穿透屏障，对敌人造成伤害。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/moira.png",
+        "description": "莫伊拉可以运用生化能量提供治疗或输出伤害——但一切都是为了她自己的利益。",
+        "name": "莫伊拉",
+        "position": "支援"
+    },
+    {
+        "media": [
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/rEKzo6151/HD/rEKzo6151-mobile.mp4",
+                "name": "禅雅塔游戏预览",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/zenyatta-preview.0WJ2y.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://flv.bn.netease.com/videolib3/1506/26/Qhqku0228/HD/Qhqku0228-mobile.mp4",
+                "name": "禅雅塔技能简介",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/gameplay/zenyatta-gameplay.0johk.jpg",
+                "type": "video"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/zenyatta-screenshot-001.3n2TN.jpg",
+                "name": "游戏截图：禅雅塔",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/zenyatta-screenshot-001.2eRtz.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/screenshots/zenyatta-screenshot-008.3zDK0.jpg",
+                "name": "游戏截图：禅雅塔",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/screenshots/zenyatta-screenshot-008.2KZIe.jpg",
+                "type": "image"
+            },
+            {
+                "source": "http://overwatch.nos.netease.com/2/media/artwork/zenyatta-concept.3hKic.jpg",
+                "name": "原画：禅雅塔",
+                "thumbnail": "http://overwatch.nos.netease.com/2/media/artwork/zenyatta-concept.4QNRU.jpg",
+                "type": "image"
+            }
+        ],
+        "affiliation": "（前）香巴里僧人",
+        "story": "禅雅塔是一位游走于世界寻找灵魂升华之道的机械僧侣。据说任何有幸遇到他的人，其生命轨迹也会发生改变。\n多年之前，在“智械危机”结束之后，一群被放逐的智能机器人感受到了被其称为“灵魂觉醒”的升华之道。他们放弃了自己被预先设定好的生活，在喜马拉雅山深处建立起了一座寺庙。在冥思其存在本质和意义多年之后，他们渐渐相信他们不止是人工智能而已，和人类一样，他们也有灵魂。\n在意识到他们在灵魂层面与人类一样后，由神秘僧侣泰哈撒·孟达塔带领的这些僧侣开始寻找治愈一个世代前，由“智械危机”所留下的创伤，并希望让人类和机器人重回曾经的和谐相处之道。他们最终被世人所接纳，且他们的信念也得到了全球数百万人的支持。\n但其中一位僧侣，禅雅塔并不赞同这一新道路。他认为要解决人类和机器人之间根深蒂固的问题，不能依靠循循善诱，而必须通过个体联系和互动。\n最终，禅雅塔踏上了自己的旅途。他选择离开寺庙，游走世界，帮助那些他所遇到的人摆脱凡尘，真正找到内心的平静。但如果有必要，他也会为了保护无辜而拿起武器，无论人类还是机器人。",
+        "base_of_operation": "尼泊尔，香巴里僧院（前）",
+        "bio": "“本我不拘于形。”",
+        "abilities": [
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/zenyatta/icon-right-menu.png",
+                "name": " ",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/zenyatta/intro-video.mp4",
+                "description": ""
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/zenyatta/ability-orb-of-destruction/icon-ability.png",
+                "name": "灭",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/zenyatta/intro-video.webm",
+                "description": "禅雅塔可以连续射出破坏能量球，或是在几秒的充能后，快速射出大量能量球。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/zenyatta/ability-orb-of-harmony/icon-ability.png",
+                "name": "谐",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/zenyatta/ability-orb-of-destruction/video-ability.mp4",
+                "description": "禅雅塔将一枚法球置于目标队友的肩膀。只要该盟友保持在禅雅塔的视野范围内，法球就可以缓慢恢复目标的生命值。同一时间只能对一个队友施放治疗法球。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/zenyatta/ability-orb-of-discord/icon-ability.png",
+                "name": "乱",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/zenyatta/ability-orb-of-harmony/video-ability.mp4",
+                "description": "将扰乱法球附着在一名敌人身上，提高其受到的所有伤害，如果敌人脱离禅雅塔的视野范围一段时间，则效果消失。同一时间只能对一名敌人施放该效果。"
+            },
+            {
+                "icon": "http://overwatch.nos.netease.com/1/assets/images/hero/zenyatta/ability-transcendence/icon-ability.png",
+                "name": "圣",
+                "video": "http://overwatch.nos.netease.com/1/assets/images/hero/zenyatta/ability-orb-of-discord/video-ability.mp4",
+                "description": "禅雅塔进入短时间的超凡状态。在“圣”持续时间内，禅雅塔无法使用其他技能或武器，但自身免疫伤害并且会为自己和附近队友恢复生命值。"
+            }
+        ],
+        "large_avatar": "http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/zenyatta.png",
+        "description": "禅雅塔可以用和“谐”治愈盟友，也可以用“乱”削弱敌人，还可以在短时间内进入超凡入圣的状态，获得短暂的无敌效果。",
+        "name": "禅雅塔",
+        "position": "支援"
+    }
+]
