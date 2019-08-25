@@ -59,7 +59,7 @@ class OverwatchCrawler(object):
 
             # go to detail page
             hero.click()
-            sleep(6)
+            sleep(10)
             driver.switch_to.window(driver.window_handles[1])
 
             try:
@@ -143,7 +143,7 @@ class OverwatchCrawler(object):
         driver = self.driver
         load_more_btn = driver.find_element_by_id('load-more-media')
         load_more_btn.click()
-        sleep(1)
+        sleep(5)
         result = []
         media = driver.find_elements_by_css_selector(
             'ul.media-gallery>li.media-item>div.media-border>a.media-content')
@@ -169,9 +169,9 @@ class OverwatchCrawler(object):
                 source = target.get_attribute('src')
             close_btn = driver.find_element_by_css_selector(
                 'div.lightbox-close')
-            sleep(2)
+            sleep(5)
             close_btn.click()
-            sleep(1)
+            sleep(5)
             result.append({
                 'name': name,
                 'thumbnail': thumbnail,

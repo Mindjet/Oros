@@ -3,6 +3,7 @@ package io.github.mindjet.oros.network
 import io.github.mindjet.oros.Constant
 import io.github.mindjet.oros.model.Hero
 import io.github.mindjet.oros.model.HeroBrief
+import io.github.mindjet.oros.model.OwHero
 import io.github.mindjet.oros.model.Wrapper
 import retrofit2.http.GET
 import retrofit2.http.Query
@@ -16,5 +17,8 @@ interface OwService {
 
     @GET(Constant.HERO_DETAIL)
     fun getHeroDetail(@Query("id") id: String): Observable<List<Hero>>
+
+    @GET(Constant.GITHUB_ARCHIEVED_HEROES)
+    fun getOwHeroes(): Observable<List<OwHero>>
 
 }

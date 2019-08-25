@@ -17,4 +17,6 @@ object Constant {
 
     const val TYPE_IMAGE = "image"
     const val TYPE_VIDEO = "video"
+
+    const val GITHUB_ARCHIEVED_HEROES = "https://raw.githubusercontent.com/Mindjet/Oros/master/overwatch_crawler/heroes.json"
 }
