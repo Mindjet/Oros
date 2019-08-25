@@ -27,6 +27,7 @@
             android:id="@+id/tv_hero_brief"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:lineSpacingExtra="2dp"
             android:textColor="@color/colorPrimaryCust" />
 
     </LinearLayout>

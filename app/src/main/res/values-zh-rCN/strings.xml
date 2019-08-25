@@ -23,4 +23,9 @@
     <string name="story">英雄故事</string>
     <string name="more">更多</string>
     <string name="intro">简介</string>
+
+
+    <string name="sure_to_exit">确定要退出应用吗？</string>
+    <string name="yes">确定</string>
+    <string name="no">取消</string>
 </resources>

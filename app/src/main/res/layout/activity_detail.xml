@@ -35,8 +35,7 @@
                     android:layout_marginLeft="@dimen/card_margin"
                     android:layout_marginRight="@dimen/card_margin"
                     android:textColor="@color/white"
-                    android:textSize="20sp"
-                    android:textStyle="italic" />
+                    android:textSize="20sp"/>
 
             </LinearLayout>
 
@@ -63,11 +62,6 @@
             <include
                 android:id="@+id/content_hero"
                 layout="@layout/content_hero" />
-
-<!--            <android.support.v7.widget.RecyclerView-->
-<!--                android:id="@+id/recycler_view"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="match_parent" />-->
 
         </FrameLayout>
 

@@ -22,4 +22,8 @@
     <string name="story">story</string>
     <string name="more">more</string>
     <string name="intro">intro</string>
+
+    <string name="sure_to_exit">Sure to exit the app?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 </resources>

@@ -44,6 +44,8 @@
         android:layout_marginTop="@dimen/card_margin"
         android:gravity="center"
         android:maxWidth="120dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
         android:textColor="@color/colorPrimaryCust"
         bind:text="闪光弹" />
 

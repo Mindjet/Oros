@@ -1,6 +1,8 @@
 package io.github.mindjet.oros.ui
 
+import android.content.DialogInterface
 import android.os.Bundle
+import android.support.v7.app.AlertDialog
 import android.support.v7.widget.GridLayoutManager
 import android.support.v7.widget.LinearLayoutManager
 import android.view.View
@@ -54,6 +56,16 @@ class MainActivity : BaseActivity() {
     private fun handleError(t: Throwable) {
         NetworkHandler.onError(t)
         content_network_error.visibility = View.VISIBLE
+    }
+
+    override fun onBackPressed() {
+        val dialog = AlertDialog.Builder(this).create()
+        dialog.apply {
+            setMessage(context.resources.getString(R.string.sure_to_exit))
+            setButton(DialogInterface.BUTTON_POSITIVE, context.resources.getString(R.string.yes)) { _, _ -> super.onBackPressed() }
+            setButton(DialogInterface.BUTTON_NEGATIVE, context.resources.getString(R.string.no)) { dialog, _ -> dialog.dismiss() }
+            show()
+        }
     }
 
 }
