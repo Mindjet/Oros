@@ -37,7 +37,6 @@
         android:layout_marginTop="@dimen/card_margin"
         android:gravity="center"
         android:textColor="@color/colorPrimaryCust"
-        android:textStyle="italic"
         bind:text="闪光弹" />
 
 </LinearLayout>

@@ -3,6 +3,7 @@ package io.github.mindjet.oros.model
 import com.google.gson.annotations.SerializedName
 import io.github.mindjet.oros.R
 import io.github.mindjet.oros.recyclerview.base.ILayoutId
+import java.io.Serializable
 
 data class OwHero(
         val name: String,
@@ -15,7 +16,7 @@ data class OwHero(
         val media: List<Media>,
         @SerializedName("base_of_operation") val baseOfOperation: String,
         @SerializedName("large_avatar") val largeAvatar: String
-) : ILayoutId {
+) : ILayoutId, Serializable {
     override fun getLayoutId(): Int = R.layout.item_hero
 }
 

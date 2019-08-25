@@ -43,7 +43,7 @@
         android:gravity="center"
         android:textColor="@color/colorPrimaryCust"
         android:textSize="@dimen/hero_brief_name_text_size"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         bind:text="莱因哈特" />
 
 </LinearLayout>

@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/colorPrimaryCust"
             android:textSize="30sp"
-            android:textStyle="bold|italic" />
+            android:textStyle="bold" />
 
     </LinearLayout>
 </android.support.v7.widget.CardView>

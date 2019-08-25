@@ -45,7 +45,6 @@
         android:gravity="center"
         android:maxWidth="120dp"
         android:textColor="@color/colorPrimaryCust"
-        android:textStyle="italic"
         bind:text="闪光弹" />
 
 </LinearLayout>

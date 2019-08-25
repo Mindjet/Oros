@@ -60,10 +60,14 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center" />
 
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/recycler_view"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+            <include
+                android:id="@+id/content_hero"
+                layout="@layout/content_hero" />
+
+<!--            <android.support.v7.widget.RecyclerView-->
+<!--                android:id="@+id/recycler_view"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent" />-->
 
         </FrameLayout>
 

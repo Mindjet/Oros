@@ -29,7 +29,7 @@
                     android:text="@string/hero"
                     android:textColor="@color/white"
                     android:textSize="@dimen/toolbar_title_text_size"
-                    android:textStyle="bold|italic"
+                    android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 

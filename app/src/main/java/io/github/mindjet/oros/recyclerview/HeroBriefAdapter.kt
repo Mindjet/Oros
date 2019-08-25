@@ -1,9 +1,13 @@
 package io.github.mindjet.oros.recyclerview
 
+import io.github.mindjet.oros.Constant
 import io.github.mindjet.oros.ext.load
+import io.github.mindjet.oros.ext.makeIntent
+import io.github.mindjet.oros.ext.startActivity
 import io.github.mindjet.oros.model.OwHero
 import io.github.mindjet.oros.recyclerview.base.CommonRecyclerViewAdapter
 import io.github.mindjet.oros.recyclerview.base.CommonViewHolder
+import io.github.mindjet.oros.ui.DetailActivity
 import kotlinx.android.synthetic.main.item_hero.view.*
 
 class HeroBriefAdapter : CommonRecyclerViewAdapter<OwHero>() {
@@ -17,11 +21,10 @@ class HeroBriefAdapter : CommonRecyclerViewAdapter<OwHero>() {
         }
     }
 
-    private fun onItemClick(itemData: OwHero) {
-//        val intent = makeIntent(DetailActivity::class.java)
-//                .putString(Constant.EXTRA_KEY_ID, itemData.id)
-//                .putString(Constant.EXTRA_KEY_NAME, itemData.name)
-//        startActivity(intent)
+    private fun onItemClick(hero: OwHero) {
+        val intent = makeIntent(DetailActivity::class.java)
+                .putExtra(Constant.OW_HERO_SERIALIZABLE, hero)
+        startActivity(intent)
     }
 
 }
