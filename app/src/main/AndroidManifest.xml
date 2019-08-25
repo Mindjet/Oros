@@ -24,6 +24,9 @@
         <activity
             android:name=".ui.DetailActivity"
             android:theme="@style/AppThemeCust.NoTitle" />
+        <activity
+            android:name=".ui.VideoActivity"
+            android:theme="@style/AppThemeCust.NoTitle" />
     </application>
 
 </manifest>

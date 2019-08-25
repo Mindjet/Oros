@@ -21,4 +21,7 @@ object Constant {
     const val GITHUB_ARCHIVED_HEROES = "https://raw.githubusercontent.com/Mindjet/Oros/master/overwatch_crawler/heroes.json"
 
     const val OW_HERO_SERIALIZABLE = "ow_hero_serializable"
+
+    const val VIDEO_URL = "video_url"
+    const val VIDEO_TITLE = "video_title"
 }
